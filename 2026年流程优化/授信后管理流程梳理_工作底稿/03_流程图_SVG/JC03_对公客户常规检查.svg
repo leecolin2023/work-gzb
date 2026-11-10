@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1747" viewBox="0 0 1640 1747"><title>对公客户常规检查流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1640" height="1747" fill="white"/>
+<text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：JC03（工作码，待正式编号）</text>
+<text x="820.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：经营单位（建议）</text>
+<text x="1579.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V0.1（讨论稿）</text>
+<rect x="55" y="83" width="1531" height="1531" fill="white" stroke="#292929" stroke-width="1.7"/>
+<path d="M 55 137 H 1586 M 55 189 H 1586" stroke="#292929" stroke-width="1.4" fill="none"/>
+<text x="820.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">对公客户常规检查流程图</text>
+<text x="213.4" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">经营单位/检查组织岗</text>
+<line x1="371.75" y1="137" x2="371.75" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="530.1" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">客户经理及双人检查人员</text>
+<line x1="688.5" y1="137" x2="688.5" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="846.9" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">经营单位负责人</text>
+<line x1="1005.25" y1="137" x2="1005.25" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="1163.6" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">风险管理部门（按职责）</text>
+<line x1="1322" y1="137" x2="1322" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="1454.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
+<path d="M 1340 245 L 1568 245 L 1568 346 Q 1454 358 1340 346 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1454.0" y="267.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">附件6</text>
+<text x="1454.0" y="290.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">对公常规检查指引</text>
+<path d="M 1340 400 L 1568 400 L 1568 501 Q 1454 513 1340 501 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1454.0" y="422.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">附件7</text>
+<text x="1454.0" y="445.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">主要行业与授信品种检查要点</text>
+<path d="M 1340 555 L 1568 555 L 1568 656 Q 1454 668 1340 656 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1454.0" y="577.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">相关</text>
+<text x="1454.0" y="600.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">授信后检查报告</text>
+<path d="M 213.375 298 V 364" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 213.375 427 V 460 H 530.125 V 493" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 562 V 625" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 694 V 748" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 659.125 792 H 676.5 V 1056 H 659.125" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 835 V 857 H 1163.625 V 892" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 1163.625 955 V 989.5 H 530.125 V 1024" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 1087 V 1121.5 H 846.875 V 1156" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 846.875 1219 V 1253.5 H 530.125 V 1288" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 1351 V 1385.5 H 213.375 V 1420" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="601.7" y="844.3" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="631.5" y="859.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">未见异常</text>
+<rect x="817.075" y="836.3" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="846.9" y="851.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">发现风险</text>
+<rect x="84.375" y="232" width="258" height="64" rx="32" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="213.4" y="258.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">确定客户频率：季度/月度/特殊</text>
+<text x="213.4" y="279.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">处置分支</text>
+<text x="90.4" y="224.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-a</text>
+<rect x="84.375" y="367" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="213.4" y="401.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按多规则最高频率形成检查任务</text>
+<text x="90.4" y="359.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-b</text>
+<rect x="84.375" y="1423" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="213.4" y="1457.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">完成本轮常规检查</text>
+<text x="90.4" y="1415.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-j</text>
+<rect x="401.125" y="496" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="530.1" y="522.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">双人开展现场检查并收集非现场</text>
+<text x="530.1" y="543.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">信息</text>
+<text x="407.1" y="488.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-c</text>
+<rect x="401.125" y="628" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="530.1" y="654.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">检查经营、财务、授信、担保及</text>
+<text x="530.1" y="675.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">行业专项要点</text>
+<text x="407.1" y="620.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-d</text>
+<path d="M 530.125 751 L 645.125 792 L 530.125 833 L 415.125 792 Z" fill="white" stroke="#292929" stroke-width="1.6"/>
+<text x="530.1" y="797.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">有风险疑点或异常吗</text>
+<text x="407.1" y="743.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-e</text>
+<rect x="401.125" y="1027" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="530.1" y="1061.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">形成检查报告和影像/资料</text>
+<text x="407.1" y="1019.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-f</text>
+<rect x="401.125" y="1291" width="258" height="58" rx="0" fill="white" stroke="#7e7e7e" stroke-width="1.55" stroke-dasharray="6 4"/>
+<text x="530.1" y="1325.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">调用JC09签批及归档</text>
+<text x="407.1" y="1283.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-i</text>
+<rect x="717.875" y="1159" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="846.9" y="1193.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">审查检查报告</text>
+<text x="723.9" y="1151.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-g</text>
+<rect x="1034.625" y="895" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="1163.6" y="929.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">重大风险按规定联合排查或处置</text>
+<text x="1040.6" y="887.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC03-h</text>
+<text x="1454.0" y="1542.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.5" font-weight="400" fill="#555" text-anchor="middle">制度依据：详见本页备注</text>
+<text x="1454.0" y="1568.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13" font-weight="400" fill="#666" text-anchor="middle">待核职责不得视为已确认</text>
+<text x="55.0" y="1657.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：流程梳理工作底稿</text>
+<text x="441.4" y="1657.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：待业务部门确认</text>
+<text x="951.2" y="1657.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：总行／分行／经营单位（待确认）</text>
+<text x="55.0" y="1702.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
+<text x="1586.0" y="1702.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：待定</text>
+<text x="55.0" y="1725.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.3" font-weight="400" fill="#777" text-anchor="start">制度依据：第二十三至二十八条、第三十三至三十四条、第三十六至三十七条、第四十五至四十六条。虚线框表示待核权限、条件或外部子流程。</text>
+</svg>

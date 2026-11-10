@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="1483" viewBox="0 0 1420 1483"><title>对公提前还款办理流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1420" height="1483" fill="white"/>
+<text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：CL03（工作码，待正式编号）</text>
+<text x="710.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：经营单位（建议）</text>
+<text x="1359.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V0.1（讨论稿）</text>
+<rect x="55" y="83" width="1311" height="1267" fill="white" stroke="#292929" stroke-width="1.7"/>
+<path d="M 55 137 H 1366 M 55 189 H 1366" stroke="#292929" stroke-width="1.4" fill="none"/>
+<text x="710.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">对公提前还款办理流程图</text>
+<text x="229.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">客户</text>
+<line x1="404" y1="137" x2="404" y2="1350" stroke="#292929" stroke-width="1.3"/>
+<text x="578.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">经营单位</text>
+<line x1="753" y1="137" x2="753" y2="1350" stroke="#292929" stroke-width="1.3"/>
+<text x="927.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">分行有权审批主体（待核）</text>
+<line x1="1102" y1="137" x2="1102" y2="1350" stroke="#292929" stroke-width="1.3"/>
+<text x="1234.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
+<path d="M 1120 245 L 1348 245 L 1348 346 Q 1234 358 1120 346 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1234.0" y="267.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">相关</text>
+<text x="1234.0" y="290.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">客户提前还款申请</text>
+<path d="M 1120 400 L 1348 400 L 1348 501 Q 1234 513 1120 501 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1234.0" y="422.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">依据</text>
+<text x="1234.0" y="445.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">借款合同条款</text>
+<path d="M 229.5 298 V 320 H 578.5 V 352" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 578.5 439 V 496" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 707.5 396 H 741 V 660 H 707.5" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 578.5 694 V 716 H 927.5 V 748" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 927.5 835 V 857 H 578.5 V 892" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 927.5 835 V 929.5 H 578.5 V 1024" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 707.5 528 H 741 V 924 H 707.5" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 707.5 924 H 741 V 1188 H 707.5" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="574.5" y="456.8" width="72" height="21.4" fill="white" opacity=".97"/>
+<text x="610.5" y="471.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">合同有约定</text>
+<rect x="660" y="448.3" width="72" height="21.4" fill="white" opacity=".97"/>
+<text x="696.0" y="463.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">合同无约定</text>
+<rect x="735.6" y="836.3" width="34.8" height="21.4" fill="white" opacity=".97"/>
+<text x="753.0" y="851.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">同意</text>
+<rect x="729.4" y="908.8" width="47.2" height="21.4" fill="white" opacity=".97"/>
+<text x="753.0" y="923.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">不同意</text>
+<rect x="100.5" y="232" width="258" height="64" rx="32" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="229.5" y="258.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">原则提前1个月提出提前还款申</text>
+<text x="229.5" y="279.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">请</text>
+<text x="106.5" y="224.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-a</text>
+<path d="M 578.5 355 L 693.5 396 L 578.5 437 L 463.5 396 Z" fill="white" stroke="#292929" stroke-width="1.6"/>
+<text x="578.5" y="390.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">核对合同是否约定提前还款与</text>
+<text x="578.5" y="411.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">违约金</text>
+<text x="455.5" y="347.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-b</text>
+<rect x="449.5" y="499" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="533.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">依合同条款形成处理意见</text>
+<text x="455.5" y="491.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-c</text>
+<rect x="449.5" y="628" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="654.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">合同未约定时分析合作及信用状</text>
+<text x="578.5" y="675.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">况</text>
+<text x="455.5" y="620.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-d</text>
+<rect x="449.5" y="895" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="929.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按约定或获批结论办理提前还款</text>
+<text x="455.5" y="887.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-f</text>
+<rect x="449.5" y="1027" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="1061.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">通知不能办理原因</text>
+<text x="455.5" y="1019.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-g</text>
+<rect x="449.5" y="1159" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="1193.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">完成还款并留痕</text>
+<text x="455.5" y="1151.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-h</text>
+<path d="M 927.5 751 L 1042.5 792 L 927.5 833 L 812.5 792 Z" fill="white" stroke="#292929" stroke-width="1.6"/>
+<text x="927.5" y="797.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">对无约定申请作出审批</text>
+<text x="804.5" y="743.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL03-e</text>
+<text x="1234.0" y="1278.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.5" font-weight="400" fill="#555" text-anchor="middle">制度依据：第十七条</text>
+<text x="1234.0" y="1304.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13" font-weight="400" fill="#666" text-anchor="middle">待核职责不得视为已确认</text>
+<text x="55.0" y="1393.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：流程梳理工作底稿</text>
+<text x="480.8" y="1393.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：待业务部门确认</text>
+<text x="823.6" y="1393.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：总行／分行／经营单位（待确认）</text>
+<text x="55.0" y="1438.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
+<text x="1366.0" y="1438.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：待定</text>
+<text x="55.0" y="1461.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.3" font-weight="400" fill="#777" text-anchor="start">制度依据：第十七条。虚线框表示待核权限、条件或外部子流程。</text>
+</svg>

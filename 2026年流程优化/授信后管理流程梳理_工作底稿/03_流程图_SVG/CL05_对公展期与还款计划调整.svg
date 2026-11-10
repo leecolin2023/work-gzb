@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="1351" viewBox="0 0 1420 1351"><title>对公展期与还款计划调整流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1420" height="1351" fill="white"/>
+<text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：CL05（工作码，待正式编号）</text>
+<text x="710.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：经营单位调查／审批主体待核</text>
+<text x="1359.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V0.1（讨论稿）</text>
+<rect x="55" y="83" width="1311" height="1135" fill="white" stroke="#292929" stroke-width="1.7"/>
+<path d="M 55 137 H 1366 M 55 189 H 1366" stroke="#292929" stroke-width="1.4" fill="none"/>
+<text x="710.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">对公展期与还款计划调整流程图</text>
+<text x="229.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">客户</text>
+<line x1="404" y1="137" x2="404" y2="1218" stroke="#292929" stroke-width="1.3"/>
+<text x="578.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">经营单位</text>
+<line x1="753" y1="137" x2="753" y2="1218" stroke="#292929" stroke-width="1.3"/>
+<text x="927.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">有权审批主体（专项制度）</text>
+<line x1="1102" y1="137" x2="1102" y2="1218" stroke="#292929" stroke-width="1.3"/>
+<text x="1234.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
+<path d="M 1120 245 L 1348 245 L 1348 346 Q 1234 358 1120 346 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1234.0" y="267.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">相关</text>
+<text x="1234.0" y="290.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">展期/调整书面申请</text>
+<path d="M 1120 400 L 1348 400 L 1348 501 Q 1234 513 1120 501 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1234.0" y="422.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">外部</text>
+<text x="1234.0" y="445.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">合同变更审批</text>
+<path d="M 229.5 298 V 331 H 578.5 V 364" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 578.5 427 V 496" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 578.5 559 V 581 H 927.5 V 616" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 927.5 703 V 725 H 578.5 V 760" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 927.5 703 V 797.5 H 578.5 V 892" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 707.5 792 H 741 V 1056 H 707.5" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="735.6" y="704.3" width="34.8" height="21.4" fill="white" opacity=".97"/>
+<text x="753.0" y="719.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">同意</text>
+<rect x="729.4" y="776.8" width="47.2" height="21.4" fill="white" opacity=".97"/>
+<text x="753.0" y="791.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">不同意</text>
+<rect x="100.5" y="232" width="258" height="64" rx="32" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="229.5" y="258.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">提前2个月书面申请展期/调整还</text>
+<text x="229.5" y="279.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">款计划</text>
+<text x="106.5" y="224.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-a</text>
+<rect x="449.5" y="367" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="401.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">核查不能按期归还原因</text>
+<text x="455.5" y="359.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-b</text>
+<rect x="449.5" y="499" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="533.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">形成调查意见并提交审批</text>
+<text x="455.5" y="491.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-c</text>
+<rect x="449.5" y="763" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="797.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">根据批复办理合同或计划调整</text>
+<text x="455.5" y="755.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-e</text>
+<rect x="449.5" y="895" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="929.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">告知未获批并落实还款管理</text>
+<text x="455.5" y="887.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-f</text>
+<rect x="449.5" y="1027" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="1061.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">变更完毕并留存依据</text>
+<text x="455.5" y="1019.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-g</text>
+<path d="M 927.5 619 L 1042.5 660 L 927.5 701 L 812.5 660 Z" fill="white" stroke="#7e7e7e" stroke-width="1.6" stroke-dasharray="6 4"/>
+<text x="927.5" y="665.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按专项制度审核/审批</text>
+<text x="804.5" y="611.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL05-d</text>
+<text x="1234.0" y="1146.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.5" font-weight="400" fill="#555" text-anchor="middle">制度依据：第十九条</text>
+<text x="1234.0" y="1172.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13" font-weight="400" fill="#666" text-anchor="middle">待核职责不得视为已确认</text>
+<text x="55.0" y="1261.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：流程梳理工作底稿</text>
+<text x="480.8" y="1261.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：待业务部门确认</text>
+<text x="823.6" y="1261.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：总行／分行／经营单位（待确认）</text>
+<text x="55.0" y="1306.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
+<text x="1366.0" y="1306.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：待定</text>
+<text x="55.0" y="1329.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.3" font-weight="400" fill="#777" text-anchor="start">制度依据：第十九条。虚线框表示待核权限、条件或外部子流程。</text>
+</svg>

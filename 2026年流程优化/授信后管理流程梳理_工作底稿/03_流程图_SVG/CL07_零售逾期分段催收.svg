@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="1615" viewBox="0 0 1220 1615"><title>零售逾期分段催收流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1220" height="1615" fill="white"/>
+<text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：CL07（工作码，待正式编号）</text>
+<text x="610.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：零售贷款经办行（建议）</text>
+<text x="1159.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V0.1（讨论稿）</text>
+<rect x="55" y="83" width="1111" height="1399" fill="white" stroke="#292929" stroke-width="1.7"/>
+<path d="M 55 137 H 1166 M 55 189 H 1166" stroke="#292929" stroke-width="1.4" fill="none"/>
+<text x="610.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">零售逾期分段催收流程图</text>
+<text x="266.8" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">零售客户经理/经办行</text>
+<line x1="478.5" y1="137" x2="478.5" y2="1482" stroke="#292929" stroke-width="1.3"/>
+<text x="690.3" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">法律部门/有权处理主体</text>
+<line x1="902" y1="137" x2="902" y2="1482" stroke="#292929" stroke-width="1.3"/>
+<text x="1034.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
+<path d="M 920 245 L 1148 245 L 1148 346 Q 1034 358 920 346 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1034.0" y="267.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">相关</text>
+<text x="1034.0" y="290.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">逾期催收函与留痕</text>
+<path d="M 920 400 L 1148 400 L 1148 501 Q 1034 513 920 501 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
+<text x="1034.0" y="422.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">相关</text>
+<text x="1034.0" y="445.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">授信后检查报告</text>
+<path d="M 266.75 295 V 352" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 266.75 439 V 493" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 395.75 396 H 466.5 V 660 H 395.75" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 395.75 528 H 466.5 V 1320 H 395.75" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 266.75 694 V 757" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 266.75 826 V 889" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 266.75 958 V 1021" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 266.75 1090 V 1121.5 H 690.25 V 1153" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 395.75 660 H 466.5 V 1320 H 395.75" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 395.75 792 H 466.5 V 1320 H 395.75" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 395.75 924 H 466.5 V 1320 H 395.75" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 395.75 1056 H 466.5 V 1320 H 395.75" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 690.25 1222 V 1255 H 266.75 V 1288" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="262.75" y="455.3" width="72" height="21.4" fill="white" opacity=".97"/>
+<text x="298.8" y="470.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">个人经营贷</text>
+<rect x="354.5" y="448.3" width="134" height="21.4" fill="white" opacity=".97"/>
+<text x="421.5" y="463.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">按揭（消费原则参照）</text>
+<rect x="268.95" y="714.8" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="298.8" y="729.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">仍未清偿</text>
+<rect x="268.95" y="846.8" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="298.8" y="861.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">仍未清偿</text>
+<rect x="268.95" y="978.8" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="298.8" y="993.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">仍未清偿</text>
+<rect x="448.7" y="1100.8" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="478.5" y="1115.8" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">仍未清偿</text>
+<rect x="397.9" y="703.3" width="47.2" height="21.4" fill="white" opacity=".97"/>
+<text x="421.5" y="718.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">已清偿</text>
+<rect x="397.9" y="835.3" width="47.2" height="21.4" fill="white" opacity=".97"/>
+<text x="421.5" y="850.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">已清偿</text>
+<rect x="397.9" y="967.3" width="47.2" height="21.4" fill="white" opacity=".97"/>
+<text x="421.5" y="982.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">已清偿</text>
+<rect x="397.9" y="1099.3" width="47.2" height="21.4" fill="white" opacity=".97"/>
+<text x="421.5" y="1114.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">已清偿</text>
+<rect x="137.75" y="235" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="269.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">识别零售贷款逾期</text>
+<text x="143.8" y="227.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-a</text>
+<path d="M 266.75 355 L 381.75 396 L 266.75 437 L 151.75 396 Z" fill="white" stroke="#292929" stroke-width="1.6"/>
+<text x="266.8" y="390.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">判断个人经营贷/按揭/消费</text>
+<text x="266.8" y="411.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">及产品特例</text>
+<text x="143.8" y="347.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-b</text>
+<rect x="137.75" y="496" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="522.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">经营贷参照对公催收或适用专项</text>
+<text x="266.8" y="543.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">规定</text>
+<text x="143.8" y="488.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-c</text>
+<rect x="137.75" y="628" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="654.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按揭逾期1天电话催收并核贷款</text>
+<text x="266.8" y="675.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">合规</text>
+<text x="143.8" y="620.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-d</text>
+<rect x="137.75" y="760" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="786.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">仍逾期满10天：发函、上门检查</text>
+<text x="266.8" y="807.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">催收、编检查报告</text>
+<text x="143.8" y="752.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-e</text>
+<rect x="137.75" y="892" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="918.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">仍逾期满30天：再上门、拍照、</text>
+<text x="266.8" y="939.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">编报告</text>
+<text x="143.8" y="884.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-f</text>
+<rect x="137.75" y="1024" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="1050.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">仍逾期满60天：制定催收计划或</text>
+<text x="266.8" y="1071.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">补救措施、编报告</text>
+<text x="143.8" y="1016.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-g</text>
+<rect x="137.75" y="1291" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="266.8" y="1325.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">清偿/有效转办并归档凭证</text>
+<text x="143.8" y="1283.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-i</text>
+<rect x="561.25" y="1156" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="690.3" y="1182.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">仍逾期满90天：考虑诉讼依法催</text>
+<text x="690.3" y="1203.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">收</text>
+<text x="567.3" y="1148.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL07-h</text>
+<text x="1034.0" y="1410.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.5" font-weight="400" fill="#555" text-anchor="middle">制度依据：第二十条（二）</text>
+<text x="1034.0" y="1436.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13" font-weight="400" fill="#666" text-anchor="middle">待核职责不得视为已确认</text>
+<text x="55.0" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：流程梳理工作底稿</text>
+<text x="571.7" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：待业务部门确认</text>
+<text x="707.6" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：总行／分行／经营单位（待确认）</text>
+<text x="55.0" y="1570.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
+<text x="1166.0" y="1570.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：待定</text>
+<text x="55.0" y="1593.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.3" font-weight="400" fill="#777" text-anchor="start">制度依据：第二十条（二）。虚线框表示待核权限、条件或外部子流程。</text>
+</svg>
