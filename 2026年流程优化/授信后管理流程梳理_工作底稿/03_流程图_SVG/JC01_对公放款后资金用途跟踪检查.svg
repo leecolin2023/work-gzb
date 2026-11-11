@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1420" height="1615" viewBox="0 0 1420 1615"><title>对公放款后资金用途跟踪检查流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1420" height="1615" fill="white"/>
 <text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：JC01（工作码，待正式编号）</text>
-<text x="710.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：经营单位（建议）</text>
-<text x="1359.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V0.1（讨论稿）</text>
+<text x="710.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：风险管理部</text>
+<text x="1359.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V1.0</text>
 <rect x="55" y="83" width="1311" height="1399" fill="white" stroke="#292929" stroke-width="1.7"/>
 <path d="M 55 137 H 1366 M 55 189 H 1366" stroke="#292929" stroke-width="1.4" fill="none"/>
 <text x="710.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">对公放款后资金用途跟踪检查流程图</text>
@@ -12,12 +12,9 @@
 <text x="927.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">分行风险管理部</text>
 <line x1="1102" y1="137" x2="1102" y2="1482" stroke="#292929" stroke-width="1.3"/>
 <text x="1234.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
-<path d="M 1120 245 L 1348 245 L 1348 346 Q 1234 358 1120 346 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
-<text x="1234.0" y="267.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">附件5</text>
-<text x="1234.0" y="290.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">放款后跟踪检查表</text>
-<path d="M 1120 400 L 1348 400 L 1348 501 Q 1234 513 1120 501 Z" fill="white" stroke="#292929" stroke-width="1.5"/>
-<text x="1234.0" y="422.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="600" fill="#292929" text-anchor="middle">相关</text>
-<text x="1234.0" y="445.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="middle">用途凭证与整改记录</text>
+<path d="M 1120.0 245.0 L 1348.0 245.0 L 1348.0 359.0 Q 1234.0 370.0 1120.0 359.0 Z" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="1234.0" y="293.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.2" font-weight="400" fill="#292929" text-anchor="middle">广州银行授信后管理办法</text>
+<text x="1234.0" y="320.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.2" font-weight="400" fill="#292929" text-anchor="middle">（V1.0，2025 年）</text>
 <path d="M 578.5 298 V 329.5 H 229.5 V 361" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
 <path d="M 229.5 430 V 493" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
 <path d="M 229.5 562 V 616" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
@@ -66,12 +63,9 @@
 <text x="927.5" y="918.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">加强客户管理并督促整改至全部</text>
 <text x="927.5" y="939.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">授信收回</text>
 <text x="804.5" y="884.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC01-g</text>
-<text x="1234.0" y="1410.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.5" font-weight="400" fill="#555" text-anchor="middle">制度依据：第二十九至三十二条</text>
-<text x="1234.0" y="1436.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13" font-weight="400" fill="#666" text-anchor="middle">待核职责不得视为已确认</text>
-<text x="55.0" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：流程梳理工作底稿</text>
-<text x="480.8" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：待业务部门确认</text>
-<text x="823.6" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：总行／分行／经营单位（待确认）</text>
+<text x="55.0" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：郑燕君</text>
+<text x="480.8" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：王勇华</text>
+<text x="823.6" y="1525.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：全行</text>
 <text x="55.0" y="1570.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
-<text x="1366.0" y="1570.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：待定</text>
-<text x="55.0" y="1593.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="13.3" font-weight="400" fill="#777" text-anchor="start">制度依据：第二十九至三十二条。虚线框表示待核权限、条件或外部子流程。</text>
+<text x="1366.0" y="1570.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：</text>
 </svg>
