@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="1747" viewBox="0 0 1640 1747"><title>对公临期管理流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1640" height="1747" fill="white"/>
+<text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：CL01（工作码，待正式编号）</text>
+<text x="820.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：风险管理部</text>
+<text x="1579.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V1.0</text>
+<rect x="55" y="83" width="1531" height="1531" fill="white" stroke="#292929" stroke-width="1.7"/>
+<path d="M 55 137 H 1586 M 55 189 H 1586" stroke="#292929" stroke-width="1.4" fill="none"/>
+<text x="820.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">对公临期管理流程图</text>
+<text x="213.4" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">分行相关业务管理部门</text>
+<line x1="371.75" y1="137" x2="371.75" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="530.1" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">客户经理</text>
+<line x1="688.5" y1="137" x2="688.5" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="846.9" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">网点/营销团队负责人</text>
+<line x1="1005.25" y1="137" x2="1005.25" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="1163.6" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">分行风险管理部</text>
+<line x1="1322" y1="137" x2="1322" y2="1614" stroke="#292929" stroke-width="1.3"/>
+<text x="1454.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
+<path d="M 1340.0 245.0 L 1568.0 245.0 L 1568.0 359.0 Q 1454.0 370.0 1340.0 359.0 Z" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="1454.0" y="293.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.2" font-weight="400" fill="#292929" text-anchor="middle">广州银行授信后管理办法</text>
+<text x="1454.0" y="320.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.2" font-weight="400" fill="#292929" text-anchor="middle">（V1.0，2025 年）</text>
+<path d="M 213.375 295 V 364" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 213.375 427 V 449 H 530.125 V 484" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 571 V 625" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 694 V 725.5 H 213.375 V 757" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 213.375 826 V 859 H 530.125 V 892" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 213.375 826 V 925 H 530.125 V 1024" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 659.125 528 H 676.5 V 1056 H 659.125" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 530.125 1087 V 1121.5 H 846.875 V 1156" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 846.875 1219 V 1253.5 H 1163.625 V 1288" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 1163.625 1351 V 1385.5 H 530.125 V 1420" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="526.125" y="587.3" width="72" height="21.4" fill="white" opacity=".97"/>
+<text x="562.1" y="602.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">可正常偿还</text>
+<rect x="341.95" y="838.3" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="371.8" y="853.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">资金充足</text>
+<rect x="341.95" y="904.3" width="59.6" height="21.4" fill="white" opacity=".97"/>
+<text x="371.8" y="919.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">备款不足</text>
+<rect x="595.5" y="580.3" width="72" height="21.4" fill="white" opacity=".97"/>
+<text x="631.5" y="595.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">偿还有困难</text>
+<rect x="84.375" y="235" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="213.4" y="269.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按月统计未来3个月到期授信</text>
+<text x="90.4" y="227.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-a</text>
+<rect x="84.375" y="367" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="213.4" y="401.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">通知督促经营单位</text>
+<text x="90.4" y="359.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-b</text>
+<rect x="84.375" y="760" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="213.4" y="786.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">监控未来3工作日到期备款及结</text>
+<text x="213.4" y="807.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">息前5工作日账户资金</text>
+<text x="90.4" y="752.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-e</text>
+<path d="M 530.125 487 L 645.125 528 L 530.125 569 L 415.125 528 Z" fill="white" stroke="#292929" stroke-width="1.6"/>
+<text x="530.1" y="533.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">核实到期偿付能力</text>
+<text x="407.1" y="479.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-c</text>
+<rect x="401.125" y="628" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="530.1" y="654.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">到期前20工作日提醒备款；结息</text>
+<text x="530.1" y="675.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">前10工作日提醒</text>
+<text x="407.1" y="620.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-d</text>
+<rect x="401.125" y="895" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="530.1" y="929.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按期还款付息并跟踪结果</text>
+<text x="407.1" y="887.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-f</text>
+<rect x="401.125" y="1027" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="530.1" y="1061.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">困难客户现场检查</text>
+<text x="407.1" y="1019.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-g</text>
+<rect x="401.125" y="1423" width="258" height="58" rx="0" fill="white" stroke="#7e7e7e" stroke-width="1.55" stroke-dasharray="6 4"/>
+<text x="530.1" y="1457.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">转风险预警/后续催收接口</text>
+<text x="407.1" y="1415.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-j</text>
+<rect x="717.875" y="1159" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="846.9" y="1193.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">联合检查并商议化解方案</text>
+<text x="723.9" y="1151.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-h</text>
+<rect x="1034.625" y="1291" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="1163.6" y="1325.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">参与现场检查并制定预案</text>
+<text x="1040.6" y="1283.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">CL01-i</text>
+<text x="55.0" y="1657.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：郑燕君</text>
+<text x="441.4" y="1657.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：王勇华</text>
+<text x="951.2" y="1657.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：全行</text>
+<text x="55.0" y="1702.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
+<text x="1586.0" y="1702.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：</text>
+</svg>

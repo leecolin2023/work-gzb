@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1420" height="1351" viewBox="0 0 1420 1351"><title>个人经营性贷款常规检查流程图</title><defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="3.7" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L7.2 3.7 L0 7.4" stroke="#292929" stroke-width="1.45" fill="none"/></marker></defs><rect width="1420" height="1351" fill="white"/>
+<text x="67.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="start">流程编号：JC05（工作码，待正式编号）</text>
+<text x="710.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="middle">主导部门：风险管理部</text>
+<text x="1359.0" y="55.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16" font-weight="400" fill="#292929" text-anchor="end">版本号：V1.0</text>
+<rect x="55" y="83" width="1311" height="1135" fill="white" stroke="#292929" stroke-width="1.7"/>
+<path d="M 55 137 H 1366 M 55 189 H 1366" stroke="#292929" stroke-width="1.4" fill="none"/>
+<text x="710.0" y="119.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="23" font-weight="600" fill="#292929" text-anchor="middle">个人经营性贷款常规检查流程图</text>
+<text x="229.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">个人经营贷经营单位</text>
+<line x1="404" y1="137" x2="404" y2="1218" stroke="#292929" stroke-width="1.3"/>
+<text x="578.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">客户经理</text>
+<line x1="753" y1="137" x2="753" y2="1218" stroke="#292929" stroke-width="1.3"/>
+<text x="927.5" y="170.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.5" font-weight="400" fill="#292929" text-anchor="middle">审批/风险管理接口（按规定）</text>
+<line x1="1102" y1="137" x2="1102" y2="1218" stroke="#292929" stroke-width="1.3"/>
+<text x="1234.0" y="169.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="17" font-weight="400" fill="#292929" text-anchor="middle">相关文件</text>
+<path d="M 1120.0 245.0 L 1348.0 245.0 L 1348.0 359.0 Q 1234.0 370.0 1120.0 359.0 Z" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="1234.0" y="293.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.2" font-weight="400" fill="#292929" text-anchor="middle">广州银行授信后管理办法</text>
+<text x="1234.0" y="320.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.2" font-weight="400" fill="#292929" text-anchor="middle">（V1.0，2025 年）</text>
+<path d="M 229.5 295 V 352" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 229.5 439 V 461 H 578.5 V 493" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 229.5 439 V 532 H 578.5 V 625" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 707.5 528 H 741 V 792 H 707.5" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 578.5 694 V 760" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 578.5 823 V 857.5 H 927.5 V 892" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<path d="M 927.5 955 V 989.5 H 229.5 V 1024" fill="none" stroke="#292929" stroke-width="1.7" stroke-linejoin="round" marker-end="url(#arr)"/>
+<rect x="369.24" y="440.3" width="69.52000000000001" height="21.4" fill="white" opacity=".97"/>
+<text x="404.0" y="455.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">≤3000万元</text>
+<rect x="369.24" y="511.3" width="69.52000000000001" height="21.4" fill="white" opacity=".97"/>
+<text x="404.0" y="526.3" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="12.4" font-weight="400" fill="#292929" text-anchor="middle">&gt;3000万元</text>
+<rect x="100.5" y="235" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="229.5" y="269.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">个人经营贷进入检查周期</text>
+<text x="106.5" y="227.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-a</text>
+<path d="M 229.5 355 L 344.5 396 L 229.5 437 L 114.5 396 Z" fill="white" stroke="#292929" stroke-width="1.6"/>
+<text x="229.5" y="390.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">判断单户授信额度及产品特别</text>
+<text x="229.5" y="411.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">规定</text>
+<text x="106.5" y="347.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-b</text>
+<rect x="100.5" y="1027" width="258" height="58" rx="29" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="229.5" y="1061.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">检查报告归档</text>
+<text x="106.5" y="1019.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-g</text>
+<rect x="449.5" y="496" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="522.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">不超3000万元，按小微贷后管理</text>
+<text x="578.5" y="543.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">细则检查</text>
+<text x="455.5" y="488.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-c</text>
+<rect x="449.5" y="628" width="258" height="64" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="654.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">超过3000万元，按对公频率和内</text>
+<text x="578.5" y="675.9" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">容检查</text>
+<text x="455.5" y="620.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-d</text>
+<rect x="449.5" y="763" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="578.5" y="797.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">执行对应检查并形成报告</text>
+<text x="455.5" y="755.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-e</text>
+<rect x="798.5" y="895" width="258" height="58" rx="0" fill="white" stroke="#292929" stroke-width="1.55"/>
+<text x="927.5" y="929.4" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="16.2" font-weight="400" fill="#292929" text-anchor="middle">按规则触发审核/预警流程</text>
+<text x="804.5" y="887.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="11" font-weight="400" fill="#888" text-anchor="start">JC05-f</text>
+<text x="55.0" y="1261.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">绘制人：郑燕君</text>
+<text x="480.8" y="1261.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="15" font-weight="400" fill="#292929" text-anchor="start">审核人：王勇华</text>
+<text x="823.6" y="1261.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#292929" text-anchor="start">适用层级：全行</text>
+<text x="55.0" y="1306.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14" font-weight="400" fill="#666" text-anchor="start">注：正式流程要求线上用黑色、线下用红色；本稿未核实节点属性，暂按黑色结构线绘制。</text>
+<text x="1366.0" y="1306.0" font-family="Noto Sans CJK SC,Microsoft YaHei,sans-serif" font-size="14.5" font-weight="400" fill="#292929" text-anchor="end">生效日期：</text>
+</svg>
