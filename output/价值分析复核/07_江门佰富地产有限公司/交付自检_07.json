@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-14",
+  "facts": 30,
+  "checks": 51,
+  "independent_issues": 11,
+  "source_hashes_unchanged": true,
+  "canonical_docx_copies_identical": true,
+  "workbook_xml_valid": true,
+  "qualified_evidence_ids_exist": true,
+  "recomputed_recovery_wanyuan": "1020.189429222738598400",
+  "limitations": [
+    "银行原始拟转让清单、重组说明、协议和流水本轮未直接取得，BK为二次转述",
+    "原查册PDF文件存在，但本机无PDF解析/渲染/OCR后端，未逐页直读",
+    "独立当期经办材料未取得",
+    "本次未执行压缩包解包或归档阶段2"
+  ]
+}

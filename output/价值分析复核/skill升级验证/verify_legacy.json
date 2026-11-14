@@ -1,0 +1,220 @@
+{
+ "params": {
+  "claim_amount": 135903299.82,
+  "principal": 109301203.57,
+  "priority_value": 0,
+  "components": [
+   {
+    "name": "一般受偿",
+    "score": 14.5,
+    "weight": 0.5,
+    "reported": 9853000
+   },
+   {
+    "name": "保证受偿",
+    "score": 28.6,
+    "weight": 0.5,
+    "reported": 19434200
+   }
+  ],
+  "other_value": 0,
+  "reported_total": 29287200,
+  "years": 2,
+  "discount_rate": 0.05,
+  "reported_discounted": 26564400,
+  "reported_principal_recovery": 0.243,
+  "reported_claim_recovery": 0.1955,
+  "round_to": 100
+ },
+ "recomputed": {
+  "base": 135903299.82,
+  "rows": [
+   {
+    "name": "一般受偿",
+    "score": 14.5,
+    "weight": 0.5,
+    "rate": 0.0725,
+    "raw": 9852989.236949999,
+    "rounded": 9853000,
+    "reported": 9853000
+   },
+   {
+    "name": "保证受偿",
+    "score": 28.6,
+    "weight": 0.5,
+    "rate": 0.14300000000000002,
+    "raw": 19434171.87426,
+    "rounded": 19434200,
+    "reported": 19434200
+   }
+  ],
+  "total_rounded": 29287200,
+  "total_raw": 29287161.11121,
+  "factor": 1.1025,
+  "discounted": 26564353.741496596,
+  "principal_recovery": 0.24303807162090335,
+  "claim_recovery": 0.1954651121546005
+ },
+ "checks": [
+  {
+   "step": "一般受偿率",
+   "formula": "14.5 / 100 × 0.5",
+   "recomputed": 0.0725,
+   "reported": null,
+   "diff": null,
+   "material": null,
+   "exceeds_tolerance": null
+  },
+  {
+   "step": "一般受偿额",
+   "formula": "135903299.82 × 0.072500",
+   "recomputed": 9853000,
+   "reported": 9853000,
+   "diff": 0,
+   "material": false,
+   "exceeds_tolerance": false
+  },
+  {
+   "step": "保证受偿率",
+   "formula": "28.6 / 100 × 0.5",
+   "recomputed": 0.14300000000000002,
+   "reported": null,
+   "diff": null,
+   "material": null,
+   "exceeds_tolerance": null
+  },
+  {
+   "step": "保证受偿额",
+   "formula": "135903299.82 × 0.143000",
+   "recomputed": 19434200,
+   "reported": 19434200,
+   "diff": 0,
+   "material": false,
+   "exceeds_tolerance": false
+  },
+  {
+   "step": "四项加总",
+   "formula": "优先 + 各受偿项 + 其他",
+   "recomputed": 29287200,
+   "reported": 29287200,
+   "diff": 0,
+   "material": false,
+   "exceeds_tolerance": false
+  },
+  {
+   "step": "贴现",
+   "formula": "29287200.00 ÷ (1+0.05)^2",
+   "recomputed": 26564353.741496596,
+   "reported": 26564400,
+   "diff": -46.258503403514624,
+   "material": false,
+   "exceeds_tolerance": false
+  },
+  {
+   "step": "本金受偿率",
+   "formula": "贴现后估值 ÷ 贷款本金",
+   "recomputed": 0.24303807162090335,
+   "reported": 0.243,
+   "diff": 3.807162090335714e-05,
+   "material": false,
+   "exceeds_tolerance": false
+  },
+  {
+   "step": "债权受偿率",
+   "formula": "贴现后估值 ÷ 债权金额",
+   "recomputed": 0.1954651121546005,
+   "reported": 0.1955,
+   "diff": -3.488784539951162e-05,
+   "material": false,
+   "exceeds_tolerance": false
+  }
+ ],
+ "tolerance_note": "exceeds_tolerance = |diff| > round_to (或率值 > 0.0001)；material为旧字段兼容别名，仅表示数值超容差，不判业务影响。",
+ "scope": "只验算已确认适用的评分权重及统一折现模型；参数依据、代入适用性与业务影响需另行核验。",
+ "sensitivity": [
+  {
+   "scenario": "一般受偿评分 +5 (14.5→19.5)",
+   "total": 32684800,
+   "discounted": 29646077.097505666,
+   "delta_total": 3397600,
+   "delta_discounted": 3081723.35600907
+  },
+  {
+   "scenario": "一般受偿评分 -5 (14.5→9.5)",
+   "total": 25889600,
+   "discounted": 23482630.385487527,
+   "delta_total": -3397600,
+   "delta_discounted": -3081723.35600907
+  },
+  {
+   "scenario": "保证受偿评分 +5 (28.6→33.6)",
+   "total": 32684800,
+   "discounted": 29646077.097505666,
+   "delta_total": 3397600,
+   "delta_discounted": 3081723.35600907
+  },
+  {
+   "scenario": "保证受偿评分 -5 (28.6→23.6)",
+   "total": 25889600,
+   "discounted": 23482630.385487527,
+   "delta_total": -3397600,
+   "delta_discounted": -3081723.35600907
+  },
+  {
+   "scenario": "一般受偿影响程度 +0.1 (0.5→0.6)",
+   "total": 31257800,
+   "discounted": 28351746.03174603,
+   "delta_total": 1970600,
+   "delta_discounted": 1787392.2902494334
+  },
+  {
+   "scenario": "一般受偿影响程度 -0.1 (0.5→0.4)",
+   "total": 27316600,
+   "discounted": 24776961.451247163,
+   "delta_total": -1970600,
+   "delta_discounted": -1787392.2902494334
+  },
+  {
+   "scenario": "保证受偿影响程度 +0.1 (0.5→0.6)",
+   "total": 33174000,
+   "discounted": 30089795.918367345,
+   "delta_total": 3886800,
+   "delta_discounted": 3525442.1768707484
+  },
+  {
+   "scenario": "保证受偿影响程度 -0.1 (0.5→0.4)",
+   "total": 25400300,
+   "discounted": 23038820.861678004,
+   "delta_total": -3886900,
+   "delta_discounted": -3525532.879818592
+  },
+  {
+   "scenario": "处置周期 +1 年 (2→3)",
+   "total": 29287200,
+   "discounted": 25299384.515711043,
+   "delta_total": 0,
+   "delta_discounted": -1264969.2257855535
+  },
+  {
+   "scenario": "处置周期 -1 年 (2→1)",
+   "total": 29287200,
+   "discounted": 27892571.42857143,
+   "delta_total": 0,
+   "delta_discounted": 1328217.6870748326
+  },
+  {
+   "scenario": "贴现率 +5.00% (5.00%→10.00%)",
+   "total": 29287200,
+   "discounted": 24204297.520661153,
+   "delta_total": 0,
+   "delta_discounted": -2360056.2208354436
+  },
+  {
+   "scenario": "贴现率 -5.00% (5.00%→0.00%)",
+   "total": 29287200,
+   "discounted": 29287200.0,
+   "delta_total": 0,
+   "delta_discounted": 2722846.2585034035
+  }
+ ]
+}

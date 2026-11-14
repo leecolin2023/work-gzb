@@ -1,0 +1,17 @@
+{
+  "claim_amount": 135903299.82,
+  "principal": 109301203.57,
+  "priority_value": 0,
+  "components": [
+    { "name": "一般受偿", "score": 14.5, "weight": 0.5, "reported": 9853000 },
+    { "name": "保证受偿", "score": 28.6, "weight": 0.5, "reported": 19434200 }
+  ],
+  "other_value": 0,
+  "reported_total": 29287200,
+  "years": 2,
+  "discount_rate": 0.05,
+  "reported_discounted": 26564400,
+  "reported_principal_recovery": 0.2430,
+  "reported_claim_recovery": 0.1955,
+  "round_to": 100
+}

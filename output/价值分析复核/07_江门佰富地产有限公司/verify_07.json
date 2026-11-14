@@ -1,0 +1,1532 @@
+{
+  "model": "formula_graph",
+  "params": {
+    "model": "formula_graph",
+    "scope": "江门佰富20261114现报告的算术复核，金额单位万元；并非历史样例或替代估值",
+    "inputs": {
+      "principal": {
+        "value": "10930.120357",
+        "unit": "万元",
+        "evidence": [
+          "DD:P0028=109301203.57元",
+          "BK:0-概览!B7；原拟转让清单未直接读取"
+        ]
+      },
+      "interest": {
+        "value": "2651.906625",
+        "unit": "万元",
+        "evidence": [
+          "DD:P0028=26519066.25元",
+          "BK:0-概览!B8"
+        ]
+      },
+      "other": {
+        "value": "8.303",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0193",
+          "DD:P0028",
+          "BK:0-概览!B9"
+        ]
+      },
+      "priority": {
+        "value": "0",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0151~P0164；按本报告取值验算，非确认股权真实净值为零"
+        ]
+      },
+      "debtor_operating": {
+        "value": "3",
+        "unit": "分",
+        "evidence": [
+          "VR:T05-R03-C03",
+          "VR:P0174"
+        ]
+      },
+      "debtor_assets": {
+        "value": "0",
+        "unit": "分",
+        "evidence": [
+          "VR:P0174；资产项保留0分"
+        ]
+      },
+      "debtor_info_adjust": {
+        "value": "0",
+        "unit": "分",
+        "evidence": [
+          "VR:T05-R07-C04"
+        ]
+      },
+      "debtor_registration_adjust": {
+        "value": "0",
+        "unit": "分",
+        "evidence": [
+          "VR:T05-R06-C04"
+        ]
+      },
+      "debtor_defect_adjust": {
+        "value": "0",
+        "unit": "分",
+        "evidence": [
+          "VR:T05-R08-C04"
+        ]
+      },
+      "score_floor": {
+        "value": "1",
+        "unit": "分",
+        "evidence": [
+          "VR:P0173"
+        ]
+      },
+      "k1": {
+        "value": ".60",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R05-C04/T06-R02-C05"
+        ]
+      },
+      "w1": {
+        "value": ".15",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R05-C04/T06-R02-C05"
+        ]
+      },
+      "k2": {
+        "value": ".60",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R12-C04/T06-R08-C05"
+        ]
+      },
+      "w2": {
+        "value": ".15",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R12-C04/T06-R08-C05"
+        ]
+      },
+      "k3": {
+        "value": ".80",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R18-C04/T06-R17-C05"
+        ]
+      },
+      "w3": {
+        "value": ".15",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R18-C04/T06-R17-C05"
+        ]
+      },
+      "k4": {
+        "value": ".60",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R26-C04/T06-R24-C05"
+        ]
+      },
+      "w4": {
+        "value": ".20",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R26-C04/T06-R24-C05"
+        ]
+      },
+      "k5": {
+        "value": ".80",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R31-C04/T06-R30-C05"
+        ]
+      },
+      "w5": {
+        "value": ".10",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R31-C04/T06-R30-C05"
+        ]
+      },
+      "k6": {
+        "value": ".90",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R37-C04/T06-R36-C05"
+        ]
+      },
+      "w6": {
+        "value": ".10",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R37-C04/T06-R36-C05"
+        ]
+      },
+      "k7": {
+        "value": ".60",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R45-C04/T06-R43-C05"
+        ]
+      },
+      "w7": {
+        "value": ".15",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R45-C04/T06-R43-C05"
+        ]
+      },
+      "guarantor_operating": {
+        "value": "3",
+        "unit": "分",
+        "evidence": [
+          "VR:P0185"
+        ]
+      },
+      "guarantor_assets": {
+        "value": "5",
+        "unit": "分",
+        "evidence": [
+          "VR:P0185；此项依据充分性待核"
+        ]
+      },
+      "guarantor_adjustment": {
+        "value": "0.72",
+        "unit": "比例",
+        "evidence": [
+          "VR:T07-R02-C03；分项表未列，不能独立验证其组成"
+        ]
+      },
+      "fee": {
+        "value": "0.03",
+        "unit": "比例",
+        "evidence": [
+          "VR:P0197；仅复算机构取值，未获费率论证"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "id": "claim",
+        "formula": "principal + interest + other",
+        "unit": "万元",
+        "evidence": [
+          "VR:T03",
+          "DD:P0028",
+          "BK:0-概览!B6:B9"
+        ],
+        "reported": "13590.33",
+        "tolerance": ".005"
+      },
+      {
+        "id": "remaining",
+        "formula": "claim - priority - other",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0179~P0180"
+        ]
+      },
+      {
+        "id": "debtor_basic",
+        "formula": "max(score_floor, debtor_operating + debtor_assets + debtor_info_adjust + debtor_registration_adjust + debtor_defect_adjust) / 100",
+        "unit": "比例",
+        "evidence": [
+          "VR:T05/P0173~P0175"
+        ],
+        "reported": ".03",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "weight_sum",
+        "formula": "w1 + w2 + w3 + w4 + w5 + w6 + w7",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R48-C05"
+        ],
+        "reported": "1",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor1",
+        "formula": "k1 * w1",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R02-C06"
+        ],
+        "reported": ".09",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor2",
+        "formula": "k2 * w2",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R08-C06"
+        ],
+        "reported": ".09",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor3",
+        "formula": "k3 * w3",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R17-C06"
+        ],
+        "reported": ".12",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor4",
+        "formula": "k4 * w4",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R24-C06"
+        ],
+        "reported": ".12",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor5",
+        "formula": "k5 * w5",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R30-C06"
+        ],
+        "reported": ".08",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor6",
+        "formula": "k6 * w6",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R36-C06"
+        ],
+        "reported": ".09",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "factor7",
+        "formula": "k7 * w7",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R43-C06"
+        ],
+        "reported": ".09",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "debtor_adjustment",
+        "formula": "factor1 + factor2 + factor3 + factor4 + factor5 + factor6 + factor7",
+        "unit": "比例",
+        "evidence": [
+          "VR:T06-R48-C06"
+        ],
+        "reported": ".68",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "debtor_rate",
+        "formula": "debtor_basic * debtor_adjustment",
+        "unit": "比例",
+        "evidence": [
+          "VR:P0177"
+        ],
+        "reported": ".0204",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "debtor",
+        "formula": "remaining * debtor_rate",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0179~P0181"
+        ],
+        "reported_formula_text": "（债权金额－优先受偿债权价值－已单独计入的其他相关赔偿）×一般债权受偿率",
+        "reported_substitution_text": "（13,590.33－0.00－8.30）×2.04%＝277.07",
+        "reported": "277.07",
+        "tolerance": ".005"
+      },
+      {
+        "id": "guarantor_base",
+        "formula": "remaining - debtor",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0186~P0187"
+        ],
+        "reported_substitution_text": "13,582.03－277.07＝13,304.95（展示数相减得13,304.96，未取整基数复算可解释）",
+        "reported": "13304.95",
+        "tolerance": ".005"
+      },
+      {
+        "id": "guarantor_basic",
+        "formula": "(guarantor_operating + guarantor_assets) / 100",
+        "unit": "比例",
+        "evidence": [
+          "VR:P0185/T07-R02-C02"
+        ],
+        "reported": ".08",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "guarantor_rate",
+        "formula": "guarantor_basic * guarantor_adjustment",
+        "unit": "比例",
+        "evidence": [
+          "VR:T07-R02-C04"
+        ],
+        "reported": ".0576",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "guarantor",
+        "formula": "guarantor_base * guarantor_rate",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0188/T07-R02-C05"
+        ],
+        "reported": "766.37",
+        "tolerance": ".005"
+      },
+      {
+        "id": "recovery",
+        "formula": "priority + (debtor + guarantor + other) * (1 - fee)",
+        "unit": "万元",
+        "evidence": [
+          "VR:P0196~P0198"
+        ],
+        "reported_formula_text": "优先受偿＋（债务人＋保证人＋其他赔偿）×（1－处置费率）",
+        "reported_substitution_text": "0.00＋（277.07＋766.37＋8.30）×（1－3%）",
+        "reported": "1020.19",
+        "tolerance": ".005"
+      },
+      {
+        "id": "principal_recovery",
+        "formula": "recovery / principal",
+        "unit": "比例",
+        "evidence": [
+          "VR:P0199~P0201"
+        ],
+        "reported": ".0933",
+        "tolerance": ".00005"
+      },
+      {
+        "id": "claim_recovery",
+        "formula": "recovery / claim",
+        "unit": "比例",
+        "evidence": [
+          "VR:P0202~P0204"
+        ],
+        "reported": ".0751",
+        "tolerance": ".00005"
+      }
+    ],
+    "result": "recovery",
+    "scenarios": [
+      {
+        "name": "债务人信息不完备调整项0→-1分（条件压力）",
+        "reason": "沿报告T05-R07的扣分项演示；不是认定必须扣分，需机构解释为何0",
+        "overrides": {
+          "debtor_info_adjust": {
+            "value": "-1",
+            "basis": "stress",
+            "evidence": [
+              "沿报告T05-R07的扣分项演示；不是认定必须扣分，需机构解释为何0"
+            ]
+          }
+        }
+      },
+      {
+        "name": "保证人不动产加分5→0分（条件压力）",
+        "reason": "尚未核实权利负担后净值时展示该5分贡献；不判真实资产为零",
+        "overrides": {
+          "guarantor_assets": {
+            "value": "0",
+            "basis": "stress",
+            "evidence": [
+              "尚未核实权利负担后净值时展示该5分贡献；不判真实资产为零"
+            ]
+          }
+        }
+      },
+      {
+        "name": "保证人调整系数72%→62%（压力）",
+        "reason": "系数明细缺失，下降10个百分点仅作依赖展示，不是市场建议值",
+        "overrides": {
+          "guarantor_adjustment": {
+            "value": ".62",
+            "basis": "stress",
+            "evidence": [
+              "系数明细缺失，下降10个百分点仅作依赖展示，不是市场建议值"
+            ]
+          }
+        }
+      },
+      {
+        "name": "处置费率3%→4%（压力）",
+        "reason": "增加1个百分点仅作依赖展示，不代表实际费用",
+        "overrides": {
+          "fee": {
+            "value": ".04",
+            "basis": "stress",
+            "evidence": [
+              "增加1个百分点仅作依赖展示，不代表实际费用"
+            ]
+          }
+        }
+      },
+      {
+        "name": "债权总额增加1000万元（信息冲突条件演示）",
+        "reason": "BK:1-核心字段表!E27转述银行重组本金冲突；保持息费不变仅展示传导，不采认为正确余额",
+        "overrides": {
+          "principal": {
+            "value": "11930.120357",
+            "basis": "stress",
+            "evidence": [
+              "BK:1-核心字段表!E27转述银行重组本金冲突；保持息费不变仅展示传导，不采认为正确余额"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "values": {
+    "principal": "10930.120357",
+    "interest": "2651.906625",
+    "other": "8.303",
+    "priority": "0",
+    "debtor_operating": "3",
+    "debtor_assets": "0",
+    "debtor_info_adjust": "0",
+    "debtor_registration_adjust": "0",
+    "debtor_defect_adjust": "0",
+    "score_floor": "1",
+    "k1": "0.60",
+    "w1": "0.15",
+    "k2": "0.60",
+    "w2": "0.15",
+    "k3": "0.80",
+    "w3": "0.15",
+    "k4": "0.60",
+    "w4": "0.20",
+    "k5": "0.80",
+    "w5": "0.10",
+    "k6": "0.90",
+    "w6": "0.10",
+    "k7": "0.60",
+    "w7": "0.15",
+    "guarantor_operating": "3",
+    "guarantor_assets": "5",
+    "guarantor_adjustment": "0.72",
+    "fee": "0.03",
+    "claim": "13590.329982",
+    "remaining": "13582.026982",
+    "debtor_basic": "0.03",
+    "weight_sum": "1.00",
+    "factor1": "0.0900",
+    "factor2": "0.0900",
+    "factor3": "0.1200",
+    "factor4": "0.1200",
+    "factor5": "0.0800",
+    "factor6": "0.0900",
+    "factor7": "0.0900",
+    "debtor_adjustment": "0.6800",
+    "debtor_rate": "0.020400",
+    "debtor": "277.073350432800",
+    "guarantor_base": "13304.953631567200",
+    "guarantor_basic": "0.08",
+    "guarantor_rate": "0.0576",
+    "guarantor": "766.3653291782707200",
+    "recovery": "1020.189429222738598400",
+    "principal_recovery": "0.09333743782330599256730581672221562344869",
+    "claim_recovery": "0.07506730377952191495213099822729528775911"
+  },
+  "checks": [
+    {
+      "id": "claim",
+      "label": "claim",
+      "formula": "principal + interest + other",
+      "dependencies": [
+        "interest",
+        "other",
+        "principal"
+      ],
+      "substitution": {
+        "interest": "2651.906625",
+        "other": "8.303",
+        "principal": "10930.120357"
+      },
+      "raw": "13590.329982",
+      "recomputed": "13590.329982",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "13590.33",
+      "difference": "-0.000018",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "13590.329982",
+      "local_error": null,
+      "local_difference": "-0.000018",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T03",
+        "DD:P0028",
+        "BK:0-概览!B6:B9"
+      ]
+    },
+    {
+      "id": "remaining",
+      "label": "remaining",
+      "formula": "claim - priority - other",
+      "dependencies": [
+        "claim",
+        "other",
+        "priority"
+      ],
+      "substitution": {
+        "claim": "13590.329982",
+        "other": "8.303",
+        "priority": "0"
+      },
+      "raw": "13582.026982",
+      "recomputed": "13582.026982",
+      "unit": "万元",
+      "round_to": null,
+      "reported": null,
+      "difference": null,
+      "tolerance": null,
+      "exceeds_tolerance": null,
+      "using_reported_intermediates": "13582.027",
+      "local_error": null,
+      "local_difference": null,
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:P0179~P0180"
+      ]
+    },
+    {
+      "id": "debtor_basic",
+      "label": "debtor_basic",
+      "formula": "max(score_floor, debtor_operating + debtor_assets + debtor_info_adjust + debtor_registration_adjust + debtor_defect_adjust) / 100",
+      "dependencies": [
+        "debtor_assets",
+        "debtor_defect_adjust",
+        "debtor_info_adjust",
+        "debtor_operating",
+        "debtor_registration_adjust",
+        "score_floor"
+      ],
+      "substitution": {
+        "debtor_assets": "0",
+        "debtor_defect_adjust": "0",
+        "debtor_info_adjust": "0",
+        "debtor_operating": "3",
+        "debtor_registration_adjust": "0",
+        "score_floor": "1"
+      },
+      "raw": "0.03",
+      "recomputed": "0.03",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.03",
+      "difference": "0.00",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.03",
+      "local_error": null,
+      "local_difference": "0.00",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T05/P0173~P0175"
+      ]
+    },
+    {
+      "id": "weight_sum",
+      "label": "weight_sum",
+      "formula": "w1 + w2 + w3 + w4 + w5 + w6 + w7",
+      "dependencies": [
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7"
+      ],
+      "substitution": {
+        "w1": "0.15",
+        "w2": "0.15",
+        "w3": "0.15",
+        "w4": "0.20",
+        "w5": "0.10",
+        "w6": "0.10",
+        "w7": "0.15"
+      },
+      "raw": "1.00",
+      "recomputed": "1.00",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "1",
+      "difference": "0.00",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "1.00",
+      "local_error": null,
+      "local_difference": "0.00",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R48-C05"
+      ]
+    },
+    {
+      "id": "factor1",
+      "label": "factor1",
+      "formula": "k1 * w1",
+      "dependencies": [
+        "k1",
+        "w1"
+      ],
+      "substitution": {
+        "k1": "0.60",
+        "w1": "0.15"
+      },
+      "raw": "0.0900",
+      "recomputed": "0.0900",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.09",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0900",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R02-C06"
+      ]
+    },
+    {
+      "id": "factor2",
+      "label": "factor2",
+      "formula": "k2 * w2",
+      "dependencies": [
+        "k2",
+        "w2"
+      ],
+      "substitution": {
+        "k2": "0.60",
+        "w2": "0.15"
+      },
+      "raw": "0.0900",
+      "recomputed": "0.0900",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.09",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0900",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R08-C06"
+      ]
+    },
+    {
+      "id": "factor3",
+      "label": "factor3",
+      "formula": "k3 * w3",
+      "dependencies": [
+        "k3",
+        "w3"
+      ],
+      "substitution": {
+        "k3": "0.80",
+        "w3": "0.15"
+      },
+      "raw": "0.1200",
+      "recomputed": "0.1200",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.12",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.1200",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R17-C06"
+      ]
+    },
+    {
+      "id": "factor4",
+      "label": "factor4",
+      "formula": "k4 * w4",
+      "dependencies": [
+        "k4",
+        "w4"
+      ],
+      "substitution": {
+        "k4": "0.60",
+        "w4": "0.20"
+      },
+      "raw": "0.1200",
+      "recomputed": "0.1200",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.12",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.1200",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R24-C06"
+      ]
+    },
+    {
+      "id": "factor5",
+      "label": "factor5",
+      "formula": "k5 * w5",
+      "dependencies": [
+        "k5",
+        "w5"
+      ],
+      "substitution": {
+        "k5": "0.80",
+        "w5": "0.10"
+      },
+      "raw": "0.0800",
+      "recomputed": "0.0800",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.08",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0800",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R30-C06"
+      ]
+    },
+    {
+      "id": "factor6",
+      "label": "factor6",
+      "formula": "k6 * w6",
+      "dependencies": [
+        "k6",
+        "w6"
+      ],
+      "substitution": {
+        "k6": "0.90",
+        "w6": "0.10"
+      },
+      "raw": "0.0900",
+      "recomputed": "0.0900",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.09",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0900",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R36-C06"
+      ]
+    },
+    {
+      "id": "factor7",
+      "label": "factor7",
+      "formula": "k7 * w7",
+      "dependencies": [
+        "k7",
+        "w7"
+      ],
+      "substitution": {
+        "k7": "0.60",
+        "w7": "0.15"
+      },
+      "raw": "0.0900",
+      "recomputed": "0.0900",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.09",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0900",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R43-C06"
+      ]
+    },
+    {
+      "id": "debtor_adjustment",
+      "label": "debtor_adjustment",
+      "formula": "factor1 + factor2 + factor3 + factor4 + factor5 + factor6 + factor7",
+      "dependencies": [
+        "factor1",
+        "factor2",
+        "factor3",
+        "factor4",
+        "factor5",
+        "factor6",
+        "factor7"
+      ],
+      "substitution": {
+        "factor1": "0.0900",
+        "factor2": "0.0900",
+        "factor3": "0.1200",
+        "factor4": "0.1200",
+        "factor5": "0.0800",
+        "factor6": "0.0900",
+        "factor7": "0.0900"
+      },
+      "raw": "0.6800",
+      "recomputed": "0.6800",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.68",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.68",
+      "local_error": null,
+      "local_difference": "0.00",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T06-R48-C06"
+      ]
+    },
+    {
+      "id": "debtor_rate",
+      "label": "debtor_rate",
+      "formula": "debtor_basic * debtor_adjustment",
+      "dependencies": [
+        "debtor_adjustment",
+        "debtor_basic"
+      ],
+      "substitution": {
+        "debtor_adjustment": "0.6800",
+        "debtor_basic": "0.03"
+      },
+      "raw": "0.020400",
+      "recomputed": "0.020400",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.0204",
+      "difference": "0.000000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0204",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:P0177"
+      ]
+    },
+    {
+      "id": "debtor",
+      "label": "debtor",
+      "formula": "remaining * debtor_rate",
+      "dependencies": [
+        "debtor_rate",
+        "remaining"
+      ],
+      "substitution": {
+        "debtor_rate": "0.020400",
+        "remaining": "13582.026982"
+      },
+      "raw": "277.073350432800",
+      "recomputed": "277.073350432800",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "277.07",
+      "difference": "0.003350432800",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "277.0733504328",
+      "local_error": null,
+      "local_difference": "0.0033504328",
+      "reported_formula_text": "（债权金额－优先受偿债权价值－已单独计入的其他相关赔偿）×一般债权受偿率",
+      "reported_substitution_text": "（13,590.33－0.00－8.30）×2.04%＝277.07",
+      "evidence": [
+        "VR:P0179~P0181"
+      ]
+    },
+    {
+      "id": "guarantor_base",
+      "label": "guarantor_base",
+      "formula": "remaining - debtor",
+      "dependencies": [
+        "debtor",
+        "remaining"
+      ],
+      "substitution": {
+        "debtor": "277.073350432800",
+        "remaining": "13582.026982"
+      },
+      "raw": "13304.953631567200",
+      "recomputed": "13304.953631567200",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "13304.95",
+      "difference": "0.003631567200",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "13304.956982",
+      "local_error": null,
+      "local_difference": "0.006982",
+      "reported_formula_text": null,
+      "reported_substitution_text": "13,582.03－277.07＝13,304.95（展示数相减得13,304.96，未取整基数复算可解释）",
+      "evidence": [
+        "VR:P0186~P0187"
+      ]
+    },
+    {
+      "id": "guarantor_basic",
+      "label": "guarantor_basic",
+      "formula": "(guarantor_operating + guarantor_assets) / 100",
+      "dependencies": [
+        "guarantor_assets",
+        "guarantor_operating"
+      ],
+      "substitution": {
+        "guarantor_assets": "5",
+        "guarantor_operating": "3"
+      },
+      "raw": "0.08",
+      "recomputed": "0.08",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.08",
+      "difference": "0.00",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.08",
+      "local_error": null,
+      "local_difference": "0.00",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:P0185/T07-R02-C02"
+      ]
+    },
+    {
+      "id": "guarantor_rate",
+      "label": "guarantor_rate",
+      "formula": "guarantor_basic * guarantor_adjustment",
+      "dependencies": [
+        "guarantor_adjustment",
+        "guarantor_basic"
+      ],
+      "substitution": {
+        "guarantor_adjustment": "0.72",
+        "guarantor_basic": "0.08"
+      },
+      "raw": "0.0576",
+      "recomputed": "0.0576",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.0576",
+      "difference": "0.0000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.0576",
+      "local_error": null,
+      "local_difference": "0.0000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:T07-R02-C04"
+      ]
+    },
+    {
+      "id": "guarantor",
+      "label": "guarantor",
+      "formula": "guarantor_base * guarantor_rate",
+      "dependencies": [
+        "guarantor_base",
+        "guarantor_rate"
+      ],
+      "substitution": {
+        "guarantor_base": "13304.953631567200",
+        "guarantor_rate": "0.0576"
+      },
+      "raw": "766.3653291782707200",
+      "recomputed": "766.3653291782707200",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "766.37",
+      "difference": "-0.0046708217292800",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "766.365120",
+      "local_error": null,
+      "local_difference": "-0.004880",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:P0188/T07-R02-C05"
+      ]
+    },
+    {
+      "id": "recovery",
+      "label": "recovery",
+      "formula": "priority + (debtor + guarantor + other) * (1 - fee)",
+      "dependencies": [
+        "debtor",
+        "fee",
+        "guarantor",
+        "other",
+        "priority"
+      ],
+      "substitution": {
+        "debtor": "277.073350432800",
+        "fee": "0.03",
+        "guarantor": "766.3653291782707200",
+        "other": "8.303",
+        "priority": "0"
+      },
+      "raw": "1020.189429222738598400",
+      "recomputed": "1020.189429222738598400",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "1020.19",
+      "difference": "-0.000570777261401600",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "1020.19071",
+      "local_error": null,
+      "local_difference": "0.00071",
+      "reported_formula_text": "优先受偿＋（债务人＋保证人＋其他赔偿）×（1－处置费率）",
+      "reported_substitution_text": "0.00＋（277.07＋766.37＋8.30）×（1－3%）",
+      "evidence": [
+        "VR:P0196~P0198"
+      ]
+    },
+    {
+      "id": "principal_recovery",
+      "label": "principal_recovery",
+      "formula": "recovery / principal",
+      "dependencies": [
+        "principal",
+        "recovery"
+      ],
+      "substitution": {
+        "principal": "10930.120357",
+        "recovery": "1020.189429222738598400"
+      },
+      "raw": "0.09333743782330599256730581672221562344869",
+      "recomputed": "0.09333743782330599256730581672221562344869",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.0933",
+      "difference": "0.00003743782330599256730581672221562344869",
+      "tolerance": "0.00005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.09333749004388936757615614241309858981638",
+      "local_error": null,
+      "local_difference": "0.00003749004388936757615614241309858981638",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:P0199~P0201"
+      ]
+    },
+    {
+      "id": "claim_recovery",
+      "label": "claim_recovery",
+      "formula": "recovery / claim",
+      "dependencies": [
+        "claim",
+        "recovery"
+      ],
+      "substitution": {
+        "claim": "13590.329982",
+        "recovery": "1020.189429222738598400"
+      },
+      "raw": "0.07506730377952191495213099822729528775911",
+      "recomputed": "0.07506730377952191495213099822729528775911",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.0751",
+      "difference": "-0.00003269622047808504786900177270471224089",
+      "tolerance": "0.00005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.07506734567887608321505070149142809630083",
+      "local_error": null,
+      "local_difference": "-0.00003265432112391678494929850857190369917",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "VR:P0202~P0204"
+      ]
+    }
+  ],
+  "result_id": "recovery",
+  "result": "1020.189429222738598400",
+  "scope": "Arithmetic only; units, evidence truth, formula applicability and business impact require review.",
+  "sensitivity": [
+    {
+      "name": "债务人信息不完备调整项0→-1分（条件压力）",
+      "reason": "沿报告T05-R07的扣分项演示；不是认定必须扣分，需机构解释为何0",
+      "overrides": {
+        "debtor_info_adjust": {
+          "value": "-1",
+          "basis": "stress",
+          "evidence": [
+            "沿报告T05-R07的扣分项演示；不是认定必须扣分，需机构解释为何0"
+          ]
+        }
+      },
+      "result": "935.762593327927065600",
+      "delta": "-84.426835894811532800",
+      "values": {
+        "principal": "10930.120357",
+        "interest": "2651.906625",
+        "other": "8.303",
+        "priority": "0",
+        "debtor_operating": "3",
+        "debtor_assets": "0",
+        "debtor_info_adjust": "-1",
+        "debtor_registration_adjust": "0",
+        "debtor_defect_adjust": "0",
+        "score_floor": "1",
+        "k1": "0.60",
+        "w1": "0.15",
+        "k2": "0.60",
+        "w2": "0.15",
+        "k3": "0.80",
+        "w3": "0.15",
+        "k4": "0.60",
+        "w4": "0.20",
+        "k5": "0.80",
+        "w5": "0.10",
+        "k6": "0.90",
+        "w6": "0.10",
+        "k7": "0.60",
+        "w7": "0.15",
+        "guarantor_operating": "3",
+        "guarantor_assets": "5",
+        "guarantor_adjustment": "0.72",
+        "fee": "0.03",
+        "claim": "13590.329982",
+        "remaining": "13582.026982",
+        "debtor_basic": "0.02",
+        "weight_sum": "1.00",
+        "factor1": "0.0900",
+        "factor2": "0.0900",
+        "factor3": "0.1200",
+        "factor4": "0.1200",
+        "factor5": "0.0800",
+        "factor6": "0.0900",
+        "factor7": "0.0900",
+        "debtor_adjustment": "0.6800",
+        "debtor_rate": "0.013600",
+        "debtor": "184.715566955200",
+        "guarantor_base": "13397.311415044800",
+        "guarantor_basic": "0.08",
+        "guarantor_rate": "0.0576",
+        "guarantor": "771.6851375065804800",
+        "recovery": "935.762593327927065600",
+        "principal_recovery": "0.08561320120584350721802394879154577272877",
+        "claim_recovery": "0.06885503108219724061737649719416503863372"
+      }
+    },
+    {
+      "name": "保证人不动产加分5→0分（条件压力）",
+      "reason": "尚未核实权利负担后净值时展示该5分贡献；不判真实资产为零",
+      "overrides": {
+        "guarantor_assets": {
+          "value": "0",
+          "basis": "stress",
+          "evidence": [
+            "尚未核实权利负担后净值时展示该5分贡献；不判真实资产为零"
+          ]
+        }
+      },
+      "result": "555.580448408411974400",
+      "delta": "-464.608980814326624000",
+      "values": {
+        "principal": "10930.120357",
+        "interest": "2651.906625",
+        "other": "8.303",
+        "priority": "0",
+        "debtor_operating": "3",
+        "debtor_assets": "0",
+        "debtor_info_adjust": "0",
+        "debtor_registration_adjust": "0",
+        "debtor_defect_adjust": "0",
+        "score_floor": "1",
+        "k1": "0.60",
+        "w1": "0.15",
+        "k2": "0.60",
+        "w2": "0.15",
+        "k3": "0.80",
+        "w3": "0.15",
+        "k4": "0.60",
+        "w4": "0.20",
+        "k5": "0.80",
+        "w5": "0.10",
+        "k6": "0.90",
+        "w6": "0.10",
+        "k7": "0.60",
+        "w7": "0.15",
+        "guarantor_operating": "3",
+        "guarantor_assets": "0",
+        "guarantor_adjustment": "0.72",
+        "fee": "0.03",
+        "claim": "13590.329982",
+        "remaining": "13582.026982",
+        "debtor_basic": "0.03",
+        "weight_sum": "1.00",
+        "factor1": "0.0900",
+        "factor2": "0.0900",
+        "factor3": "0.1200",
+        "factor4": "0.1200",
+        "factor5": "0.0800",
+        "factor6": "0.0900",
+        "factor7": "0.0900",
+        "debtor_adjustment": "0.6800",
+        "debtor_rate": "0.020400",
+        "debtor": "277.073350432800",
+        "guarantor_base": "13304.953631567200",
+        "guarantor_basic": "0.03",
+        "guarantor_rate": "0.0216",
+        "guarantor": "287.3869984418515200",
+        "recovery": "555.580448408411974400",
+        "principal_recovery": "0.05083022238200702133402866425544887529183",
+        "claim_recovery": "0.04088057090182962817186435554497634713871"
+      }
+    },
+    {
+      "name": "保证人调整系数72%→62%（压力）",
+      "reason": "系数明细缺失，下降10个百分点仅作依赖展示，不是市场建议值",
+      "overrides": {
+        "guarantor_adjustment": {
+          "value": ".62",
+          "basis": "stress",
+          "evidence": [
+            "系数明细缺失，下降10个百分点仅作依赖展示，不是市场建议值"
+          ]
+        }
+      },
+      "result": "916.942989041777126400",
+      "delta": "-103.246440180961472000",
+      "values": {
+        "principal": "10930.120357",
+        "interest": "2651.906625",
+        "other": "8.303",
+        "priority": "0",
+        "debtor_operating": "3",
+        "debtor_assets": "0",
+        "debtor_info_adjust": "0",
+        "debtor_registration_adjust": "0",
+        "debtor_defect_adjust": "0",
+        "score_floor": "1",
+        "k1": "0.60",
+        "w1": "0.15",
+        "k2": "0.60",
+        "w2": "0.15",
+        "k3": "0.80",
+        "w3": "0.15",
+        "k4": "0.60",
+        "w4": "0.20",
+        "k5": "0.80",
+        "w5": "0.10",
+        "k6": "0.90",
+        "w6": "0.10",
+        "k7": "0.60",
+        "w7": "0.15",
+        "guarantor_operating": "3",
+        "guarantor_assets": "5",
+        "guarantor_adjustment": "0.62",
+        "fee": "0.03",
+        "claim": "13590.329982",
+        "remaining": "13582.026982",
+        "debtor_basic": "0.03",
+        "weight_sum": "1.00",
+        "factor1": "0.0900",
+        "factor2": "0.0900",
+        "factor3": "0.1200",
+        "factor4": "0.1200",
+        "factor5": "0.0800",
+        "factor6": "0.0900",
+        "factor7": "0.0900",
+        "debtor_adjustment": "0.6800",
+        "debtor_rate": "0.020400",
+        "debtor": "277.073350432800",
+        "guarantor_base": "13304.953631567200",
+        "guarantor_basic": "0.08",
+        "guarantor_rate": "0.0496",
+        "guarantor": "659.9257001257331200",
+        "recovery": "916.942989041777126400",
+        "principal_recovery": "0.08389138994746177673768867172960079052495",
+        "claim_recovery": "0.06747025202892362900096063318677996762125"
+      }
+    },
+    {
+      "name": "处置费率3%→4%（压力）",
+      "reason": "增加1个百分点仅作依赖展示，不代表实际费用",
+      "overrides": {
+        "fee": {
+          "value": ".04",
+          "basis": "stress",
+          "evidence": [
+            "增加1个百分点仅作依赖展示，不代表实际费用"
+          ]
+        }
+      },
+      "result": "1009.672012426627891200",
+      "delta": "-10.517416796110707200",
+      "values": {
+        "principal": "10930.120357",
+        "interest": "2651.906625",
+        "other": "8.303",
+        "priority": "0",
+        "debtor_operating": "3",
+        "debtor_assets": "0",
+        "debtor_info_adjust": "0",
+        "debtor_registration_adjust": "0",
+        "debtor_defect_adjust": "0",
+        "score_floor": "1",
+        "k1": "0.60",
+        "w1": "0.15",
+        "k2": "0.60",
+        "w2": "0.15",
+        "k3": "0.80",
+        "w3": "0.15",
+        "k4": "0.60",
+        "w4": "0.20",
+        "k5": "0.80",
+        "w5": "0.10",
+        "k6": "0.90",
+        "w6": "0.10",
+        "k7": "0.60",
+        "w7": "0.15",
+        "guarantor_operating": "3",
+        "guarantor_assets": "5",
+        "guarantor_adjustment": "0.72",
+        "fee": "0.04",
+        "claim": "13590.329982",
+        "remaining": "13582.026982",
+        "debtor_basic": "0.03",
+        "weight_sum": "1.00",
+        "factor1": "0.0900",
+        "factor2": "0.0900",
+        "factor3": "0.1200",
+        "factor4": "0.1200",
+        "factor5": "0.0800",
+        "factor6": "0.0900",
+        "factor7": "0.0900",
+        "debtor_adjustment": "0.6800",
+        "debtor_rate": "0.020400",
+        "debtor": "277.073350432800",
+        "guarantor_base": "13304.953631567200",
+        "guarantor_basic": "0.08",
+        "guarantor_rate": "0.0576",
+        "guarantor": "766.3653291782707200",
+        "recovery": "1009.672012426627891200",
+        "principal_recovery": "0.09237519619626160089135421036425463763994",
+        "claim_recovery": "0.07429341404983612201448016319402420231830"
+      }
+    },
+    {
+      "name": "债权总额增加1000万元（信息冲突条件演示）",
+      "reason": "BK:1-核心字段表!E27转述银行重组本金冲突；保持息费不变仅展示传导，不采认为正确余额",
+      "overrides": {
+        "principal": {
+          "value": "11930.120357",
+          "basis": "stress",
+          "evidence": [
+            "BK:1-核心字段表!E27转述银行重组本金冲突；保持息费不变仅展示传导，不采认为正确余额"
+          ]
+        }
+      },
+      "result": "1094.709640422738598400",
+      "delta": "74.520211200000000000",
+      "values": {
+        "principal": "11930.120357",
+        "interest": "2651.906625",
+        "other": "8.303",
+        "priority": "0",
+        "debtor_operating": "3",
+        "debtor_assets": "0",
+        "debtor_info_adjust": "0",
+        "debtor_registration_adjust": "0",
+        "debtor_defect_adjust": "0",
+        "score_floor": "1",
+        "k1": "0.60",
+        "w1": "0.15",
+        "k2": "0.60",
+        "w2": "0.15",
+        "k3": "0.80",
+        "w3": "0.15",
+        "k4": "0.60",
+        "w4": "0.20",
+        "k5": "0.80",
+        "w5": "0.10",
+        "k6": "0.90",
+        "w6": "0.10",
+        "k7": "0.60",
+        "w7": "0.15",
+        "guarantor_operating": "3",
+        "guarantor_assets": "5",
+        "guarantor_adjustment": "0.72",
+        "fee": "0.03",
+        "claim": "14590.329982",
+        "remaining": "14582.026982",
+        "debtor_basic": "0.03",
+        "weight_sum": "1.00",
+        "factor1": "0.0900",
+        "factor2": "0.0900",
+        "factor3": "0.1200",
+        "factor4": "0.1200",
+        "factor5": "0.0800",
+        "factor6": "0.0900",
+        "factor7": "0.0900",
+        "debtor_adjustment": "0.6800",
+        "debtor_rate": "0.020400",
+        "debtor": "297.473350432800",
+        "guarantor_base": "14284.553631567200",
+        "guarantor_basic": "0.08",
+        "guarantor_rate": "0.0576",
+        "guarantor": "822.7902891782707200",
+        "recovery": "1094.709640422738598400",
+        "principal_recovery": "0.09176015058225439815652984698551604059060",
+        "claim_recovery": "0.07502980684969257869386548600954047976788"
+      }
+    }
+  ]
+}

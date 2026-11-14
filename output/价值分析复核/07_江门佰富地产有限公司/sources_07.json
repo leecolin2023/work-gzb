@@ -1,0 +1,82 @@
+[
+  {
+    "id": "VR",
+    "path": "2026buliang_债权价值分析报告_20261114/07-江门佰富地产有限公司-债权价值分析报告.docx",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_债权价值分析报告_20261114/07-江门佰富地产有限公司-债权价值分析报告.docx",
+    "exists": true,
+    "sha256": "8140e46eaf6e2a62f9020e8442f0662dc02e1e6c9a1ed605ac7db711998d22e0",
+    "read_scope": "本次复核对象，全文及8个表格已读，584条证据；非历史样例"
+  },
+  {
+    "id": "DD",
+    "path": "2026buliang_法律尽职调查报告_20261114/07_江门佰富地产有限公司/20261103修改-关于江门佰富地产有限公司贷款项目的法律尽职调查报告.docx",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_法律尽职调查报告_20261114/07_江门佰富地产有限公司/20261103修改-关于江门佰富地产有限公司贷款项目的法律尽职调查报告.docx",
+    "exists": true,
+    "sha256": "6a4da70d9e1acb74b4dc6d99f6054b9000a3be8082d94ba2dc2cb0780eb97c13",
+    "read_scope": "法律尽调正文已读，340条证据；内文落款2026-10-23，文件名修改日2026-11-03，不等于原件核验"
+  },
+  {
+    "id": "BK",
+    "path": "2026buliang_现有资料整理_20261114/07_江门佰富地产有限公司/银行档案/07_江门佰富_基础信息提取_v1.xlsx",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_现有资料整理_20261114/07_江门佰富地产有限公司/银行档案/07_江门佰富_基础信息提取_v1.xlsx",
+    "exists": true,
+    "sha256": "2cfdbd6994aa2792374a067fd391067610693bf07c08f232dfe407ef14b33cb9",
+    "read_scope": "直接读取各sheet单元格；属于二次提取表，原始拟转让清单、重组说明、贷款及还款凭证本轮未直接取得"
+  },
+  {
+    "id": "AS",
+    "path": "2026buliang_现有资料整理_20261114/07_江门佰富地产有限公司/查册成果/结构包抵押物清单_07_江门佰富地产有限公司.xlsx",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_现有资料整理_20261114/07_江门佰富地产有限公司/查册成果/结构包抵押物清单_07_江门佰富地产有限公司.xlsx",
+    "exists": true,
+    "sha256": "5558b38a13f41aadfc0ebbf71e697fdbd7dad7cfa8e3c23e5fd5469fe80cc6e5",
+    "read_scope": "直接读取单户清单，sheet名末尾有空格；底稿与查册回填字段区分，属于整理成果"
+  },
+  {
+    "id": "CR",
+    "path": "2026buliang_查册核对_20261114/02_分户报告/06_江门佰富地产有限公司_抵押物查册核对报告.md",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_查册核对_20261114/02_分户报告/06_江门佰富地产有限公司_抵押物查册核对报告.md",
+    "exists": true,
+    "sha256": "eca21f08fba9034be3e055de7618c22751360a739038864daf41fee6444cf978",
+    "read_scope": "读取§0~9；历史查册复核成果，不替代登记簿原件"
+  },
+  {
+    "id": "AU",
+    "path": "2026buliang_查册核对_20261114/04_查册结构化数据/audit_all.json",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_查册核对_20261114/04_查册结构化数据/audit_all.json",
+    "exists": true,
+    "sha256": "ffe8f26a3e3bfaa40e17bf025f32ec7265e35b1444a963ddf411dead4deef02f",
+    "read_scope": "实际使用键[\"06\"]，户名=江门佰富；不是键07"
+  },
+  {
+    "id": "CP",
+    "path": "2026buliang_查册核对_20261114/04_查册结构化数据/compare_06.json",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_查册核对_20261114/04_查册结构化数据/compare_06.json",
+    "exists": true,
+    "sha256": "4c042dc93c1db29d35b262e28fa8820885ec47314228a5ea5c9dec0095de038c",
+    "read_scope": "读取372项数组（索引自0起）；compare_07为现代筑美，不用于本户"
+  },
+  {
+    "id": "RAW1",
+    "path": "2026buliang_查册核对_20261114/05_原始查册资料/07_江门佰富地产有限公司/01_资料_权证类/佳兆业公司不动产登记信息查询结果2026.5.18.pdf",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_查册核对_20261114/05_原始查册资料/07_江门佰富地产有限公司/01_资料_权证类/佳兆业公司不动产登记信息查询结果2026.5.18.pdf",
+    "exists": true,
+    "sha256": "532325eb6e8227b3b7b36372c063dedba7e6579cab4a09696836830786f05feb",
+    "read_scope": "文件存在；本机无PDF解析/渲染/OCR后端，未逐页直读。页码仅来自CP，不能宣称本轮回原件确认"
+  },
+  {
+    "id": "RAW2",
+    "path": "2026buliang_查册核对_20261114/05_原始查册资料/07_江门佰富地产有限公司/01_资料_权证类/佰富查封房产查册资料.pdf",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_查册核对_20261114/05_原始查册资料/07_江门佰富地产有限公司/01_资料_权证类/佰富查封房产查册资料.pdf",
+    "exists": true,
+    "sha256": "eb8074956c64c41d76ff9863ba009cb559828d2ff8ecb09c9dc8480661a9dac2",
+    "read_scope": "文件存在，未逐页直读；CR§4称其为协助执行通知书，不作不动产登记逐套确认"
+  },
+  {
+    "id": "RAW3",
+    "path": "2026buliang_查册核对_20261114/05_原始查册资料/07_江门佰富地产有限公司/02_补充材料_20261027_查封资产清单/江门佰富的查封资产清单明细表（非我行抵押物）_1027180732.pdf",
+    "absolute_path": "/home/ubuntu/data/2026buliang/2026buliang_查册核对_20261114/05_原始查册资料/07_江门佰富地产有限公司/02_补充材料_20261027_查封资产清单/江门佰富的查封资产清单明细表（非我行抵押物）_1027180732.pdf",
+    "exists": true,
+    "sha256": "37d56c58a5e4d4500432868da9c0092fa75e3af49a63d076c08a1ac5a7301af4",
+    "read_scope": "仅核文件存在及命名；不以文件名独立认定实体权利"
+  }
+]

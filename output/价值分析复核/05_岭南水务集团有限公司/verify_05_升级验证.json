@@ -1,0 +1,733 @@
+{
+  "model": "formula_graph",
+  "params": {
+    "model": "formula_graph",
+    "scope": "演示，非完整复核；优先受偿仅使用报告展示数，未核实资产逐项净值",
+    "inputs": {
+      "claim": {
+        "value": "51812.331352",
+        "unit": "万元",
+        "evidence": [
+          "银行清单：债权合计518123313.52元；报告P0043为展示数"
+        ]
+      },
+      "principal": {
+        "value": "44697.978394",
+        "unit": "万元",
+        "evidence": [
+          "银行清单：本金446979783.94元；报告P0043为展示数"
+        ]
+      },
+      "priority": {
+        "value": "440.47",
+        "unit": "万元",
+        "evidence": [
+          "报告P0253~P0258，展示数，未取得逐项未取整底稿"
+        ]
+      },
+      "other": {
+        "value": "259.5729",
+        "unit": "万元",
+        "evidence": [
+          "报告P0298"
+        ]
+      },
+      "debtor_basic": {
+        "value": "0.06",
+        "unit": "比例",
+        "evidence": [
+          "报告P0269/T08"
+        ]
+      },
+      "debtor_adjust": {
+        "value": "0.705",
+        "unit": "比例",
+        "evidence": [
+          "报告P0271/T09"
+        ]
+      },
+      "legal_rate_1": {
+        "value": "0.0204",
+        "unit": "比例",
+        "evidence": [
+          "报告T10-R02-C04"
+        ]
+      },
+      "legal_rate_2": {
+        "value": "0.0456",
+        "unit": "比例",
+        "evidence": [
+          "报告T10-R03-C04"
+        ]
+      },
+      "natural_rate_each": {
+        "value": "0.0005",
+        "unit": "比例",
+        "evidence": [
+          "报告P0287/T12"
+        ]
+      },
+      "natural_count": {
+        "value": "2",
+        "unit": "人",
+        "evidence": [
+          "报告P0284/T12"
+        ]
+      },
+      "fee": {
+        "value": "0.03",
+        "unit": "比例",
+        "evidence": [
+          "报告P0301~P0302"
+        ]
+      },
+      "noi": {
+        "value": "15416",
+        "unit": "元/年",
+        "evidence": [
+          "报告T07-R22-C04"
+        ]
+      },
+      "yield_rate": {
+        "value": "0.0495",
+        "unit": "比例",
+        "evidence": [
+          "报告T07-R24-C04"
+        ]
+      },
+      "growth": {
+        "value": "0.03",
+        "unit": "比例",
+        "evidence": [
+          "报告T07-R25-C04"
+        ]
+      },
+      "term": {
+        "value": "31.53",
+        "unit": "年",
+        "evidence": [
+          "报告T07-R23-C04"
+        ]
+      }
+    },
+    "nodes": [
+      {
+        "id": "income_example",
+        "formula": "noi / (yield_rate - growth) * (1 - ((1 + growth) / (1 + yield_rate)) ** term)",
+        "unit": "元",
+        "evidence": [
+          "报告P0220~P0226及T07；复核按t=n整理公式"
+        ],
+        "reported": "352923",
+        "tolerance": ".5"
+      },
+      {
+        "id": "base",
+        "formula": "claim - priority - other",
+        "unit": "万元",
+        "evidence": [
+          "报告P0273~P0274"
+        ]
+      },
+      {
+        "id": "debtor_rate",
+        "formula": "debtor_basic * debtor_adjust",
+        "unit": "比例",
+        "evidence": [
+          "报告P0271"
+        ],
+        "reported": ".0423",
+        "tolerance": ".000001"
+      },
+      {
+        "id": "debtor",
+        "formula": "base * debtor_rate",
+        "unit": "万元",
+        "evidence": [
+          "报告P0275"
+        ],
+        "reported": "2162.05",
+        "tolerance": ".005"
+      },
+      {
+        "id": "legal_base",
+        "formula": "base - debtor",
+        "unit": "万元",
+        "evidence": [
+          "报告P0280~P0281"
+        ],
+        "reported": "48950.24",
+        "tolerance": ".005"
+      },
+      {
+        "id": "legal_1",
+        "formula": "legal_base * legal_rate_1",
+        "unit": "万元",
+        "evidence": [
+          "报告T10-R02-C05"
+        ],
+        "reported": "998.58",
+        "tolerance": ".005"
+      },
+      {
+        "id": "legal_2",
+        "formula": "legal_base * legal_rate_2",
+        "unit": "万元",
+        "evidence": [
+          "报告T10-R03-C05"
+        ],
+        "reported": "2232.13",
+        "tolerance": ".005"
+      },
+      {
+        "id": "legal_total",
+        "formula": "legal_1 + legal_2",
+        "unit": "万元",
+        "evidence": [
+          "报告P0282"
+        ],
+        "reported": "3230.72",
+        "tolerance": ".005"
+      },
+      {
+        "id": "natural_total",
+        "formula": "base * natural_rate_each * natural_count",
+        "unit": "万元",
+        "evidence": [
+          "报告P0288~P0290及T12"
+        ],
+        "reported": "51.11",
+        "tolerance": ".005"
+      },
+      {
+        "id": "guarantee",
+        "formula": "legal_total + natural_total",
+        "unit": "万元",
+        "evidence": [
+          "报告P0294"
+        ],
+        "reported": "3281.83",
+        "tolerance": ".005"
+      },
+      {
+        "id": "recovery",
+        "formula": "priority + (debtor + guarantee + other) * (1 - fee)",
+        "unit": "万元",
+        "evidence": [
+          "报告P0301~P0303"
+        ],
+        "reported": "5972.81",
+        "tolerance": ".005"
+      },
+      {
+        "id": "principal_recovery",
+        "formula": "recovery / principal",
+        "unit": "比例",
+        "evidence": [
+          "报告P0304~P0306"
+        ],
+        "reported": ".1336",
+        "tolerance": ".00005"
+      },
+      {
+        "id": "claim_recovery",
+        "formula": "recovery / claim",
+        "unit": "比例",
+        "evidence": [
+          "报告P0307~P0309"
+        ],
+        "reported": ".1153",
+        "tolerance": ".00005"
+      }
+    ],
+    "result": "recovery",
+    "scenarios": [
+      {
+        "name": "债务人基本受偿率下降1个百分点（压力示意）",
+        "reason": "展示本报告实际参数对结果的依赖，不代表替代估值",
+        "overrides": {
+          "debtor_basic": {
+            "value": "0.05",
+            "basis": "stress",
+            "evidence": [
+              "压力假设：基本受偿率由6%降至5%，无事实变更结论"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "values": {
+    "claim": "51812.331352",
+    "principal": "44697.978394",
+    "priority": "440.47",
+    "other": "259.5729",
+    "debtor_basic": "0.06",
+    "debtor_adjust": "0.705",
+    "legal_rate_1": "0.0204",
+    "legal_rate_2": "0.0456",
+    "natural_rate_each": "0.0005",
+    "natural_count": "2",
+    "fee": "0.03",
+    "noi": "15416",
+    "yield_rate": "0.0495",
+    "growth": "0.03",
+    "term": "31.53",
+    "income_example": "352922.7414976010412766960632576783843373",
+    "base": "51112.288452",
+    "debtor_rate": "0.04230",
+    "debtor": "2162.04980151960",
+    "legal_base": "48950.23865048040",
+    "legal_1": "998.584868469800160",
+    "legal_2": "2232.130882461906240",
+    "legal_total": "3230.715750931706400",
+    "natural_total": "51.1122884520",
+    "guarantee": "3281.828039383706400",
+    "recovery": "5972.81721867620720800",
+    "principal_recovery": "0.1336261153922335758333401820025050862706",
+    "claim_recovery": "0.1152779090000483328955608428573225804919"
+  },
+  "checks": [
+    {
+      "id": "income_example",
+      "label": "income_example",
+      "formula": "noi / (yield_rate - growth) * (1 - ((1 + growth) / (1 + yield_rate)) ** term)",
+      "dependencies": [
+        "growth",
+        "noi",
+        "term",
+        "yield_rate"
+      ],
+      "substitution": {
+        "growth": "0.03",
+        "noi": "15416",
+        "term": "31.53",
+        "yield_rate": "0.0495"
+      },
+      "raw": "352922.7414976010412766960632576783843373",
+      "recomputed": "352922.7414976010412766960632576783843373",
+      "unit": "元",
+      "round_to": null,
+      "reported": "352923",
+      "difference": "-0.2585023989587233039367423216156627",
+      "tolerance": "0.5",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "352922.7414976010412766960632576783843373",
+      "local_error": null,
+      "local_difference": "-0.2585023989587233039367423216156627",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0220~P0226及T07；复核按t=n整理公式"
+      ]
+    },
+    {
+      "id": "base",
+      "label": "base",
+      "formula": "claim - priority - other",
+      "dependencies": [
+        "claim",
+        "other",
+        "priority"
+      ],
+      "substitution": {
+        "claim": "51812.331352",
+        "other": "259.5729",
+        "priority": "440.47"
+      },
+      "raw": "51112.288452",
+      "recomputed": "51112.288452",
+      "unit": "万元",
+      "round_to": null,
+      "reported": null,
+      "difference": null,
+      "tolerance": null,
+      "exceeds_tolerance": null,
+      "using_reported_intermediates": "51112.288452",
+      "local_error": null,
+      "local_difference": null,
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0273~P0274"
+      ]
+    },
+    {
+      "id": "debtor_rate",
+      "label": "debtor_rate",
+      "formula": "debtor_basic * debtor_adjust",
+      "dependencies": [
+        "debtor_adjust",
+        "debtor_basic"
+      ],
+      "substitution": {
+        "debtor_adjust": "0.705",
+        "debtor_basic": "0.06"
+      },
+      "raw": "0.04230",
+      "recomputed": "0.04230",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.0423",
+      "difference": "0.00000",
+      "tolerance": "0.000001",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.04230",
+      "local_error": null,
+      "local_difference": "0.00000",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0271"
+      ]
+    },
+    {
+      "id": "debtor",
+      "label": "debtor",
+      "formula": "base * debtor_rate",
+      "dependencies": [
+        "base",
+        "debtor_rate"
+      ],
+      "substitution": {
+        "base": "51112.288452",
+        "debtor_rate": "0.04230"
+      },
+      "raw": "2162.04980151960",
+      "recomputed": "2162.04980151960",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "2162.05",
+      "difference": "-0.00019848040",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "2162.0498015196",
+      "local_error": null,
+      "local_difference": "-0.0001984804",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0275"
+      ]
+    },
+    {
+      "id": "legal_base",
+      "label": "legal_base",
+      "formula": "base - debtor",
+      "dependencies": [
+        "base",
+        "debtor"
+      ],
+      "substitution": {
+        "base": "51112.288452",
+        "debtor": "2162.04980151960"
+      },
+      "raw": "48950.23865048040",
+      "recomputed": "48950.23865048040",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "48950.24",
+      "difference": "-0.00134951960",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "48950.238452",
+      "local_error": null,
+      "local_difference": "-0.001548",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0280~P0281"
+      ]
+    },
+    {
+      "id": "legal_1",
+      "label": "legal_1",
+      "formula": "legal_base * legal_rate_1",
+      "dependencies": [
+        "legal_base",
+        "legal_rate_1"
+      ],
+      "substitution": {
+        "legal_base": "48950.23865048040",
+        "legal_rate_1": "0.0204"
+      },
+      "raw": "998.584868469800160",
+      "recomputed": "998.584868469800160",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "998.58",
+      "difference": "0.004868469800160",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "998.584896",
+      "local_error": null,
+      "local_difference": "0.004896",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告T10-R02-C05"
+      ]
+    },
+    {
+      "id": "legal_2",
+      "label": "legal_2",
+      "formula": "legal_base * legal_rate_2",
+      "dependencies": [
+        "legal_base",
+        "legal_rate_2"
+      ],
+      "substitution": {
+        "legal_base": "48950.23865048040",
+        "legal_rate_2": "0.0456"
+      },
+      "raw": "2232.130882461906240",
+      "recomputed": "2232.130882461906240",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "2232.13",
+      "difference": "0.000882461906240",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "2232.130944",
+      "local_error": null,
+      "local_difference": "0.000944",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告T10-R03-C05"
+      ]
+    },
+    {
+      "id": "legal_total",
+      "label": "legal_total",
+      "formula": "legal_1 + legal_2",
+      "dependencies": [
+        "legal_1",
+        "legal_2"
+      ],
+      "substitution": {
+        "legal_1": "998.584868469800160",
+        "legal_2": "2232.130882461906240"
+      },
+      "raw": "3230.715750931706400",
+      "recomputed": "3230.715750931706400",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "3230.72",
+      "difference": "-0.004249068293600",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "3230.71",
+      "local_error": null,
+      "local_difference": "-0.01",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0282"
+      ]
+    },
+    {
+      "id": "natural_total",
+      "label": "natural_total",
+      "formula": "base * natural_rate_each * natural_count",
+      "dependencies": [
+        "base",
+        "natural_count",
+        "natural_rate_each"
+      ],
+      "substitution": {
+        "base": "51112.288452",
+        "natural_count": "2",
+        "natural_rate_each": "0.0005"
+      },
+      "raw": "51.1122884520",
+      "recomputed": "51.1122884520",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "51.11",
+      "difference": "0.0022884520",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "51.1122884520",
+      "local_error": null,
+      "local_difference": "0.0022884520",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0288~P0290及T12"
+      ]
+    },
+    {
+      "id": "guarantee",
+      "label": "guarantee",
+      "formula": "legal_total + natural_total",
+      "dependencies": [
+        "legal_total",
+        "natural_total"
+      ],
+      "substitution": {
+        "legal_total": "3230.715750931706400",
+        "natural_total": "51.1122884520"
+      },
+      "raw": "3281.828039383706400",
+      "recomputed": "3281.828039383706400",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "3281.83",
+      "difference": "-0.001960616293600",
+      "tolerance": "0.005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "3281.83",
+      "local_error": null,
+      "local_difference": "0.00",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0294"
+      ]
+    },
+    {
+      "id": "recovery",
+      "label": "recovery",
+      "formula": "priority + (debtor + guarantee + other) * (1 - fee)",
+      "dependencies": [
+        "debtor",
+        "fee",
+        "guarantee",
+        "other",
+        "priority"
+      ],
+      "substitution": {
+        "debtor": "2162.04980151960",
+        "fee": "0.03",
+        "guarantee": "3281.828039383706400",
+        "other": "259.5729",
+        "priority": "440.47"
+      },
+      "raw": "5972.81721867620720800",
+      "recomputed": "5972.81721867620720800",
+      "unit": "万元",
+      "round_to": null,
+      "reported": "5972.81",
+      "difference": "0.00721867620720800",
+      "tolerance": "0.005",
+      "exceeds_tolerance": true,
+      "using_reported_intermediates": "5972.819313",
+      "local_error": null,
+      "local_difference": "0.009313",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0301~P0303"
+      ]
+    },
+    {
+      "id": "principal_recovery",
+      "label": "principal_recovery",
+      "formula": "recovery / principal",
+      "dependencies": [
+        "principal",
+        "recovery"
+      ],
+      "substitution": {
+        "principal": "44697.978394",
+        "recovery": "5972.81721867620720800"
+      },
+      "raw": "0.1336261153922335758333401820025050862706",
+      "recomputed": "0.1336261153922335758333401820025050862706",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.1336",
+      "difference": "0.0000261153922335758333401820025050862706",
+      "tolerance": "0.00005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.1336259538932918658209327694096696913804",
+      "local_error": null,
+      "local_difference": "0.0000259538932918658209327694096696913804",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0304~P0306"
+      ]
+    },
+    {
+      "id": "claim_recovery",
+      "label": "claim_recovery",
+      "formula": "recovery / claim",
+      "dependencies": [
+        "claim",
+        "recovery"
+      ],
+      "substitution": {
+        "claim": "51812.331352",
+        "recovery": "5972.81721867620720800"
+      },
+      "raw": "0.1152779090000483328955608428573225804919",
+      "recomputed": "0.1152779090000483328955608428573225804919",
+      "unit": "比例",
+      "round_to": null,
+      "reported": "0.1153",
+      "difference": "-0.0000220909999516671044391571426774195081",
+      "tolerance": "0.00005",
+      "exceeds_tolerance": false,
+      "using_reported_intermediates": "0.1152777696765317328390577532721249474032",
+      "local_error": null,
+      "local_difference": "-0.0000222303234682671609422467278750525968",
+      "reported_formula_text": null,
+      "reported_substitution_text": null,
+      "evidence": [
+        "报告P0307~P0309"
+      ]
+    }
+  ],
+  "result_id": "recovery",
+  "result": "5972.81721867620720800",
+  "scope": "Arithmetic only; units, evidence truth, formula applicability and business impact require review.",
+  "sensitivity": [
+    {
+      "name": "债务人基本受偿率下降1个百分点（压力示意）",
+      "reason": "展示本报告实际参数对结果的依赖，不代表替代估值",
+      "overrides": {
+        "debtor_basic": {
+          "value": "0.05",
+          "basis": "stress",
+          "evidence": [
+            "压力假设：基本受偿率由6%降至5%，无事实变更结论"
+          ]
+        }
+      },
+      "result": "5646.35490547941934000",
+      "delta": "-326.46231319678786800",
+      "values": {
+        "claim": "51812.331352",
+        "principal": "44697.978394",
+        "priority": "440.47",
+        "other": "259.5729",
+        "debtor_basic": "0.05",
+        "debtor_adjust": "0.705",
+        "legal_rate_1": "0.0204",
+        "legal_rate_2": "0.0456",
+        "natural_rate_each": "0.0005",
+        "natural_count": "2",
+        "fee": "0.03",
+        "noi": "15416",
+        "yield_rate": "0.0495",
+        "growth": "0.03",
+        "term": "31.53",
+        "income_example": "352922.7414976010412766960632576783843373",
+        "base": "51112.288452",
+        "debtor_rate": "0.03525",
+        "debtor": "1801.70816793300",
+        "legal_base": "49310.58028406700",
+        "legal_1": "1005.935837794966800",
+        "legal_2": "2248.562460953455200",
+        "legal_total": "3254.498298748422000",
+        "natural_total": "51.1122884520",
+        "guarantee": "3305.610587200422000",
+        "recovery": "5646.35490547941934000",
+        "principal_recovery": "0.1263223776187012879694847167364712024743",
+        "claim_recovery": "0.1089770477054873008448214789375687307714"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "purpose": "适配预检中的有限验算，不是完整复核或替代估值",
+  "unit": "万元",
+  "priority_input_note": "440.47来自报告展示数，未取得逐项未取整底稿",
+  "claim": "51812.331352",
+  "priority": "440.47",
+  "other": "259.5729",
+  "base": "51112.288452",
+  "debtor": "2162.0498015196",
+  "legal_base": "48950.2386504804",
+  "legal_guarantors": [
+    "998.58486846980016",
+    "2232.13088246190624"
+  ],
+  "natural_guarantors_total": "51.112288452",
+  "guarantee_total": "3281.82803938370640",
+  "recovery_using_displayed_priority": "5972.8172186762072080",
+  "reported_recovery": "5972.81",
+  "difference_yuan": "72.1867620720800000",
+  "displayed_component_formula_result": "5972.8165",
+  "income_example_recomputed_yuan": "352922.7414976010412766960627"
+}
