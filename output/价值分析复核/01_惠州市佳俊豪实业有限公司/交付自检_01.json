@@ -1,22 +1,17 @@
 {
- "date": "2026-11-14",
- "checks": 51,
- "facts": 7,
- "independent_issues": 7,
- "evidence_ids_verified": true,
- "source_blobs_pinned": true,
- "recomputed_recovery_wanyuan": "4671.2337060528318720",
- "report_recovery_wanyuan": "4671.23",
- "delta_yuan": "37.0605283187200000",
- "exceeds_tolerance": [],
- "workbook_xml_valid": true,
- "limits": [
-  "旧版 .doc 已定位。连接器未返回大文件内容，本轮未直读；现有转述单列。",
-  "未取得独立当期经办访谈、原始贷款台账和支付/回款凭证。",
-  "现有查册分户报告和清单为整理成果。原始登记簿、逐证权利文书及 audit_all.json 未纳入可读仓库资料。",
-  "抵押物逐项未取整估值表、全部可比原始成交或租赁凭证及评估机构内部工作底稿未取得。",
-  "程序按披露模型核算。机构结论能否采信取决于事实、权利和参数的复核。",
-  "报告含嵌套表格、对象或图片的提示见证据索引。已定位主要计算表，附件和非正文图形未作完整实质核验。"
- ],
- "workbook_formula_results_match": true
+  "date": "2026-11-14",
+  "facts": 30,
+  "checks": 51,
+  "independent_issues": 11,
+  "area_difference_units": 16,
+  "area_delta_sqm": "283.58",
+  "calculation_nodes": 56,
+  "condition_scenarios": 7,
+  "source_hashes_verified": true,
+  "evidence_ids_verified": true,
+  "workbook_xml_valid": true,
+  "workbook_formula_results_match": true,
+  "old_dd_directly_read": false,
+  "recomputed_recovery_wanyuan": "4671.2337060528318720",
+  "report_recovery_wanyuan": "4671.23"
 }

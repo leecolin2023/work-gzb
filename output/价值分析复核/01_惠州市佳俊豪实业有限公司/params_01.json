@@ -461,6 +461,182 @@
     "VR:T27-R07-C03"
    ],
    "label": "郭金兰模型受偿率"
+  },
+  "vat": {
+   "value": ".09",
+   "evidence": [
+    "VR:P0243"
+   ],
+   "unit": "比例",
+   "label": "vat 示例费率"
+  },
+  "city": {
+   "value": ".07",
+   "evidence": [
+    "VR:P0244"
+   ],
+   "unit": "比例",
+   "label": "city 示例费率"
+  },
+  "education": {
+   "value": ".03",
+   "evidence": [
+    "VR:P0245"
+   ],
+   "unit": "比例",
+   "label": "education 示例费率"
+  },
+  "local_education": {
+   "value": ".02",
+   "evidence": [
+    "VR:P0246"
+   ],
+   "unit": "比例",
+   "label": "local_education 示例费率"
+  },
+  "stamp": {
+   "value": ".0005",
+   "evidence": [
+    "VR:P0247"
+   ],
+   "unit": "比例",
+   "label": "stamp 示例费率"
+  },
+  "lat": {
+   "value": ".05",
+   "evidence": [
+    "VR:P0248"
+   ],
+   "unit": "比例",
+   "label": "lat 示例费率"
+  },
+  "sample_cit_assumed": {
+   "value": "0",
+   "evidence": [
+    "VR:P0249"
+   ],
+   "unit": "元",
+   "label": "企业所得税示例列示额（资料不足）"
+  },
+  "equity_basic": {
+   "value": ".03",
+   "evidence": [
+    "VR:P0268"
+   ],
+   "unit": "比例",
+   "label": "equity_basic"
+  },
+  "equity_capital": {
+   "value": "30000000",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "元",
+   "label": "equity_capital"
+  },
+  "equity_fraction": {
+   "value": "1",
+   "evidence": [
+    "VR:P0261"
+   ],
+   "unit": "比例",
+   "label": "equity_fraction"
+  },
+  "equity_k1": {
+   "value": ".8",
+   "evidence": [
+    "VR:P0268"
+   ],
+   "unit": "比例",
+   "label": "equity_k1"
+  },
+  "equity_k2": {
+   "value": ".8",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "比例",
+   "label": "equity_k2"
+  },
+  "equity_k3": {
+   "value": ".4",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "比例",
+   "label": "equity_k3"
+  },
+  "equity_w1": {
+   "value": ".5",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "比例",
+   "label": "equity_w1"
+  },
+  "equity_w2": {
+   "value": ".25",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "比例",
+   "label": "equity_w2"
+  },
+  "equity_w3": {
+   "value": ".25",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "比例",
+   "label": "equity_w3"
+  },
+  "equity_admitted": {
+   "value": "0",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "万元",
+   "label": "股权新增计值（报告）"
+  },
+  "case_fee1": {
+   "value": "1126773.59",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "label": "一审预交"
+  },
+  "case_fee2": {
+   "value": "580292.50",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "label": "二审预交"
+  },
+  "fee_refund_order": {
+   "value": "1105000",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "label": "一审列示应退"
+  },
+  "fee_self": {
+   "value": "21773.59",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "label": "一审列示银行负担"
+  },
+  "report_disclosed_recovery": {
+   "value": "4671.23",
+   "evidence": [
+    "VR:P0317"
+   ],
+   "unit": "万元",
+   "label": "报告回收展示值"
   }
  },
  "nodes": [
@@ -474,6 +650,39 @@
    "unit": "万元",
    "reported": "23456.72",
    "tolerance": ".005"
+  },
+  {
+   "id": "litigation_paid",
+   "label": "两审已缴合计",
+   "formula": "case_fee1+case_fee2",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "reported": "1707066.09",
+   "tolerance": "0"
+  },
+  {
+   "id": "litigation_gap",
+   "label": "清单与已缴差",
+   "formula": "booked_fee*10000-litigation_paid",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "reported": "198",
+   "tolerance": "0"
+  },
+  {
+   "id": "first_case_split",
+   "label": "一审费用负担与应退勾稽",
+   "formula": "fee_refund_order+fee_self",
+   "evidence": [
+    "VR:P0311"
+   ],
+   "unit": "元",
+   "reported": "1126773.59",
+   "tolerance": "0"
   },
   {
    "id": "adjusted1",
@@ -553,9 +762,81 @@
    "round_to": "1"
   },
   {
+   "id": "sample_vat",
+   "label": "增值税",
+   "formula": "sample_gross/(1+vat)*vat",
+   "evidence": [
+    "VR:P0243"
+   ],
+   "unit": "元",
+   "reported": "26828",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_city",
+   "label": "城建税",
+   "formula": "sample_vat*city",
+   "evidence": [
+    "VR:P0244"
+   ],
+   "unit": "元",
+   "reported": "1878",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_edu",
+   "label": "教育附加",
+   "formula": "sample_vat*education",
+   "evidence": [
+    "VR:P0245"
+   ],
+   "unit": "元",
+   "reported": "805",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_local",
+   "label": "地方教育附加",
+   "formula": "sample_vat*local_education",
+   "evidence": [
+    "VR:P0246"
+   ],
+   "unit": "元",
+   "reported": "537",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_stamp",
+   "label": "印花税",
+   "formula": "sample_gross*stamp",
+   "evidence": [
+    "VR:P0247"
+   ],
+   "unit": "元",
+   "reported": "162",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_lat",
+   "label": "土地增值税估算",
+   "formula": "sample_gross*lat",
+   "evidence": [
+    "VR:P0248"
+   ],
+   "unit": "元",
+   "reported": "16246",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
    "id": "sample_tax",
    "label": "示例税费各项合计",
-   "formula": "26828+1878+805+537+162+16246+0",
+   "formula": "sample_vat+sample_city+sample_edu+sample_local+sample_stamp+sample_lat+sample_cit_assumed",
    "evidence": [
     "VR:P0254"
    ],
@@ -575,9 +856,31 @@
    "tolerance": "0"
   },
   {
+   "id": "equity_rate",
+   "label": "质押股权评分受偿率",
+   "formula": "equity_basic*(equity_k1*equity_w1+equity_k2*equity_w2+equity_k3*equity_w3)",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "比例",
+   "reported": ".021",
+   "tolerance": "0"
+  },
+  {
+   "id": "equity_trial",
+   "label": "质押股权评分演算",
+   "formula": "equity_capital*equity_fraction*equity_rate",
+   "evidence": [
+    "VR:P0269"
+   ],
+   "unit": "元",
+   "reported": "630000",
+   "tolerance": "0"
+  },
+  {
    "id": "priority",
    "label": "优先受偿（股权新增计零）",
-   "formula": "min(claim_sum,max(mortgage_net-prior_claim,0))",
+   "formula": "min(claim_sum,max(mortgage_net-prior_claim,0)+equity_admitted)",
    "evidence": [
     "VR:P0258",
     "VR:P0269"
@@ -915,7 +1218,7 @@
   {
    "id": "guaranty",
    "label": "保证人合计",
-   "formula": "corporate_total+personal_total",
+   "formula": "min(corporate_base,corporate_total+personal_total)",
    "evidence": [
     "VR:P0307"
    ],
@@ -961,40 +1264,106 @@
  "result": "recovery",
  "scenarios": [
   {
-   "name": "非优先处置费率上升1个百分点",
-   "reason": "仅用于判断3%取值敏感性，其他输入固定。",
+   "name": "同标的有效先位款为1,000万元",
+   "reason": "观察68套有591.09万元优先净值时一般和保证基数如何缩减。先位款仅为情景。",
    "overrides": {
-    "disposal": {
-     "value": ".04",
+    "prior_claim": {
+     "value": "1000",
      "basis": "stress",
      "evidence": [
-      "仅用于判断3%取值敏感性，其他输入固定。"
+      "观察68套有591.09万元优先净值时一般和保证基数如何缩减。先位款仅为情景。"
      ]
     }
    }
   },
   {
-   "name": "债务人基本受偿率下降1个百分点",
-   "reason": "仅用于判断经营或资料调整敏感性，未认定应当降档。",
-   "overrides": {
-    "debtor_basic": {
-     "value": "0.07",
-     "basis": "stress",
-     "evidence": [
-      "仅用于判断经营或资料调整敏感性，未认定应当降档。"
-     ]
-    }
-   }
-  },
-  {
-   "name": "优先工程款不覆盖该批抵押（极端边界）",
-   "reason": "只用于观察标的对应关系对原模型的影响，未判断优先权范围。",
+   "name": "同标的有效先位款为0（上界）",
+   "reason": "仅作范围边界，适用金额待裁判及分配。",
    "overrides": {
     "prior_claim": {
      "value": "0",
      "basis": "stress",
      "evidence": [
-      "只用于观察标的对应关系对原模型的影响，未判断优先权范围。"
+      "仅作范围边界，适用金额待裁判及分配。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "资料不完备调整0→-1分",
+   "reason": "基本率8%变7%，法人基数反向变化。",
+   "overrides": {
+    "debtor_basic": {
+     "value": ".07",
+     "basis": "stress",
+     "evidence": [
+      "基本率8%变7%，法人基数反向变化。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "借款人资产5分→0分",
+   "reason": "同批房产可分配净值未核时的敏感度，维持经营仍为3分。",
+   "overrides": {
+    "debtor_basic": {
+     "value": ".03",
+     "basis": "stress",
+     "evidence": [
+      "同批房产可分配净值未核时的敏感度，维持经营仍为3分。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "两名清单范围待核法人保证模型贡献暂取0",
+   "reason": "仅测试中望与深圳赣茂两行，待合同及判项确认。",
+   "overrides": {
+    "corporate7_basic": {
+     "value": "0",
+     "basis": "stress",
+     "evidence": [
+      "仅测试中望与深圳赣茂两行，待合同及判项确认。"
+     ]
+    },
+    "corporate9_basic": {
+     "value": "0",
+     "basis": "stress",
+     "evidence": [
+      "仅测试中望与深圳赣茂两行，待合同及判项确认。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "应退110.5万元已到账且不再作为债权",
+   "reason": "仅展示条件；将清单代垫和单列赔偿同步减110.5万元。",
+   "overrides": {
+    "booked_fee": {
+     "value": "60.226409",
+     "basis": "stress",
+     "evidence": [
+      "仅展示条件；将清单代垫和单列赔偿同步减110.5万元。"
+     ]
+    },
+    "other": {
+     "value": "60.226409",
+     "basis": "stress",
+     "evidence": [
+      "仅展示条件；将清单代垫和单列赔偿同步减110.5万元。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "非优先处置费率从3%升至4%",
+   "reason": "只调整一般、保证与其他赔偿的费率。",
+   "overrides": {
+    "disposal": {
+     "value": ".04",
+     "basis": "stress",
+     "evidence": [
+      "只调整一般、保证与其他赔偿的费率。"
      ]
     }
    }
@@ -1004,6 +1373,9 @@
   "逐项资产总表和原始估值参数未取得。抵押净值总额为报告披露输入。",
   "七因素检查采用披露的加权贡献。报告采用系数与加权合计分别展示。",
   "保证人调整系数采用报告披露值，参数依据在复核意见中记录。",
-  "万元保留两位显示，数值账保留未取整结果；差值为复算减报告。"
+  "万元保留两位显示，数值账保留未取整结果；差值为复算减报告。",
+  "先位款金额采用报告展示万元口径；正式适用范围须按裁判及分配表回核。",
+  "68套抵押物缺完整单套估值表；面积版本差和房屋用途差作为独立事实审查。",
+  "税额逐项按报告公式复算，参数为报告取值。"
  ]
 }
