@@ -1,11 +1,28 @@
 {
- "source": "/home/ubuntu/data/2026buliang/2026buliang_债权价值分析报告_20261114/05-岭南水务集团有限公司-债权价值分析报告.docx",
+ "source": "2026bulinag/05_岭南水务集团有限公司/债权价值分析报告/05-岭南水务集团有限公司-债权价值分析报告.docx",
  "format": "docx",
- "generated": "2026-11-14 12:03:02",
+ "generated": "2026-11-13 20:59:45",
  "count": 905,
  "needs_ocr": false,
  "low_confidence": false,
  "warning": "",
+ "extraction_gaps": [
+  {
+   "kind": "VML图片/公式",
+   "count": 2,
+   "action": "回原文检查是否包含公式或估值证据；不能因文字提取成功忽略"
+  },
+  {
+   "kind": "嵌入对象",
+   "count": 2,
+   "action": "回原文检查是否包含公式或估值证据；不能因文字提取成功忽略"
+  },
+  {
+   "kind": "嵌套表格",
+   "action": "当前索引不保证完整，回原文核验"
+  }
+ ],
+ "completeness_verified": false,
  "items": [
   {
    "id": "P0001",

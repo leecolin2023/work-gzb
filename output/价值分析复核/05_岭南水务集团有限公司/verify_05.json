@@ -1,0 +1,2039 @@
+{
+ "model": "formula_graph",
+ "params": {
+  "model": "formula_graph",
+  "inputs": {
+   "claim_total": {
+    "value": "51812.331352",
+    "unit": "万元",
+    "evidence": [
+     "BK:0-概览!B6",
+     "VR:T04-R02-C07"
+    ],
+    "label": "债权合计（提取表）"
+   },
+   "principal": {
+    "value": "44697.978394",
+    "unit": "万元",
+    "evidence": [
+     "BK:0-概览!B7",
+     "VR:T04-R02-C04"
+    ],
+    "label": "本金（提取表）"
+   },
+   "interest": {
+    "value": "6854.780058",
+    "unit": "万元",
+    "evidence": [
+     "BK:0-概览!B8",
+     "VR:T04-R02-C05"
+    ],
+    "label": "欠息（提取表）"
+   },
+   "booked_fee": {
+    "value": "259.5729",
+    "unit": "万元",
+    "evidence": [
+     "BK:0-概览!B9",
+     "VR:T04-R02-C06"
+    ],
+    "label": "清单代垫费（提取表）"
+   },
+   "sample_area": {
+    "value": "141.15",
+    "unit": "平方米",
+    "evidence": [
+     "VR:P0249"
+    ],
+    "label": "示例面积"
+   },
+   "sample_discount": {
+    "value": "0.45",
+    "unit": "比例",
+    "evidence": [
+     "VR:P0249"
+    ],
+    "label": "示例变现率"
+   },
+   "rent": {
+    "value": "16.00",
+    "unit": "元/平方米·月",
+    "evidence": [
+     "VR:T07-R03-C04"
+    ],
+    "label": "月租金"
+   },
+   "effective_area": {
+    "value": "1",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R07-C06"
+    ],
+    "label": "有效出租面积率"
+   },
+   "occupancy": {
+    "value": "0.90",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R08-C06"
+    ],
+    "label": "出租率"
+   },
+   "deposit_yield": {
+    "value": "0.0095",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R10-C06"
+    ],
+    "label": "押金利率"
+   },
+   "yield_rate": {
+    "value": "0.0495",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R24-C04"
+    ],
+    "label": "资产端报酬率"
+   },
+   "growth": {
+    "value": "0.03",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R25-C04"
+    ],
+    "label": "增长率"
+   },
+   "years": {
+    "value": "31.53",
+    "unit": "年",
+    "evidence": [
+     "VR:T07-R23-C04"
+    ],
+    "label": "收益期"
+   },
+   "management": {
+    "value": "0.01",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R12-C04"
+    ],
+    "label": "management"
+   },
+   "insurance": {
+    "value": "0.001",
+    "unit": "比例",
+    "evidence": [
+     "VR:T07-R21-C04"
+    ],
+    "label": "insurance"
+   },
+   "rebuild_unit": {
+    "value": "3000",
+    "unit": "元/平方米",
+    "evidence": [
+     "VR:P0206"
+    ],
+    "label": "重置单价"
+   },
+   "printed_noi": {
+    "value": "15416",
+    "unit": "元",
+    "evidence": [
+     "VR:T07-R22-C04"
+    ],
+    "label": "收益法表内展示净收益"
+   },
+   "mortgage_net": {
+    "value": "440.47",
+    "unit": "万元",
+    "evidence": [
+     "VR:P0253"
+    ],
+    "label": "报告披露抵押税后净值总额"
+   },
+   "other": {
+    "value": "259.5729",
+    "unit": "万元",
+    "evidence": [
+     "VR:P0298"
+    ],
+    "label": "报告单列其他赔偿"
+   },
+   "disposal": {
+    "value": "0.03",
+    "unit": "比例",
+    "evidence": [
+     "VR:P0302"
+    ],
+    "label": "非优先部分处置费率"
+   },
+   "debtor_basic": {
+    "value": "0.06",
+    "unit": "比例",
+    "evidence": [
+     "VR:P0268",
+     "VR:P0271"
+    ],
+    "label": "债务人基本受偿率"
+   },
+   "debtor_coeff_print": {
+    "value": "0.705",
+    "unit": "比例",
+    "evidence": [
+     "VR:P0271"
+    ],
+    "label": "报告采用债务人调整系数"
+   },
+   "debtor_k1": {
+    "value": "0.105",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R02-C06"
+    ],
+    "label": "七因子第1项加权贡献"
+   },
+   "weight1": {
+    "value": "0.15",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R02-C05"
+    ],
+    "label": "七因子第1项权重"
+   },
+   "debtor_k2": {
+    "value": "0.09",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R08-C06"
+    ],
+    "label": "七因子第2项加权贡献"
+   },
+   "weight2": {
+    "value": "0.15",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R08-C05"
+    ],
+    "label": "七因子第2项权重"
+   },
+   "debtor_k3": {
+    "value": "0.12",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R17-C06"
+    ],
+    "label": "七因子第3项加权贡献"
+   },
+   "weight3": {
+    "value": "0.15",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R17-C05"
+    ],
+    "label": "七因子第3项权重"
+   },
+   "debtor_k4": {
+    "value": "0.16",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R24-C06"
+    ],
+    "label": "七因子第4项加权贡献"
+   },
+   "weight4": {
+    "value": "0.2",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R24-C05"
+    ],
+    "label": "七因子第4项权重"
+   },
+   "debtor_k5": {
+    "value": "0.08",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R30-C06"
+    ],
+    "label": "七因子第5项加权贡献"
+   },
+   "weight5": {
+    "value": "0.1",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R30-C05"
+    ],
+    "label": "七因子第5项权重"
+   },
+   "debtor_k6": {
+    "value": "0.09",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R36-C06"
+    ],
+    "label": "七因子第6项加权贡献"
+   },
+   "weight6": {
+    "value": "0.1",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R36-C05"
+    ],
+    "label": "七因子第6项权重"
+   },
+   "debtor_k7": {
+    "value": "0.06",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R43-C06"
+    ],
+    "label": "七因子第7项加权贡献"
+   },
+   "weight7": {
+    "value": "0.15",
+    "unit": "比例",
+    "evidence": [
+     "VR:T09-R43-C05"
+    ],
+    "label": "七因子第7项权重"
+   },
+   "corporate2_basic": {
+    "value": "0.03",
+    "unit": "比例",
+    "evidence": [
+     "VR:T10-R02-C02"
+    ],
+    "label": "岭南生态文旅股份有限公司（维持经营）基本率"
+   },
+   "corporate2_coeff": {
+    "value": "0.68",
+    "unit": "比例",
+    "evidence": [
+     "VR:T10-R02-C03"
+    ],
+    "label": "岭南生态文旅股份有限公司（维持经营）调整系数"
+   },
+   "corporate3_basic": {
+    "value": "0.08",
+    "unit": "比例",
+    "evidence": [
+     "VR:T10-R03-C02"
+    ],
+    "label": "广西岭域创和文旅投资有限公司（维持经营）基本率"
+   },
+   "corporate3_coeff": {
+    "value": "0.57",
+    "unit": "比例",
+    "evidence": [
+     "VR:T10-R03-C03"
+    ],
+    "label": "广西岭域创和文旅投资有限公司（维持经营）调整系数"
+   },
+   "personal2_rate": {
+    "value": "0.0005",
+    "unit": "比例",
+    "evidence": [
+     "VR:T12-R02-C03"
+    ],
+    "label": "尹洪卫模型受偿率"
+   },
+   "personal3_rate": {
+    "value": "0.0005",
+    "unit": "比例",
+    "evidence": [
+     "VR:T12-R03-C03"
+    ],
+    "label": "古钰瑭模型受偿率"
+   }
+  },
+  "nodes": [
+   {
+    "id": "claim_sum",
+    "label": "债权分项合计",
+    "formula": "principal+interest+booked_fee",
+    "evidence": [
+     "VR:T04-R02-C07"
+    ],
+    "unit": "万元",
+    "reported": "51812.33",
+    "tolerance": ".005"
+   },
+   {
+    "id": "rent_potential",
+    "label": "年潜在毛租金",
+    "formula": "sample_area*rent*12",
+    "evidence": [
+     "VR:T07-R06-C06"
+    ],
+    "unit": "元",
+    "reported": "27101",
+    "tolerance": "1"
+   },
+   {
+    "id": "rent_actual",
+    "label": "年实际租金（模型）",
+    "formula": "rent_potential*effective_area*occupancy",
+    "evidence": [
+     "VR:T07-R05-C05"
+    ],
+    "unit": "元",
+    "reported": "24391",
+    "tolerance": "1"
+   },
+   {
+    "id": "deposit",
+    "label": "押金收益",
+    "formula": "sample_area*rent*2*deposit_yield*effective_area*occupancy",
+    "evidence": [
+     "VR:T07-R09-C05"
+    ],
+    "unit": "元",
+    "reported": "39",
+    "tolerance": "1"
+   },
+   {
+    "id": "rent_gross",
+    "label": "年有效毛收入",
+    "formula": "rent_actual+deposit",
+    "evidence": [
+     "VR:T07-R04-C04"
+    ],
+    "unit": "元",
+    "reported": "24430",
+    "tolerance": "1"
+   },
+   {
+    "id": "opex",
+    "label": "年运营费用（按披露参数）",
+    "formula": "rent_gross*management+sample_area*rebuild_unit*.01+rent_actual/1.05*.12+rent_actual/1.05*.05*1.12+rent_actual*.001+sample_area*rebuild_unit*insurance",
+    "evidence": [
+     "VR:T07-R11-C04"
+    ],
+    "unit": "元",
+    "reported": "9014",
+    "tolerance": "2"
+   },
+   {
+    "id": "noi",
+    "label": "首年净收益",
+    "formula": "rent_gross-opex",
+    "evidence": [
+     "VR:T07-R22-C04"
+    ],
+    "unit": "元",
+    "reported": "15416",
+    "tolerance": "2"
+   },
+   {
+    "id": "income_value",
+    "label": "有限期增长收益法（展示净收益）",
+    "formula": "printed_noi/(yield_rate-growth)*(1-((1+growth)/(1+yield_rate))**years)",
+    "evidence": [
+     "VR:T07-R26-C04"
+    ],
+    "unit": "元",
+    "reported": "352923",
+    "tolerance": "2"
+   },
+   {
+    "id": "sample_unit",
+    "label": "收益法采用单价",
+    "formula": "income_value/sample_area",
+    "evidence": [
+     "VR:P0227"
+    ],
+    "unit": "元/平方米",
+    "reported": "2500",
+    "tolerance": "0",
+    "round_to": "100"
+   },
+   {
+    "id": "sample_gross",
+    "label": "示例变现毛值",
+    "formula": "sample_unit*sample_area*sample_discount",
+    "evidence": [
+     "VR:P0249"
+    ],
+    "unit": "元",
+    "reported": "158794",
+    "tolerance": "0",
+    "round_to": "1"
+   },
+   {
+    "id": "sample_tax",
+    "label": "示例税费各项合计",
+    "formula": "13111+918+393+262+79+7940+0",
+    "evidence": [
+     "VR:P0250"
+    ],
+    "unit": "元",
+    "reported": "22703",
+    "tolerance": "0"
+   },
+   {
+    "id": "sample_net",
+    "label": "示例税后变现净值",
+    "formula": "sample_gross-sample_tax",
+    "evidence": [
+     "VR:P0252"
+    ],
+    "unit": "元",
+    "reported": "136091",
+    "tolerance": "0"
+   },
+   {
+    "id": "priority",
+    "label": "优先受偿（股权新增计零）",
+    "formula": "min(claim_sum,mortgage_net)",
+    "evidence": [
+     "VR:P0253",
+     "VR:P0256"
+    ],
+    "unit": "万元",
+    "reported": "440.47",
+    "tolerance": ".01"
+   },
+   {
+    "id": "weight_total",
+    "label": "七因素权重合计",
+    "formula": "weight1+weight2+weight3+weight4+weight5+weight6+weight7",
+    "evidence": [
+     "VR:T09-R48-C05"
+    ],
+    "unit": "比例",
+    "reported": "1",
+    "tolerance": "0"
+   },
+   {
+    "id": "debtor_coeff",
+    "label": "七因子加权贡献合计",
+    "formula": "debtor_k1+debtor_k2+debtor_k3+debtor_k4+debtor_k5+debtor_k6+debtor_k7",
+    "evidence": [
+     "VR:P0271"
+    ],
+    "unit": "比例",
+    "reported": "0.705",
+    "tolerance": "0"
+   },
+   {
+    "id": "debtor_rate",
+    "label": "债务人一般受偿率（报告选用系数）",
+    "formula": "debtor_basic*debtor_coeff_print",
+    "evidence": [
+     "VR:P0271"
+    ],
+    "unit": "比例",
+    "reported": "0.0423",
+    "tolerance": "0"
+   },
+   {
+    "id": "remaining",
+    "label": "债权扣优先受偿及单列赔偿",
+    "formula": "max(claim_sum-priority-other,0)",
+    "evidence": [
+     "VR:P0275"
+    ],
+    "unit": "万元"
+   },
+   {
+    "id": "debtor",
+    "label": "债务人一般受偿",
+    "formula": "remaining*debtor_rate",
+    "evidence": [
+     "VR:P0275"
+    ],
+    "unit": "万元",
+    "reported": "2162.05",
+    "tolerance": ".01"
+   },
+   {
+    "id": "corporate_base",
+    "label": "法人保证基数",
+    "formula": "max(remaining-debtor,0)",
+    "evidence": [
+     "VR:P0281"
+    ],
+    "unit": "万元"
+   },
+   {
+    "id": "corporate2_rate",
+    "label": "岭南生态文旅股份有限公司（维持经营）受偿率",
+    "formula": "corporate2_basic*corporate2_coeff",
+    "evidence": [
+     "VR:T10-R02-C04"
+    ],
+    "unit": "比例",
+    "reported": "0.0204",
+    "tolerance": "0"
+   },
+   {
+    "id": "corporate2",
+    "label": "岭南生态文旅股份有限公司（维持经营）受偿金额",
+    "formula": "corporate_base*corporate2_rate",
+    "evidence": [
+     "VR:T10-R02-C05"
+    ],
+    "unit": "万元",
+    "reported": "998.58",
+    "tolerance": ".01"
+   },
+   {
+    "id": "corporate3_rate",
+    "label": "广西岭域创和文旅投资有限公司（维持经营）受偿率",
+    "formula": "corporate3_basic*corporate3_coeff",
+    "evidence": [
+     "VR:T10-R03-C04"
+    ],
+    "unit": "比例",
+    "reported": "0.0456",
+    "tolerance": "0"
+   },
+   {
+    "id": "corporate3",
+    "label": "广西岭域创和文旅投资有限公司（维持经营）受偿金额",
+    "formula": "corporate_base*corporate3_rate",
+    "evidence": [
+     "VR:T10-R03-C05"
+    ],
+    "unit": "万元",
+    "reported": "2232.13",
+    "tolerance": ".01"
+   },
+   {
+    "id": "corporate_total",
+    "label": "法人保证合计",
+    "formula": "corporate2+corporate3",
+    "evidence": [
+     "VR:T10-R04-C05"
+    ],
+    "unit": "万元",
+    "reported": "3230.72",
+    "tolerance": ".01"
+   },
+   {
+    "id": "personal2",
+    "label": "尹洪卫受偿金额",
+    "formula": "remaining*personal2_rate",
+    "evidence": [
+     "VR:T12-R02-C04"
+    ],
+    "unit": "万元",
+    "reported": "25.56",
+    "tolerance": ".01"
+   },
+   {
+    "id": "personal3",
+    "label": "古钰瑭受偿金额",
+    "formula": "remaining*personal3_rate",
+    "evidence": [
+     "VR:T12-R03-C04"
+    ],
+    "unit": "万元",
+    "reported": "25.56",
+    "tolerance": ".01"
+   },
+   {
+    "id": "personal_total",
+    "label": "自然人保证合计",
+    "formula": "personal2+personal3",
+    "evidence": [
+     "VR:T12-R04-C04"
+    ],
+    "unit": "万元",
+    "reported": "51.11",
+    "tolerance": ".01"
+   },
+   {
+    "id": "guaranty",
+    "label": "保证人合计",
+    "formula": "corporate_total+personal_total",
+    "evidence": [
+     "VR:P0294"
+    ],
+    "unit": "万元",
+    "reported": "3281.83",
+    "tolerance": ".01"
+   },
+   {
+    "id": "recovery",
+    "label": "报告模型回收合计",
+    "formula": "priority+(debtor+guaranty+other)*(1-disposal)",
+    "evidence": [
+     "VR:P0302",
+     "VR:P0303"
+    ],
+    "unit": "万元",
+    "reported": "5972.81",
+    "tolerance": ".01"
+   },
+   {
+    "id": "principal_rate",
+    "label": "本金回收率",
+    "formula": "recovery/principal",
+    "evidence": [
+     "VR:T13-R02-C07"
+    ],
+    "unit": "比例",
+    "reported": "0.1336",
+    "tolerance": ".00005"
+   },
+   {
+    "id": "claim_rate",
+    "label": "债权总额回收率",
+    "formula": "recovery/claim_sum",
+    "evidence": [
+     "VR:T13-R02-C08"
+    ],
+    "unit": "比例",
+    "reported": "0.1153",
+    "tolerance": ".00005"
+   }
+  ],
+  "result": "recovery",
+  "scenarios": [
+   {
+    "name": "非优先处置费率上升1个百分点",
+    "reason": "仅用于判断3%取值敏感性，其他输入固定。",
+    "overrides": {
+     "disposal": {
+      "value": ".04",
+      "basis": "stress",
+      "evidence": [
+       "仅用于判断3%取值敏感性，其他输入固定。"
+      ]
+     }
+    }
+   },
+   {
+    "name": "债务人基本受偿率下降1个百分点",
+    "reason": "仅用于判断经营或资料调整敏感性，未认定应当降档。",
+    "overrides": {
+     "debtor_basic": {
+      "value": "0.05",
+      "basis": "stress",
+      "evidence": [
+       "仅用于判断经营或资料调整敏感性，未认定应当降档。"
+      ]
+     }
+    }
+   },
+   {
+    "name": "已列抵押净值下降10%",
+    "reason": "变现、工程款或在先权利合并压力示意，非新增扣减认定。",
+    "overrides": {
+     "mortgage_net": {
+      "value": "396.4230",
+      "basis": "stress",
+      "evidence": [
+       "变现、工程款或在先权利合并压力示意，非新增扣减认定。"
+      ]
+     }
+    }
+   }
+  ],
+  "limits": [
+   "逐项资产总表和原始估值参数未取得。抵押净值总额为报告披露输入。",
+   "七因素检查采用披露的加权贡献。报告采用系数与加权合计分别展示。",
+   "保证人调整系数采用报告披露值，参数依据在复核意见中记录。",
+   "万元保留两位显示，数值账保留未取整结果；差值为复算减报告。"
+  ]
+ },
+ "values": {
+  "claim_total": "51812.331352",
+  "principal": "44697.978394",
+  "interest": "6854.780058",
+  "booked_fee": "259.5729",
+  "sample_area": "141.15",
+  "sample_discount": "0.45",
+  "rent": "16.00",
+  "effective_area": "1",
+  "occupancy": "0.90",
+  "deposit_yield": "0.0095",
+  "yield_rate": "0.0495",
+  "growth": "0.03",
+  "years": "31.53",
+  "management": "0.01",
+  "insurance": "0.001",
+  "rebuild_unit": "3000",
+  "printed_noi": "15416",
+  "mortgage_net": "440.47",
+  "other": "259.5729",
+  "disposal": "0.03",
+  "debtor_basic": "0.06",
+  "debtor_coeff_print": "0.705",
+  "debtor_k1": "0.105",
+  "weight1": "0.15",
+  "debtor_k2": "0.09",
+  "weight2": "0.15",
+  "debtor_k3": "0.12",
+  "weight3": "0.15",
+  "debtor_k4": "0.16",
+  "weight4": "0.2",
+  "debtor_k5": "0.08",
+  "weight5": "0.1",
+  "debtor_k6": "0.09",
+  "weight6": "0.1",
+  "debtor_k7": "0.06",
+  "weight7": "0.15",
+  "corporate2_basic": "0.03",
+  "corporate2_coeff": "0.68",
+  "corporate3_basic": "0.08",
+  "corporate3_coeff": "0.57",
+  "personal2_rate": "0.0005",
+  "personal3_rate": "0.0005",
+  "claim_sum": "51812.331352",
+  "rent_potential": "27100.8000",
+  "rent_actual": "24390.720000",
+  "deposit": "38.6186400000",
+  "rent_gross": "24429.3386400000",
+  "opex": "9014.983363542857142857142857142857142857",
+  "noi": "15414.35527645714285714285714285714285714",
+  "income_value": "352922.7414976010412766960632576783843373",
+  "sample_unit": "2500",
+  "sample_gross": "158794",
+  "sample_tax": "22703",
+  "sample_net": "136091",
+  "priority": "440.47",
+  "weight_total": "1.00",
+  "debtor_coeff": "0.705",
+  "debtor_rate": "0.04230",
+  "remaining": "51112.288452",
+  "debtor": "2162.04980151960",
+  "corporate_base": "48950.23865048040",
+  "corporate2_rate": "0.0204",
+  "corporate2": "998.584868469800160",
+  "corporate3_rate": "0.0456",
+  "corporate3": "2232.130882461906240",
+  "corporate_total": "3230.715750931706400",
+  "personal2": "25.5561442260",
+  "personal3": "25.5561442260",
+  "personal_total": "51.1122884520",
+  "guaranty": "3281.828039383706400",
+  "recovery": "5972.81721867620720800",
+  "principal_rate": "0.1336261153922335758333401820025050862706",
+  "claim_rate": "0.1152779090000483328955608428573225804919"
+ },
+ "checks": [
+  {
+   "id": "claim_sum",
+   "label": "债权分项合计",
+   "formula": "principal+interest+booked_fee",
+   "dependencies": [
+    "booked_fee",
+    "interest",
+    "principal"
+   ],
+   "substitution": {
+    "booked_fee": "259.5729",
+    "interest": "6854.780058",
+    "principal": "44697.978394"
+   },
+   "raw": "51812.331352",
+   "recomputed": "51812.331352",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "51812.33",
+   "difference": "0.001352",
+   "tolerance": "0.005",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "51812.331352",
+   "local_error": null,
+   "local_difference": "0.001352",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T04-R02-C07"
+   ]
+  },
+  {
+   "id": "rent_potential",
+   "label": "年潜在毛租金",
+   "formula": "sample_area*rent*12",
+   "dependencies": [
+    "rent",
+    "sample_area"
+   ],
+   "substitution": {
+    "rent": "16.00",
+    "sample_area": "141.15"
+   },
+   "raw": "27100.8000",
+   "recomputed": "27100.8000",
+   "unit": "元",
+   "round_to": null,
+   "reported": "27101",
+   "difference": "-0.2000",
+   "tolerance": "1",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "27100.8000",
+   "local_error": null,
+   "local_difference": "-0.2000",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R06-C06"
+   ]
+  },
+  {
+   "id": "rent_actual",
+   "label": "年实际租金（模型）",
+   "formula": "rent_potential*effective_area*occupancy",
+   "dependencies": [
+    "effective_area",
+    "occupancy",
+    "rent_potential"
+   ],
+   "substitution": {
+    "effective_area": "1",
+    "occupancy": "0.90",
+    "rent_potential": "27100.8000"
+   },
+   "raw": "24390.720000",
+   "recomputed": "24390.720000",
+   "unit": "元",
+   "round_to": null,
+   "reported": "24391",
+   "difference": "-0.280000",
+   "tolerance": "1",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "24390.90",
+   "local_error": null,
+   "local_difference": "-0.10",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R05-C05"
+   ]
+  },
+  {
+   "id": "deposit",
+   "label": "押金收益",
+   "formula": "sample_area*rent*2*deposit_yield*effective_area*occupancy",
+   "dependencies": [
+    "deposit_yield",
+    "effective_area",
+    "occupancy",
+    "rent",
+    "sample_area"
+   ],
+   "substitution": {
+    "deposit_yield": "0.0095",
+    "effective_area": "1",
+    "occupancy": "0.90",
+    "rent": "16.00",
+    "sample_area": "141.15"
+   },
+   "raw": "38.6186400000",
+   "recomputed": "38.6186400000",
+   "unit": "元",
+   "round_to": null,
+   "reported": "39",
+   "difference": "-0.3813600000",
+   "tolerance": "1",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "38.6186400000",
+   "local_error": null,
+   "local_difference": "-0.3813600000",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R09-C05"
+   ]
+  },
+  {
+   "id": "rent_gross",
+   "label": "年有效毛收入",
+   "formula": "rent_actual+deposit",
+   "dependencies": [
+    "deposit",
+    "rent_actual"
+   ],
+   "substitution": {
+    "deposit": "38.6186400000",
+    "rent_actual": "24390.720000"
+   },
+   "raw": "24429.3386400000",
+   "recomputed": "24429.3386400000",
+   "unit": "元",
+   "round_to": null,
+   "reported": "24430",
+   "difference": "-0.6613600000",
+   "tolerance": "1",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "24430",
+   "local_error": null,
+   "local_difference": "0",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R04-C04"
+   ]
+  },
+  {
+   "id": "opex",
+   "label": "年运营费用（按披露参数）",
+   "formula": "rent_gross*management+sample_area*rebuild_unit*.01+rent_actual/1.05*.12+rent_actual/1.05*.05*1.12+rent_actual*.001+sample_area*rebuild_unit*insurance",
+   "dependencies": [
+    "insurance",
+    "management",
+    "rebuild_unit",
+    "rent_actual",
+    "rent_gross",
+    "sample_area"
+   ],
+   "substitution": {
+    "insurance": "0.001",
+    "management": "0.01",
+    "rebuild_unit": "3000",
+    "rent_actual": "24390.720000",
+    "rent_gross": "24429.3386400000",
+    "sample_area": "141.15"
+   },
+   "raw": "9014.983363542857142857142857142857142857",
+   "recomputed": "9014.983363542857142857142857142857142857",
+   "unit": "元",
+   "round_to": null,
+   "reported": "9014",
+   "difference": "0.983363542857142857142857142857142857",
+   "tolerance": "2",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "9015.037190476190476190476190476190476190",
+   "local_error": null,
+   "local_difference": "1.037190476190476190476190476190476190",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R11-C04"
+   ]
+  },
+  {
+   "id": "noi",
+   "label": "首年净收益",
+   "formula": "rent_gross-opex",
+   "dependencies": [
+    "opex",
+    "rent_gross"
+   ],
+   "substitution": {
+    "opex": "9014.983363542857142857142857142857142857",
+    "rent_gross": "24429.3386400000"
+   },
+   "raw": "15414.35527645714285714285714285714285714",
+   "recomputed": "15414.35527645714285714285714285714285714",
+   "unit": "元",
+   "round_to": null,
+   "reported": "15416",
+   "difference": "-1.64472354285714285714285714285714286",
+   "tolerance": "2",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "15416",
+   "local_error": null,
+   "local_difference": "0",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R22-C04"
+   ]
+  },
+  {
+   "id": "income_value",
+   "label": "有限期增长收益法（展示净收益）",
+   "formula": "printed_noi/(yield_rate-growth)*(1-((1+growth)/(1+yield_rate))**years)",
+   "dependencies": [
+    "growth",
+    "printed_noi",
+    "years",
+    "yield_rate"
+   ],
+   "substitution": {
+    "growth": "0.03",
+    "printed_noi": "15416",
+    "years": "31.53",
+    "yield_rate": "0.0495"
+   },
+   "raw": "352922.7414976010412766960632576783843373",
+   "recomputed": "352922.7414976010412766960632576783843373",
+   "unit": "元",
+   "round_to": null,
+   "reported": "352923",
+   "difference": "-0.2585023989587233039367423216156627",
+   "tolerance": "2",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "352922.7414976010412766960632576783843373",
+   "local_error": null,
+   "local_difference": "-0.2585023989587233039367423216156627",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T07-R26-C04"
+   ]
+  },
+  {
+   "id": "sample_unit",
+   "label": "收益法采用单价",
+   "formula": "income_value/sample_area",
+   "dependencies": [
+    "income_value",
+    "sample_area"
+   ],
+   "substitution": {
+    "income_value": "352922.7414976010412766960632576783843373",
+    "sample_area": "141.15"
+   },
+   "raw": "2500.338232359908191829231762363998472103",
+   "recomputed": "2500",
+   "unit": "元/平方米",
+   "round_to": "100",
+   "reported": "2500",
+   "difference": "0",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "2500",
+   "local_error": null,
+   "local_difference": "0",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0227"
+   ]
+  },
+  {
+   "id": "sample_gross",
+   "label": "示例变现毛值",
+   "formula": "sample_unit*sample_area*sample_discount",
+   "dependencies": [
+    "sample_area",
+    "sample_discount",
+    "sample_unit"
+   ],
+   "substitution": {
+    "sample_area": "141.15",
+    "sample_discount": "0.45",
+    "sample_unit": "2500"
+   },
+   "raw": "158793.7500",
+   "recomputed": "158794",
+   "unit": "元",
+   "round_to": "1",
+   "reported": "158794",
+   "difference": "0",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "158794",
+   "local_error": null,
+   "local_difference": "0",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0249"
+   ]
+  },
+  {
+   "id": "sample_tax",
+   "label": "示例税费各项合计",
+   "formula": "13111+918+393+262+79+7940+0",
+   "dependencies": [],
+   "substitution": {},
+   "raw": "22703",
+   "recomputed": "22703",
+   "unit": "元",
+   "round_to": null,
+   "reported": "22703",
+   "difference": "0",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "22703",
+   "local_error": null,
+   "local_difference": "0",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0250"
+   ]
+  },
+  {
+   "id": "sample_net",
+   "label": "示例税后变现净值",
+   "formula": "sample_gross-sample_tax",
+   "dependencies": [
+    "sample_gross",
+    "sample_tax"
+   ],
+   "substitution": {
+    "sample_gross": "158794",
+    "sample_tax": "22703"
+   },
+   "raw": "136091",
+   "recomputed": "136091",
+   "unit": "元",
+   "round_to": null,
+   "reported": "136091",
+   "difference": "0",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "136091",
+   "local_error": null,
+   "local_difference": "0",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0252"
+   ]
+  },
+  {
+   "id": "priority",
+   "label": "优先受偿（股权新增计零）",
+   "formula": "min(claim_sum,mortgage_net)",
+   "dependencies": [
+    "claim_sum",
+    "mortgage_net"
+   ],
+   "substitution": {
+    "claim_sum": "51812.331352",
+    "mortgage_net": "440.47"
+   },
+   "raw": "440.47",
+   "recomputed": "440.47",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "440.47",
+   "difference": "0.00",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "440.47",
+   "local_error": null,
+   "local_difference": "0.00",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0253",
+    "VR:P0256"
+   ]
+  },
+  {
+   "id": "weight_total",
+   "label": "七因素权重合计",
+   "formula": "weight1+weight2+weight3+weight4+weight5+weight6+weight7",
+   "dependencies": [
+    "weight1",
+    "weight2",
+    "weight3",
+    "weight4",
+    "weight5",
+    "weight6",
+    "weight7"
+   ],
+   "substitution": {
+    "weight1": "0.15",
+    "weight2": "0.15",
+    "weight3": "0.15",
+    "weight4": "0.2",
+    "weight5": "0.1",
+    "weight6": "0.1",
+    "weight7": "0.15"
+   },
+   "raw": "1.00",
+   "recomputed": "1.00",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "1",
+   "difference": "0.00",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "1.00",
+   "local_error": null,
+   "local_difference": "0.00",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T09-R48-C05"
+   ]
+  },
+  {
+   "id": "debtor_coeff",
+   "label": "七因子加权贡献合计",
+   "formula": "debtor_k1+debtor_k2+debtor_k3+debtor_k4+debtor_k5+debtor_k6+debtor_k7",
+   "dependencies": [
+    "debtor_k1",
+    "debtor_k2",
+    "debtor_k3",
+    "debtor_k4",
+    "debtor_k5",
+    "debtor_k6",
+    "debtor_k7"
+   ],
+   "substitution": {
+    "debtor_k1": "0.105",
+    "debtor_k2": "0.09",
+    "debtor_k3": "0.12",
+    "debtor_k4": "0.16",
+    "debtor_k5": "0.08",
+    "debtor_k6": "0.09",
+    "debtor_k7": "0.06"
+   },
+   "raw": "0.705",
+   "recomputed": "0.705",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "0.705",
+   "difference": "0.000",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "0.705",
+   "local_error": null,
+   "local_difference": "0.000",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0271"
+   ]
+  },
+  {
+   "id": "debtor_rate",
+   "label": "债务人一般受偿率（报告选用系数）",
+   "formula": "debtor_basic*debtor_coeff_print",
+   "dependencies": [
+    "debtor_basic",
+    "debtor_coeff_print"
+   ],
+   "substitution": {
+    "debtor_basic": "0.06",
+    "debtor_coeff_print": "0.705"
+   },
+   "raw": "0.04230",
+   "recomputed": "0.04230",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "0.0423",
+   "difference": "0.00000",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "0.04230",
+   "local_error": null,
+   "local_difference": "0.00000",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0271"
+   ]
+  },
+  {
+   "id": "remaining",
+   "label": "债权扣优先受偿及单列赔偿",
+   "formula": "max(claim_sum-priority-other,0)",
+   "dependencies": [
+    "claim_sum",
+    "other",
+    "priority"
+   ],
+   "substitution": {
+    "claim_sum": "51812.331352",
+    "other": "259.5729",
+    "priority": "440.47"
+   },
+   "raw": "51112.288452",
+   "recomputed": "51112.288452",
+   "unit": "万元",
+   "round_to": null,
+   "reported": null,
+   "difference": null,
+   "tolerance": null,
+   "exceeds_tolerance": null,
+   "using_reported_intermediates": "51112.2871",
+   "local_error": null,
+   "local_difference": null,
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0275"
+   ]
+  },
+  {
+   "id": "debtor",
+   "label": "债务人一般受偿",
+   "formula": "remaining*debtor_rate",
+   "dependencies": [
+    "debtor_rate",
+    "remaining"
+   ],
+   "substitution": {
+    "debtor_rate": "0.04230",
+    "remaining": "51112.288452"
+   },
+   "raw": "2162.04980151960",
+   "recomputed": "2162.04980151960",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "2162.05",
+   "difference": "-0.00019848040",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "2162.0498015196",
+   "local_error": null,
+   "local_difference": "-0.0001984804",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0275"
+   ]
+  },
+  {
+   "id": "corporate_base",
+   "label": "法人保证基数",
+   "formula": "max(remaining-debtor,0)",
+   "dependencies": [
+    "debtor",
+    "remaining"
+   ],
+   "substitution": {
+    "debtor": "2162.04980151960",
+    "remaining": "51112.288452"
+   },
+   "raw": "48950.23865048040",
+   "recomputed": "48950.23865048040",
+   "unit": "万元",
+   "round_to": null,
+   "reported": null,
+   "difference": null,
+   "tolerance": null,
+   "exceeds_tolerance": null,
+   "using_reported_intermediates": "48950.238452",
+   "local_error": null,
+   "local_difference": null,
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0281"
+   ]
+  },
+  {
+   "id": "corporate2_rate",
+   "label": "岭南生态文旅股份有限公司（维持经营）受偿率",
+   "formula": "corporate2_basic*corporate2_coeff",
+   "dependencies": [
+    "corporate2_basic",
+    "corporate2_coeff"
+   ],
+   "substitution": {
+    "corporate2_basic": "0.03",
+    "corporate2_coeff": "0.68"
+   },
+   "raw": "0.0204",
+   "recomputed": "0.0204",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "0.0204",
+   "difference": "0.0000",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "0.0204",
+   "local_error": null,
+   "local_difference": "0.0000",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T10-R02-C04"
+   ]
+  },
+  {
+   "id": "corporate2",
+   "label": "岭南生态文旅股份有限公司（维持经营）受偿金额",
+   "formula": "corporate_base*corporate2_rate",
+   "dependencies": [
+    "corporate2_rate",
+    "corporate_base"
+   ],
+   "substitution": {
+    "corporate2_rate": "0.0204",
+    "corporate_base": "48950.23865048040"
+   },
+   "raw": "998.584868469800160",
+   "recomputed": "998.584868469800160",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "998.58",
+   "difference": "0.004868469800160",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "998.584868469800160",
+   "local_error": null,
+   "local_difference": "0.004868469800160",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T10-R02-C05"
+   ]
+  },
+  {
+   "id": "corporate3_rate",
+   "label": "广西岭域创和文旅投资有限公司（维持经营）受偿率",
+   "formula": "corporate3_basic*corporate3_coeff",
+   "dependencies": [
+    "corporate3_basic",
+    "corporate3_coeff"
+   ],
+   "substitution": {
+    "corporate3_basic": "0.08",
+    "corporate3_coeff": "0.57"
+   },
+   "raw": "0.0456",
+   "recomputed": "0.0456",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "0.0456",
+   "difference": "0.0000",
+   "tolerance": "0",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "0.0456",
+   "local_error": null,
+   "local_difference": "0.0000",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T10-R03-C04"
+   ]
+  },
+  {
+   "id": "corporate3",
+   "label": "广西岭域创和文旅投资有限公司（维持经营）受偿金额",
+   "formula": "corporate_base*corporate3_rate",
+   "dependencies": [
+    "corporate3_rate",
+    "corporate_base"
+   ],
+   "substitution": {
+    "corporate3_rate": "0.0456",
+    "corporate_base": "48950.23865048040"
+   },
+   "raw": "2232.130882461906240",
+   "recomputed": "2232.130882461906240",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "2232.13",
+   "difference": "0.000882461906240",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "2232.130882461906240",
+   "local_error": null,
+   "local_difference": "0.000882461906240",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T10-R03-C05"
+   ]
+  },
+  {
+   "id": "corporate_total",
+   "label": "法人保证合计",
+   "formula": "corporate2+corporate3",
+   "dependencies": [
+    "corporate2",
+    "corporate3"
+   ],
+   "substitution": {
+    "corporate2": "998.584868469800160",
+    "corporate3": "2232.130882461906240"
+   },
+   "raw": "3230.715750931706400",
+   "recomputed": "3230.715750931706400",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "3230.72",
+   "difference": "-0.004249068293600",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "3230.71",
+   "local_error": null,
+   "local_difference": "-0.01",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T10-R04-C05"
+   ]
+  },
+  {
+   "id": "personal2",
+   "label": "尹洪卫受偿金额",
+   "formula": "remaining*personal2_rate",
+   "dependencies": [
+    "personal2_rate",
+    "remaining"
+   ],
+   "substitution": {
+    "personal2_rate": "0.0005",
+    "remaining": "51112.288452"
+   },
+   "raw": "25.5561442260",
+   "recomputed": "25.5561442260",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "25.56",
+   "difference": "-0.0038557740",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "25.5561442260",
+   "local_error": null,
+   "local_difference": "-0.0038557740",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T12-R02-C04"
+   ]
+  },
+  {
+   "id": "personal3",
+   "label": "古钰瑭受偿金额",
+   "formula": "remaining*personal3_rate",
+   "dependencies": [
+    "personal3_rate",
+    "remaining"
+   ],
+   "substitution": {
+    "personal3_rate": "0.0005",
+    "remaining": "51112.288452"
+   },
+   "raw": "25.5561442260",
+   "recomputed": "25.5561442260",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "25.56",
+   "difference": "-0.0038557740",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "25.5561442260",
+   "local_error": null,
+   "local_difference": "-0.0038557740",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T12-R03-C04"
+   ]
+  },
+  {
+   "id": "personal_total",
+   "label": "自然人保证合计",
+   "formula": "personal2+personal3",
+   "dependencies": [
+    "personal2",
+    "personal3"
+   ],
+   "substitution": {
+    "personal2": "25.5561442260",
+    "personal3": "25.5561442260"
+   },
+   "raw": "51.1122884520",
+   "recomputed": "51.1122884520",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "51.11",
+   "difference": "0.0022884520",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "51.12",
+   "local_error": null,
+   "local_difference": "0.01",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T12-R04-C04"
+   ]
+  },
+  {
+   "id": "guaranty",
+   "label": "保证人合计",
+   "formula": "corporate_total+personal_total",
+   "dependencies": [
+    "corporate_total",
+    "personal_total"
+   ],
+   "substitution": {
+    "corporate_total": "3230.715750931706400",
+    "personal_total": "51.1122884520"
+   },
+   "raw": "3281.828039383706400",
+   "recomputed": "3281.828039383706400",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "3281.83",
+   "difference": "-0.001960616293600",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "3281.83",
+   "local_error": null,
+   "local_difference": "0.00",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0294"
+   ]
+  },
+  {
+   "id": "recovery",
+   "label": "报告模型回收合计",
+   "formula": "priority+(debtor+guaranty+other)*(1-disposal)",
+   "dependencies": [
+    "debtor",
+    "disposal",
+    "guaranty",
+    "other",
+    "priority"
+   ],
+   "substitution": {
+    "debtor": "2162.04980151960",
+    "disposal": "0.03",
+    "guaranty": "3281.828039383706400",
+    "other": "259.5729",
+    "priority": "440.47"
+   },
+   "raw": "5972.81721867620720800",
+   "recomputed": "5972.81721867620720800",
+   "unit": "万元",
+   "round_to": null,
+   "reported": "5972.81",
+   "difference": "0.00721867620720800",
+   "tolerance": "0.01",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "5972.819313",
+   "local_error": null,
+   "local_difference": "0.009313",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:P0302",
+    "VR:P0303"
+   ]
+  },
+  {
+   "id": "principal_rate",
+   "label": "本金回收率",
+   "formula": "recovery/principal",
+   "dependencies": [
+    "principal",
+    "recovery"
+   ],
+   "substitution": {
+    "principal": "44697.978394",
+    "recovery": "5972.81721867620720800"
+   },
+   "raw": "0.1336261153922335758333401820025050862706",
+   "recomputed": "0.1336261153922335758333401820025050862706",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "0.1336",
+   "difference": "0.0000261153922335758333401820025050862706",
+   "tolerance": "0.00005",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "0.1336259538932918658209327694096696913804",
+   "local_error": null,
+   "local_difference": "0.0000259538932918658209327694096696913804",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T13-R02-C07"
+   ]
+  },
+  {
+   "id": "claim_rate",
+   "label": "债权总额回收率",
+   "formula": "recovery/claim_sum",
+   "dependencies": [
+    "claim_sum",
+    "recovery"
+   ],
+   "substitution": {
+    "claim_sum": "51812.331352",
+    "recovery": "5972.81721867620720800"
+   },
+   "raw": "0.1152779090000483328955608428573225804919",
+   "recomputed": "0.1152779090000483328955608428573225804919",
+   "unit": "比例",
+   "round_to": null,
+   "reported": "0.1153",
+   "difference": "-0.0000220909999516671044391571426774195081",
+   "tolerance": "0.00005",
+   "exceeds_tolerance": false,
+   "using_reported_intermediates": "0.1152777726846100146432326050575220222677",
+   "local_error": null,
+   "local_difference": "-0.0000222273153899853567673949424779777323",
+   "reported_formula_text": null,
+   "reported_substitution_text": null,
+   "evidence": [
+    "VR:T13-R02-C08"
+   ]
+  }
+ ],
+ "result_id": "recovery",
+ "result": "5972.81721867620720800",
+ "scope": "Arithmetic only; units, evidence truth, formula applicability and business impact require review.",
+ "sensitivity": [
+  {
+   "name": "非优先处置费率上升1个百分点",
+   "reason": "仅用于判断3%取值敏感性，其他输入固定。",
+   "overrides": {
+    "disposal": {
+     "value": ".04",
+     "basis": "stress",
+     "evidence": [
+      "仅用于判断3%取值敏感性，其他输入固定。"
+     ]
+    }
+   },
+   "result": "5915.78271126717414400",
+   "delta": "-57.03450740903306400",
+   "values": {
+    "claim_total": "51812.331352",
+    "principal": "44697.978394",
+    "interest": "6854.780058",
+    "booked_fee": "259.5729",
+    "sample_area": "141.15",
+    "sample_discount": "0.45",
+    "rent": "16.00",
+    "effective_area": "1",
+    "occupancy": "0.90",
+    "deposit_yield": "0.0095",
+    "yield_rate": "0.0495",
+    "growth": "0.03",
+    "years": "31.53",
+    "management": "0.01",
+    "insurance": "0.001",
+    "rebuild_unit": "3000",
+    "printed_noi": "15416",
+    "mortgage_net": "440.47",
+    "other": "259.5729",
+    "disposal": "0.04",
+    "debtor_basic": "0.06",
+    "debtor_coeff_print": "0.705",
+    "debtor_k1": "0.105",
+    "weight1": "0.15",
+    "debtor_k2": "0.09",
+    "weight2": "0.15",
+    "debtor_k3": "0.12",
+    "weight3": "0.15",
+    "debtor_k4": "0.16",
+    "weight4": "0.2",
+    "debtor_k5": "0.08",
+    "weight5": "0.1",
+    "debtor_k6": "0.09",
+    "weight6": "0.1",
+    "debtor_k7": "0.06",
+    "weight7": "0.15",
+    "corporate2_basic": "0.03",
+    "corporate2_coeff": "0.68",
+    "corporate3_basic": "0.08",
+    "corporate3_coeff": "0.57",
+    "personal2_rate": "0.0005",
+    "personal3_rate": "0.0005",
+    "claim_sum": "51812.331352",
+    "rent_potential": "27100.8000",
+    "rent_actual": "24390.720000",
+    "deposit": "38.6186400000",
+    "rent_gross": "24429.3386400000",
+    "opex": "9014.983363542857142857142857142857142857",
+    "noi": "15414.35527645714285714285714285714285714",
+    "income_value": "352922.7414976010412766960632576783843373",
+    "sample_unit": "2500",
+    "sample_gross": "158794",
+    "sample_tax": "22703",
+    "sample_net": "136091",
+    "priority": "440.47",
+    "weight_total": "1.00",
+    "debtor_coeff": "0.705",
+    "debtor_rate": "0.04230",
+    "remaining": "51112.288452",
+    "debtor": "2162.04980151960",
+    "corporate_base": "48950.23865048040",
+    "corporate2_rate": "0.0204",
+    "corporate2": "998.584868469800160",
+    "corporate3_rate": "0.0456",
+    "corporate3": "2232.130882461906240",
+    "corporate_total": "3230.715750931706400",
+    "personal2": "25.5561442260",
+    "personal3": "25.5561442260",
+    "personal_total": "51.1122884520",
+    "guaranty": "3281.828039383706400",
+    "recovery": "5915.78271126717414400",
+    "principal_rate": "0.1323501179207978419785711617747666854358",
+    "claim_rate": "0.1141771187842683304856048200006115023041"
+   }
+  },
+  {
+   "name": "债务人基本受偿率下降1个百分点",
+   "reason": "仅用于判断经营或资料调整敏感性，未认定应当降档。",
+   "overrides": {
+    "debtor_basic": {
+     "value": "0.05",
+     "basis": "stress",
+     "evidence": [
+      "仅用于判断经营或资料调整敏感性，未认定应当降档。"
+     ]
+    }
+   },
+   "result": "5646.35490547941934000",
+   "delta": "-326.46231319678786800",
+   "values": {
+    "claim_total": "51812.331352",
+    "principal": "44697.978394",
+    "interest": "6854.780058",
+    "booked_fee": "259.5729",
+    "sample_area": "141.15",
+    "sample_discount": "0.45",
+    "rent": "16.00",
+    "effective_area": "1",
+    "occupancy": "0.90",
+    "deposit_yield": "0.0095",
+    "yield_rate": "0.0495",
+    "growth": "0.03",
+    "years": "31.53",
+    "management": "0.01",
+    "insurance": "0.001",
+    "rebuild_unit": "3000",
+    "printed_noi": "15416",
+    "mortgage_net": "440.47",
+    "other": "259.5729",
+    "disposal": "0.03",
+    "debtor_basic": "0.05",
+    "debtor_coeff_print": "0.705",
+    "debtor_k1": "0.105",
+    "weight1": "0.15",
+    "debtor_k2": "0.09",
+    "weight2": "0.15",
+    "debtor_k3": "0.12",
+    "weight3": "0.15",
+    "debtor_k4": "0.16",
+    "weight4": "0.2",
+    "debtor_k5": "0.08",
+    "weight5": "0.1",
+    "debtor_k6": "0.09",
+    "weight6": "0.1",
+    "debtor_k7": "0.06",
+    "weight7": "0.15",
+    "corporate2_basic": "0.03",
+    "corporate2_coeff": "0.68",
+    "corporate3_basic": "0.08",
+    "corporate3_coeff": "0.57",
+    "personal2_rate": "0.0005",
+    "personal3_rate": "0.0005",
+    "claim_sum": "51812.331352",
+    "rent_potential": "27100.8000",
+    "rent_actual": "24390.720000",
+    "deposit": "38.6186400000",
+    "rent_gross": "24429.3386400000",
+    "opex": "9014.983363542857142857142857142857142857",
+    "noi": "15414.35527645714285714285714285714285714",
+    "income_value": "352922.7414976010412766960632576783843373",
+    "sample_unit": "2500",
+    "sample_gross": "158794",
+    "sample_tax": "22703",
+    "sample_net": "136091",
+    "priority": "440.47",
+    "weight_total": "1.00",
+    "debtor_coeff": "0.705",
+    "debtor_rate": "0.03525",
+    "remaining": "51112.288452",
+    "debtor": "1801.70816793300",
+    "corporate_base": "49310.58028406700",
+    "corporate2_rate": "0.0204",
+    "corporate2": "1005.935837794966800",
+    "corporate3_rate": "0.0456",
+    "corporate3": "2248.562460953455200",
+    "corporate_total": "3254.498298748422000",
+    "personal2": "25.5561442260",
+    "personal3": "25.5561442260",
+    "personal_total": "51.1122884520",
+    "guaranty": "3305.610587200422000",
+    "recovery": "5646.35490547941934000",
+    "principal_rate": "0.1263223776187012879694847167364712024743",
+    "claim_rate": "0.1089770477054873008448214789375687307714"
+   }
+  },
+  {
+   "name": "已列抵押净值下降10%",
+   "reason": "变现、工程款或在先权利合并压力示意，非新增扣减认定。",
+   "overrides": {
+    "mortgage_net": {
+     "value": "396.4230",
+     "basis": "stress",
+     "evidence": [
+      "变现、工程款或在先权利合并压力示意，非新增扣减认定。"
+     ]
+    }
+   },
+   "result": "5933.32084436104520800",
+   "delta": "-39.49637431516200000",
+   "values": {
+    "claim_total": "51812.331352",
+    "principal": "44697.978394",
+    "interest": "6854.780058",
+    "booked_fee": "259.5729",
+    "sample_area": "141.15",
+    "sample_discount": "0.45",
+    "rent": "16.00",
+    "effective_area": "1",
+    "occupancy": "0.90",
+    "deposit_yield": "0.0095",
+    "yield_rate": "0.0495",
+    "growth": "0.03",
+    "years": "31.53",
+    "management": "0.01",
+    "insurance": "0.001",
+    "rebuild_unit": "3000",
+    "printed_noi": "15416",
+    "mortgage_net": "396.4230",
+    "other": "259.5729",
+    "disposal": "0.03",
+    "debtor_basic": "0.06",
+    "debtor_coeff_print": "0.705",
+    "debtor_k1": "0.105",
+    "weight1": "0.15",
+    "debtor_k2": "0.09",
+    "weight2": "0.15",
+    "debtor_k3": "0.12",
+    "weight3": "0.15",
+    "debtor_k4": "0.16",
+    "weight4": "0.2",
+    "debtor_k5": "0.08",
+    "weight5": "0.1",
+    "debtor_k6": "0.09",
+    "weight6": "0.1",
+    "debtor_k7": "0.06",
+    "weight7": "0.15",
+    "corporate2_basic": "0.03",
+    "corporate2_coeff": "0.68",
+    "corporate3_basic": "0.08",
+    "corporate3_coeff": "0.57",
+    "personal2_rate": "0.0005",
+    "personal3_rate": "0.0005",
+    "claim_sum": "51812.331352",
+    "rent_potential": "27100.8000",
+    "rent_actual": "24390.720000",
+    "deposit": "38.6186400000",
+    "rent_gross": "24429.3386400000",
+    "opex": "9014.983363542857142857142857142857142857",
+    "noi": "15414.35527645714285714285714285714285714",
+    "income_value": "352922.7414976010412766960632576783843373",
+    "sample_unit": "2500",
+    "sample_gross": "158794",
+    "sample_tax": "22703",
+    "sample_net": "136091",
+    "priority": "396.4230",
+    "weight_total": "1.00",
+    "debtor_coeff": "0.705",
+    "debtor_rate": "0.04230",
+    "remaining": "51156.335452",
+    "debtor": "2163.91298961960",
+    "corporate_base": "48992.42246238040",
+    "corporate2_rate": "0.0204",
+    "corporate2": "999.445418232560160",
+    "corporate3_rate": "0.0456",
+    "corporate3": "2234.054464284546240",
+    "corporate_total": "3233.499882517106400",
+    "personal2": "25.5781677260",
+    "personal3": "25.5781677260",
+    "personal_total": "51.1563354520",
+    "guaranty": "3284.656217969106400",
+    "recovery": "5933.32084436104520800",
+    "principal_rate": "0.1327424876369240926077664522663646621118",
+    "claim_rate": "0.1145156122014960051319329021031618604399"
+   }
+  }
+ ]
+}

@@ -1,0 +1,632 @@
+{
+ "model": "formula_graph",
+ "inputs": {
+  "claim_total": {
+   "value": "24545",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B6",
+    "VR:T04-R02-C07"
+   ],
+   "label": "债权合计（提取表）"
+  },
+  "principal": {
+   "value": "24545",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B7",
+    "VR:T04-R02-C04"
+   ],
+   "label": "本金（提取表）"
+  },
+  "interest": {
+   "value": "0",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B8",
+    "VR:T04-R02-C05"
+   ],
+   "label": "欠息（提取表）"
+  },
+  "booked_fee": {
+   "value": "0",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B9",
+    "VR:T04-R02-C06"
+   ],
+   "label": "清单代垫费（提取表）"
+  },
+  "sample_area": {
+   "value": "23318.05",
+   "unit": "平方米",
+   "evidence": [
+    "VR:P0245"
+   ],
+   "label": "示例面积"
+  },
+  "sample_discount": {
+   "value": "0.45",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0245"
+   ],
+   "label": "示例变现率"
+  },
+  "rent": {
+   "value": "11.50",
+   "unit": "元/平方米·月",
+   "evidence": [
+    "VR:T06-R03-C04"
+   ],
+   "label": "月租金"
+  },
+  "effective_area": {
+   "value": "1",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R07-C06"
+   ],
+   "label": "有效出租面积率"
+  },
+  "occupancy": {
+   "value": "0.95",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R08-C06"
+   ],
+   "label": "出租率"
+  },
+  "deposit_yield": {
+   "value": "0.015",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R10-C06"
+   ],
+   "label": "押金利率"
+  },
+  "yield_rate": {
+   "value": "0.05",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R24-C04"
+   ],
+   "label": "资产端报酬率"
+  },
+  "growth": {
+   "value": "0.02",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R25-C04"
+   ],
+   "label": "增长率"
+  },
+  "years": {
+   "value": "36.94",
+   "unit": "年",
+   "evidence": [
+    "VR:T06-R23-C04"
+   ],
+   "label": "收益期"
+  },
+  "management": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R12-C04"
+   ],
+   "label": "management"
+  },
+  "insurance": {
+   "value": "0.002",
+   "unit": "比例",
+   "evidence": [
+    "VR:T06-R21-C04"
+   ],
+   "label": "insurance"
+  },
+  "reported_insurance": {
+   "value": "209862",
+   "unit": "元",
+   "evidence": [
+    "VR:T06-R21-C05"
+   ],
+   "label": "保险费展示值，重置单价待补"
+  },
+  "printed_noi": {
+   "value": "2186230",
+   "unit": "元",
+   "evidence": [
+    "VR:T06-R22-C04"
+   ],
+   "label": "收益法表内展示净收益"
+  },
+  "mortgage_net": {
+   "value": "36971.65",
+   "unit": "万元",
+   "evidence": [
+    "VR:P0249"
+   ],
+   "label": "报告披露抵押税后净值总额"
+  },
+  "other": {
+   "value": "0",
+   "unit": "万元",
+   "evidence": [
+    "VR:P0282"
+   ],
+   "label": "报告单列其他赔偿"
+  },
+  "disposal": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0285"
+   ],
+   "label": "非优先部分处置费率"
+  },
+  "debtor_basic": {
+   "value": "0.08",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0264",
+    "VR:P0267"
+   ],
+   "label": "债务人基本受偿率"
+  },
+  "debtor_coeff_print": {
+   "value": "0.65",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0267"
+   ],
+   "label": "报告采用债务人调整系数"
+  },
+  "debtor_k1": {
+   "value": "0.12",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R02-C06"
+   ],
+   "label": "七因子第1项加权贡献"
+  },
+  "weight1": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R02-C05"
+   ],
+   "label": "七因子第1项权重"
+  },
+  "debtor_k2": {
+   "value": "0.09",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R08-C06"
+   ],
+   "label": "七因子第2项加权贡献"
+  },
+  "weight2": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R08-C05"
+   ],
+   "label": "七因子第2项权重"
+  },
+  "debtor_k3": {
+   "value": "0.12",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R17-C06"
+   ],
+   "label": "七因子第3项加权贡献"
+  },
+  "weight3": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R17-C05"
+   ],
+   "label": "七因子第3项权重"
+  },
+  "debtor_k4": {
+   "value": "0.12",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R24-C06"
+   ],
+   "label": "七因子第4项加权贡献"
+  },
+  "weight4": {
+   "value": "0.2",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R24-C05"
+   ],
+   "label": "七因子第4项权重"
+  },
+  "debtor_k5": {
+   "value": "0.08",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R30-C06"
+   ],
+   "label": "七因子第5项加权贡献"
+  },
+  "weight5": {
+   "value": "0.1",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R30-C05"
+   ],
+   "label": "七因子第5项权重"
+  },
+  "debtor_k6": {
+   "value": "0.09",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R36-C06"
+   ],
+   "label": "七因子第6项加权贡献"
+  },
+  "weight6": {
+   "value": "0.1",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R36-C05"
+   ],
+   "label": "七因子第6项权重"
+  },
+  "debtor_k7": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R43-C06"
+   ],
+   "label": "七因子第7项加权贡献"
+  },
+  "weight7": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T08-R43-C05"
+   ],
+   "label": "七因子第7项权重"
+  },
+  "corporate2_basic": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T09-R02-C02"
+   ],
+   "label": "碧桂园地产集团有限公司（维持经营）基本率"
+  },
+  "corporate2_coeff": {
+   "value": "0.62",
+   "unit": "比例",
+   "evidence": [
+    "VR:T09-R02-C03"
+   ],
+   "label": "碧桂园地产集团有限公司（维持经营）调整系数"
+  },
+  "corporate3_current_only": {
+   "value": "0.00",
+   "unit": "万元",
+   "evidence": [
+    "VR:T09-R03-C05"
+   ],
+   "label": "碧桂园控股有限公司（维持经营）基准零贡献"
+  }
+ },
+ "nodes": [
+  {
+   "id": "claim_sum",
+   "label": "债权分项合计",
+   "formula": "principal+interest+booked_fee",
+   "evidence": [
+    "VR:T04-R02-C07"
+   ],
+   "unit": "万元",
+   "reported": "24545.00",
+   "tolerance": ".005"
+  },
+  {
+   "id": "rent_potential",
+   "label": "年潜在毛租金",
+   "formula": "sample_area*rent*12",
+   "evidence": [
+    "VR:T06-R06-C06"
+   ],
+   "unit": "元",
+   "reported": "3217891",
+   "tolerance": "1"
+  },
+  {
+   "id": "rent_actual",
+   "label": "年实际租金（模型）",
+   "formula": "rent_potential*effective_area*occupancy",
+   "evidence": [
+    "VR:T06-R05-C05"
+   ],
+   "unit": "元",
+   "reported": "3056996",
+   "tolerance": "1"
+  },
+  {
+   "id": "deposit",
+   "label": "押金收益",
+   "formula": "sample_area*rent*2*deposit_yield*effective_area*occupancy",
+   "evidence": [
+    "VR:T06-R09-C05"
+   ],
+   "unit": "元",
+   "reported": "7642",
+   "tolerance": "1"
+  },
+  {
+   "id": "rent_gross",
+   "label": "年有效毛收入",
+   "formula": "rent_actual+deposit",
+   "evidence": [
+    "VR:T06-R04-C04"
+   ],
+   "unit": "元",
+   "reported": "3064638",
+   "tolerance": "1"
+  },
+  {
+   "id": "opex",
+   "label": "年运营费用（按披露参数）",
+   "formula": "rent_gross*management+rent_actual*.02+rent_actual/1.05*.12+rent_actual/1.05*.05*1.12+rent_actual*.001+reported_insurance",
+   "evidence": [
+    "VR:T06-R11-C04"
+   ],
+   "unit": "元",
+   "reported": "878408",
+   "tolerance": "2"
+  },
+  {
+   "id": "noi",
+   "label": "首年净收益",
+   "formula": "rent_gross-opex",
+   "evidence": [
+    "VR:T06-R22-C04"
+   ],
+   "unit": "元",
+   "reported": "2186230",
+   "tolerance": "2"
+  },
+  {
+   "id": "income_value",
+   "label": "有限期增长收益法（展示净收益）",
+   "formula": "printed_noi/(yield_rate-growth)*(1-((1+growth)/(1+yield_rate))**years)",
+   "evidence": [
+    "VR:T06-R26-C04"
+   ],
+   "unit": "元",
+   "reported": "47897796",
+   "tolerance": "2"
+  },
+  {
+   "id": "sample_unit",
+   "label": "收益法采用单价",
+   "formula": "income_value/sample_area",
+   "evidence": [
+    "VR:P0223"
+   ],
+   "unit": "元/平方米",
+   "reported": "2100",
+   "tolerance": "0",
+   "round_to": "100"
+  },
+  {
+   "id": "sample_gross",
+   "label": "示例变现毛值",
+   "formula": "sample_unit*sample_area*sample_discount",
+   "evidence": [
+    "VR:P0245"
+   ],
+   "unit": "元",
+   "reported": "22035557",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_tax",
+   "label": "示例税费各项合计",
+   "formula": "1819450+127362+54584+36389+11018+1101778+0",
+   "evidence": [
+    "VR:P0246"
+   ],
+   "unit": "元",
+   "reported": "3150581",
+   "tolerance": "0"
+  },
+  {
+   "id": "sample_net",
+   "label": "示例税后变现净值",
+   "formula": "sample_gross-sample_tax",
+   "evidence": [
+    "VR:P0248"
+   ],
+   "unit": "元",
+   "reported": "18884976",
+   "tolerance": "0"
+  },
+  {
+   "id": "priority",
+   "label": "优先受偿（股权新增计零）",
+   "formula": "min(claim_sum,mortgage_net)",
+   "evidence": [
+    "VR:P0249",
+    "VR:P0252"
+   ],
+   "unit": "万元",
+   "reported": "24545.00",
+   "tolerance": ".01"
+  },
+  {
+   "id": "weight_total",
+   "label": "七因素权重合计",
+   "formula": "weight1+weight2+weight3+weight4+weight5+weight6+weight7",
+   "evidence": [
+    "VR:T08-R48-C05"
+   ],
+   "unit": "比例",
+   "reported": "1",
+   "tolerance": "0"
+  },
+  {
+   "id": "debtor_coeff",
+   "label": "七因子加权贡献合计",
+   "formula": "debtor_k1+debtor_k2+debtor_k3+debtor_k4+debtor_k5+debtor_k6+debtor_k7",
+   "evidence": [
+    "VR:P0267"
+   ],
+   "unit": "比例",
+   "reported": "0.65",
+   "tolerance": "0"
+  },
+  {
+   "id": "debtor_rate",
+   "label": "债务人一般受偿率（报告选用系数）",
+   "formula": "debtor_basic*debtor_coeff_print",
+   "evidence": [
+    "VR:P0267"
+   ],
+   "unit": "比例",
+   "reported": "0.052",
+   "tolerance": "0"
+  },
+  {
+   "id": "remaining",
+   "label": "债权扣优先受偿及单列赔偿",
+   "formula": "max(claim_sum-priority-other,0)",
+   "evidence": [
+    "VR:P0271"
+   ],
+   "unit": "万元"
+  },
+  {
+   "id": "debtor",
+   "label": "债务人一般受偿",
+   "formula": "remaining*debtor_rate",
+   "evidence": [
+    "VR:P0271"
+   ],
+   "unit": "万元",
+   "reported": "0.00",
+   "tolerance": ".01"
+  },
+  {
+   "id": "corporate_base",
+   "label": "法人保证基数",
+   "formula": "max(remaining-debtor,0)",
+   "evidence": [
+    "VR:P0277"
+   ],
+   "unit": "万元"
+  },
+  {
+   "id": "corporate2_rate",
+   "label": "碧桂园地产集团有限公司（维持经营）受偿率",
+   "formula": "corporate2_basic*corporate2_coeff",
+   "evidence": [
+    "VR:T09-R02-C04"
+   ],
+   "unit": "比例",
+   "reported": "0.0186",
+   "tolerance": "0"
+  },
+  {
+   "id": "corporate2",
+   "label": "碧桂园地产集团有限公司（维持经营）受偿金额",
+   "formula": "corporate_base*corporate2_rate",
+   "evidence": [
+    "VR:T09-R02-C05"
+   ],
+   "unit": "万元",
+   "reported": "0.00",
+   "tolerance": ".01"
+  },
+  {
+   "id": "corporate_total",
+   "label": "法人保证合计",
+   "formula": "corporate2+corporate3_current_only",
+   "evidence": [
+    "VR:T09-R04-C05"
+   ],
+   "unit": "万元",
+   "reported": "0.00",
+   "tolerance": ".01"
+  },
+  {
+   "id": "guaranty",
+   "label": "保证人合计",
+   "formula": "corporate_total",
+   "evidence": [
+    "VR:P0280"
+   ],
+   "unit": "万元",
+   "reported": "0.00",
+   "tolerance": ".01"
+  },
+  {
+   "id": "recovery",
+   "label": "报告模型回收合计",
+   "formula": "priority+(debtor+guaranty+other)*(1-disposal)",
+   "evidence": [
+    "VR:P0285",
+    "VR:P0286"
+   ],
+   "unit": "万元",
+   "reported": "24545.00",
+   "tolerance": ".01"
+  },
+  {
+   "id": "principal_rate",
+   "label": "本金回收率",
+   "formula": "recovery/principal",
+   "evidence": [
+    "VR:T10-R02-C07"
+   ],
+   "unit": "比例",
+   "reported": "1.00",
+   "tolerance": ".00005"
+  },
+  {
+   "id": "claim_rate",
+   "label": "债权总额回收率",
+   "formula": "recovery/claim_sum",
+   "evidence": [
+    "VR:T10-R02-C08"
+   ],
+   "unit": "比例",
+   "reported": "1.00",
+   "tolerance": ".00005"
+  }
+ ],
+ "result": "recovery",
+ "scenarios": [
+  {
+   "name": "抵押净值下降25%（仍覆盖债权）",
+   "reason": "仍处于封顶区间。超过33.61%的跌幅后应重建未单列保证人路径。",
+   "overrides": {
+    "mortgage_net": {
+     "value": "27728.7375",
+     "basis": "stress",
+     "evidence": [
+      "仍处于封顶区间。超过33.61%的跌幅后应重建未单列保证人路径。"
+     ]
+    }
+   }
+  }
+ ],
+ "limits": [
+  "逐项资产总表和原始估值参数未取得。抵押净值总额为报告披露输入。",
+  "七因素检查采用披露的加权贡献。报告采用系数与加权合计分别展示。",
+  "保证人调整系数采用报告披露值，参数依据在复核意见中记录。",
+  "万元保留两位显示，数值账保留未取整结果；差值为复算减报告。"
+ ]
+}

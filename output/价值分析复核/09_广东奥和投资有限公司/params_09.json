@@ -1,0 +1,888 @@
+{
+ "model": "formula_graph",
+ "inputs": {
+  "claim_total": {
+   "value": "11702.914097",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B6",
+    "VR:T05-R02-C07"
+   ],
+   "label": "债权合计（提取表）"
+  },
+  "principal": {
+   "value": "10903.212359",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B7",
+    "VR:T05-R02-C04"
+   ],
+   "label": "本金（提取表）"
+  },
+  "interest": {
+   "value": "799.701738",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B8",
+    "VR:T05-R02-C05"
+   ],
+   "label": "欠息（提取表）"
+  },
+  "booked_fee": {
+   "value": "0",
+   "unit": "万元",
+   "evidence": [
+    "BK:0-概览!B9",
+    "VR:T05-R02-C06"
+   ],
+   "label": "清单代垫费（提取表）"
+  },
+  "sample_area": {
+   "value": "104.94",
+   "unit": "平方米",
+   "evidence": [
+    "VR:P0258"
+   ],
+   "label": "示例面积"
+  },
+  "sample_discount": {
+   "value": "0.50",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0258"
+   ],
+   "label": "示例变现率"
+  },
+  "raw1": {
+   "value": "11181",
+   "unit": "元/平方米",
+   "evidence": [
+    "VR:T10-R02-C03"
+   ],
+   "label": "raw1"
+  },
+  "deal1": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R03-C03"
+   ],
+   "label": "deal1"
+  },
+  "time1": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R04-C03"
+   ],
+   "label": "time1"
+  },
+  "location1": {
+   "value": "0.9427",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R05-C03"
+   ],
+   "label": "location1"
+  },
+  "physical1": {
+   "value": "0.9249",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R06-C03"
+   ],
+   "label": "physical1"
+  },
+  "rights1": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R07-C03"
+   ],
+   "label": "rights1"
+  },
+  "raw2": {
+   "value": "11607",
+   "unit": "元/平方米",
+   "evidence": [
+    "VR:T10-R02-C04"
+   ],
+   "label": "raw2"
+  },
+  "deal2": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R03-C04"
+   ],
+   "label": "deal2"
+  },
+  "time2": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R04-C04"
+   ],
+   "label": "time2"
+  },
+  "location2": {
+   "value": "0.9427",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R05-C04"
+   ],
+   "label": "location2"
+  },
+  "physical2": {
+   "value": "0.9249",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R06-C04"
+   ],
+   "label": "physical2"
+  },
+  "rights2": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R07-C04"
+   ],
+   "label": "rights2"
+  },
+  "raw3": {
+   "value": "11591",
+   "unit": "元/平方米",
+   "evidence": [
+    "VR:T10-R02-C05"
+   ],
+   "label": "raw3"
+  },
+  "deal3": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R03-C05"
+   ],
+   "label": "deal3"
+  },
+  "time3": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R04-C05"
+   ],
+   "label": "time3"
+  },
+  "location3": {
+   "value": "0.9427",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R05-C05"
+   ],
+   "label": "location3"
+  },
+  "physical3": {
+   "value": "0.9249",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R06-C05"
+   ],
+   "label": "physical3"
+  },
+  "rights3": {
+   "value": "1.0000",
+   "unit": "比例",
+   "evidence": [
+    "VR:T10-R07-C05"
+   ],
+   "label": "rights3"
+  },
+  "shown_adjusted1": {
+   "value": "9749",
+   "unit": "元/平方米",
+   "evidence": [
+    "VR:T10-R08-C03"
+   ],
+   "label": "案例1披露修正价"
+  },
+  "shown_adjusted2": {
+   "value": "10120",
+   "unit": "元/平方米",
+   "evidence": [
+    "VR:T10-R08-C04"
+   ],
+   "label": "案例2披露修正价"
+  },
+  "shown_adjusted3": {
+   "value": "10106",
+   "unit": "元/平方米",
+   "evidence": [
+    "VR:T10-R08-C05"
+   ],
+   "label": "案例3披露修正价"
+  },
+  "mortgage_net": {
+   "value": "6809.44",
+   "unit": "万元",
+   "evidence": [
+    "VR:P0262"
+   ],
+   "label": "报告披露抵押税后净值总额"
+  },
+  "other": {
+   "value": "0",
+   "unit": "万元",
+   "evidence": [
+    "VR:P0318"
+   ],
+   "label": "报告单列其他赔偿"
+  },
+  "disposal": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0321"
+   ],
+   "label": "非优先部分处置费率"
+  },
+  "debtor_basic": {
+   "value": "0.08",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0289",
+    "VR:P0292"
+   ],
+   "label": "债务人基本受偿率"
+  },
+  "debtor_coeff_print": {
+   "value": "0.66",
+   "unit": "比例",
+   "evidence": [
+    "VR:P0292"
+   ],
+   "label": "报告采用债务人调整系数"
+  },
+  "debtor_k1": {
+   "value": "0.09",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R02-C06"
+   ],
+   "label": "七因子第1项加权贡献"
+  },
+  "weight1": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R02-C05"
+   ],
+   "label": "七因子第1项权重"
+  },
+  "debtor_k2": {
+   "value": "0.09",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R08-C06"
+   ],
+   "label": "七因子第2项加权贡献"
+  },
+  "weight2": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R08-C05"
+   ],
+   "label": "七因子第2项权重"
+  },
+  "debtor_k3": {
+   "value": "0.12",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R17-C06"
+   ],
+   "label": "七因子第3项加权贡献"
+  },
+  "weight3": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R17-C05"
+   ],
+   "label": "七因子第3项权重"
+  },
+  "debtor_k4": {
+   "value": "0.16",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R24-C06"
+   ],
+   "label": "七因子第4项加权贡献"
+  },
+  "weight4": {
+   "value": "0.2",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R24-C05"
+   ],
+   "label": "七因子第4项权重"
+  },
+  "debtor_k5": {
+   "value": "0.08",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R30-C06"
+   ],
+   "label": "七因子第5项加权贡献"
+  },
+  "weight5": {
+   "value": "0.1",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R30-C05"
+   ],
+   "label": "七因子第5项权重"
+  },
+  "debtor_k6": {
+   "value": "0.09",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R36-C06"
+   ],
+   "label": "七因子第6项加权贡献"
+  },
+  "weight6": {
+   "value": "0.1",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R36-C05"
+   ],
+   "label": "七因子第6项权重"
+  },
+  "debtor_k7": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R43-C06"
+   ],
+   "label": "七因子第7项加权贡献"
+  },
+  "weight7": {
+   "value": "0.15",
+   "unit": "比例",
+   "evidence": [
+    "VR:T13-R43-C05"
+   ],
+   "label": "七因子第7项权重"
+  },
+  "corporate2_basic": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T14-R02-C02"
+   ],
+   "label": "广州市智信房地产开发有限公司（维持经营）基本率"
+  },
+  "corporate2_coeff": {
+   "value": "0.66",
+   "unit": "比例",
+   "evidence": [
+    "VR:T14-R02-C03"
+   ],
+   "label": "广州市智信房地产开发有限公司（维持经营）调整系数"
+  },
+  "corporate3_basic": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T14-R03-C02"
+   ],
+   "label": "广东仟信实业集团有限公司（维持经营）基本率"
+  },
+  "corporate3_coeff": {
+   "value": "0.66",
+   "unit": "比例",
+   "evidence": [
+    "VR:T14-R03-C03"
+   ],
+   "label": "广东仟信实业集团有限公司（维持经营）调整系数"
+  },
+  "corporate4_basic": {
+   "value": "0.03",
+   "unit": "比例",
+   "evidence": [
+    "VR:T14-R04-C02"
+   ],
+   "label": "广州市志信建筑工程有限公司（维持经营）基本率"
+  },
+  "corporate4_coeff": {
+   "value": "0.675",
+   "unit": "比例",
+   "evidence": [
+    "VR:T14-R04-C03"
+   ],
+   "label": "广州市志信建筑工程有限公司（维持经营）调整系数"
+  },
+  "personal2_rate": {
+   "value": "0.0005",
+   "unit": "比例",
+   "evidence": [
+    "VR:T16-R02-C03"
+   ],
+   "label": "李卫文模型受偿率"
+  },
+  "personal3_rate": {
+   "value": "0.0005",
+   "unit": "比例",
+   "evidence": [
+    "VR:T16-R03-C03"
+   ],
+   "label": "殷俊辉模型受偿率"
+  },
+  "personal4_rate": {
+   "value": "0.0005",
+   "unit": "比例",
+   "evidence": [
+    "VR:T16-R04-C03"
+   ],
+   "label": "潘春鸣模型受偿率"
+  },
+  "personal5_rate": {
+   "value": "0.0005",
+   "unit": "比例",
+   "evidence": [
+    "VR:T16-R05-C03"
+   ],
+   "label": "李智城模型受偿率"
+  },
+  "personal6_rate": {
+   "value": "0.0005",
+   "unit": "比例",
+   "evidence": [
+    "VR:T16-R06-C03"
+   ],
+   "label": "梁晋裳模型受偿率"
+  }
+ },
+ "nodes": [
+  {
+   "id": "claim_sum",
+   "label": "债权分项合计",
+   "formula": "principal+interest+booked_fee",
+   "evidence": [
+    "VR:T05-R02-C07"
+   ],
+   "unit": "万元",
+   "reported": "11702.91",
+   "tolerance": ".005"
+  },
+  {
+   "id": "adjusted1",
+   "label": "案例1修正后单价",
+   "formula": "raw1*deal1*time1*location1*physical1*rights1",
+   "evidence": [
+    "VR:T10-R08-C03"
+   ],
+   "unit": "元/平方米",
+   "reported": "9749",
+   "tolerance": "1"
+  },
+  {
+   "id": "adjusted2",
+   "label": "案例2修正后单价",
+   "formula": "raw2*deal2*time2*location2*physical2*rights2",
+   "evidence": [
+    "VR:T10-R08-C04"
+   ],
+   "unit": "元/平方米",
+   "reported": "10120",
+   "tolerance": "1"
+  },
+  {
+   "id": "adjusted3",
+   "label": "案例3修正后单价",
+   "formula": "raw3*deal3*time3*location3*physical3*rights3",
+   "evidence": [
+    "VR:T10-R08-C05"
+   ],
+   "unit": "元/平方米",
+   "reported": "10106",
+   "tolerance": "1"
+  },
+  {
+   "id": "market_average",
+   "label": "按报告展示修正价取算术平均",
+   "formula": "(shown_adjusted1+shown_adjusted2+shown_adjusted3)/3",
+   "evidence": [
+    "VR:P0235"
+   ],
+   "unit": "元/平方米"
+  },
+  {
+   "id": "market_unit",
+   "label": "采用比较单价",
+   "formula": "market_average",
+   "evidence": [
+    "VR:P0235"
+   ],
+   "unit": "元/平方米",
+   "reported": "10000",
+   "tolerance": "0",
+   "round_to": "100"
+  },
+  {
+   "id": "sample_unit",
+   "label": "变现示例单价",
+   "formula": "market_unit",
+   "evidence": [
+    "VR:P0258"
+   ],
+   "unit": "元/平方米",
+   "reported": "10000",
+   "tolerance": "0"
+  },
+  {
+   "id": "sample_gross",
+   "label": "示例变现毛值",
+   "formula": "sample_unit*sample_area*sample_discount",
+   "evidence": [
+    "VR:P0258"
+   ],
+   "unit": "元",
+   "reported": "524700",
+   "tolerance": "0",
+   "round_to": "1"
+  },
+  {
+   "id": "sample_tax",
+   "label": "示例税费各项合计",
+   "formula": "43324+3033+1300+866+262+26235+0",
+   "evidence": [
+    "VR:P0259"
+   ],
+   "unit": "元",
+   "reported": "75020",
+   "tolerance": "0"
+  },
+  {
+   "id": "sample_net",
+   "label": "示例税后变现净值",
+   "formula": "sample_gross-sample_tax",
+   "evidence": [
+    "VR:P0261"
+   ],
+   "unit": "元",
+   "reported": "449680",
+   "tolerance": "0"
+  },
+  {
+   "id": "priority",
+   "label": "优先受偿（股权新增计零）",
+   "formula": "min(claim_sum,mortgage_net)",
+   "evidence": [
+    "VR:P0262",
+    "VR:P0277"
+   ],
+   "unit": "万元",
+   "reported": "6809.44",
+   "tolerance": ".01"
+  },
+  {
+   "id": "weight_total",
+   "label": "七因素权重合计",
+   "formula": "weight1+weight2+weight3+weight4+weight5+weight6+weight7",
+   "evidence": [
+    "VR:T13-R48-C05"
+   ],
+   "unit": "比例",
+   "reported": "1",
+   "tolerance": "0"
+  },
+  {
+   "id": "debtor_coeff",
+   "label": "七因子加权贡献合计",
+   "formula": "debtor_k1+debtor_k2+debtor_k3+debtor_k4+debtor_k5+debtor_k6+debtor_k7",
+   "evidence": [
+    "VR:P0292"
+   ],
+   "unit": "比例",
+   "reported": "0.66",
+   "tolerance": "0"
+  },
+  {
+   "id": "debtor_rate",
+   "label": "债务人一般受偿率（报告选用系数）",
+   "formula": "debtor_basic*debtor_coeff_print",
+   "evidence": [
+    "VR:P0292"
+   ],
+   "unit": "比例",
+   "reported": "0.0528",
+   "tolerance": "0"
+  },
+  {
+   "id": "remaining",
+   "label": "债权扣优先受偿及单列赔偿",
+   "formula": "max(claim_sum-priority-other,0)",
+   "evidence": [
+    "VR:P0296"
+   ],
+   "unit": "万元"
+  },
+  {
+   "id": "debtor",
+   "label": "债务人一般受偿",
+   "formula": "remaining*debtor_rate",
+   "evidence": [
+    "VR:P0296"
+   ],
+   "unit": "万元",
+   "reported": "258.38",
+   "tolerance": ".01"
+  },
+  {
+   "id": "corporate_base",
+   "label": "法人保证基数",
+   "formula": "max(remaining-debtor,0)",
+   "evidence": [
+    "VR:P0302"
+   ],
+   "unit": "万元"
+  },
+  {
+   "id": "corporate2_rate",
+   "label": "广州市智信房地产开发有限公司（维持经营）受偿率",
+   "formula": "corporate2_basic*corporate2_coeff",
+   "evidence": [
+    "VR:T14-R02-C04"
+   ],
+   "unit": "比例",
+   "reported": "0.0198",
+   "tolerance": "0"
+  },
+  {
+   "id": "corporate2",
+   "label": "广州市智信房地产开发有限公司（维持经营）受偿金额",
+   "formula": "corporate_base*corporate2_rate",
+   "evidence": [
+    "VR:T14-R02-C05"
+   ],
+   "unit": "万元",
+   "reported": "91.77",
+   "tolerance": ".01"
+  },
+  {
+   "id": "corporate3_rate",
+   "label": "广东仟信实业集团有限公司（维持经营）受偿率",
+   "formula": "corporate3_basic*corporate3_coeff",
+   "evidence": [
+    "VR:T14-R03-C04"
+   ],
+   "unit": "比例",
+   "reported": "0.0198",
+   "tolerance": "0"
+  },
+  {
+   "id": "corporate3",
+   "label": "广东仟信实业集团有限公司（维持经营）受偿金额",
+   "formula": "corporate_base*corporate3_rate",
+   "evidence": [
+    "VR:T14-R03-C05"
+   ],
+   "unit": "万元",
+   "reported": "91.77",
+   "tolerance": ".01"
+  },
+  {
+   "id": "corporate4_rate",
+   "label": "广州市志信建筑工程有限公司（维持经营）受偿率",
+   "formula": "corporate4_basic*corporate4_coeff",
+   "evidence": [
+    "VR:T14-R04-C04"
+   ],
+   "unit": "比例",
+   "reported": "0.02025",
+   "tolerance": "0"
+  },
+  {
+   "id": "corporate4",
+   "label": "广州市志信建筑工程有限公司（维持经营）受偿金额",
+   "formula": "corporate_base*corporate4_rate",
+   "evidence": [
+    "VR:T14-R04-C05"
+   ],
+   "unit": "万元",
+   "reported": "93.86",
+   "tolerance": ".01"
+  },
+  {
+   "id": "corporate_total",
+   "label": "法人保证合计",
+   "formula": "corporate2+corporate3+corporate4",
+   "evidence": [
+    "VR:T14-R05-C05"
+   ],
+   "unit": "万元",
+   "reported": "277.41",
+   "tolerance": ".01"
+  },
+  {
+   "id": "personal2",
+   "label": "李卫文受偿金额",
+   "formula": "remaining*personal2_rate",
+   "evidence": [
+    "VR:T16-R02-C04"
+   ],
+   "unit": "万元",
+   "reported": "2.45",
+   "tolerance": ".01"
+  },
+  {
+   "id": "personal3",
+   "label": "殷俊辉受偿金额",
+   "formula": "remaining*personal3_rate",
+   "evidence": [
+    "VR:T16-R03-C04"
+   ],
+   "unit": "万元",
+   "reported": "2.45",
+   "tolerance": ".01"
+  },
+  {
+   "id": "personal4",
+   "label": "潘春鸣受偿金额",
+   "formula": "remaining*personal4_rate",
+   "evidence": [
+    "VR:T16-R04-C04"
+   ],
+   "unit": "万元",
+   "reported": "2.45",
+   "tolerance": ".01"
+  },
+  {
+   "id": "personal5",
+   "label": "李智城受偿金额",
+   "formula": "remaining*personal5_rate",
+   "evidence": [
+    "VR:T16-R05-C04"
+   ],
+   "unit": "万元",
+   "reported": "2.45",
+   "tolerance": ".01"
+  },
+  {
+   "id": "personal6",
+   "label": "梁晋裳受偿金额",
+   "formula": "remaining*personal6_rate",
+   "evidence": [
+    "VR:T16-R06-C04"
+   ],
+   "unit": "万元",
+   "reported": "2.45",
+   "tolerance": ".01"
+  },
+  {
+   "id": "personal_total",
+   "label": "自然人保证合计",
+   "formula": "personal2+personal3+personal4+personal5+personal6",
+   "evidence": [
+    "VR:T16-R07-C04"
+   ],
+   "unit": "万元",
+   "reported": "12.23",
+   "tolerance": ".01"
+  },
+  {
+   "id": "guaranty",
+   "label": "保证人合计",
+   "formula": "corporate_total+personal_total",
+   "evidence": [
+    "VR:P0316"
+   ],
+   "unit": "万元",
+   "reported": "289.64",
+   "tolerance": ".01"
+  },
+  {
+   "id": "recovery",
+   "label": "报告模型回收合计",
+   "formula": "priority+(debtor+guaranty+other)*(1-disposal)",
+   "evidence": [
+    "VR:P0321",
+    "VR:P0322"
+   ],
+   "unit": "万元",
+   "reported": "7341.02",
+   "tolerance": ".01"
+  },
+  {
+   "id": "principal_rate",
+   "label": "本金回收率",
+   "formula": "recovery/principal",
+   "evidence": [
+    "VR:T17-R02-C07"
+   ],
+   "unit": "比例",
+   "reported": "0.6733",
+   "tolerance": ".00005"
+  },
+  {
+   "id": "claim_rate",
+   "label": "债权总额回收率",
+   "formula": "recovery/claim_sum",
+   "evidence": [
+    "VR:T17-R02-C08"
+   ],
+   "unit": "比例",
+   "reported": "0.6273",
+   "tolerance": ".00005"
+  }
+ ],
+ "result": "recovery",
+ "scenarios": [
+  {
+   "name": "非优先处置费率上升1个百分点",
+   "reason": "仅用于判断3%取值敏感性，其他输入固定。",
+   "overrides": {
+    "disposal": {
+     "value": ".04",
+     "basis": "stress",
+     "evidence": [
+      "仅用于判断3%取值敏感性，其他输入固定。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "债务人基本受偿率下降1个百分点",
+   "reason": "仅用于判断经营或资料调整敏感性，未认定应当降档。",
+   "overrides": {
+    "debtor_basic": {
+     "value": "0.07",
+     "basis": "stress",
+     "evidence": [
+      "仅用于判断经营或资料调整敏感性，未认定应当降档。"
+     ]
+    }
+   }
+  },
+  {
+   "name": "已列抵押净值下降10%",
+   "reason": "变现、工程款或在先权利合并压力示意，非新增扣减认定。",
+   "overrides": {
+    "mortgage_net": {
+     "value": "6128.4960",
+     "basis": "stress",
+     "evidence": [
+      "变现、工程款或在先权利合并压力示意，非新增扣减认定。"
+     ]
+    }
+   }
+  }
+ ],
+ "limits": [
+  "逐项资产总表和原始估值参数未取得。抵押净值总额为报告披露输入。",
+  "七因素检查采用披露的加权贡献。报告采用系数与加权合计分别展示。",
+  "保证人调整系数采用报告披露值，参数依据在复核意见中记录。",
+  "万元保留两位显示，数值账保留未取整结果；差值为复算减报告。"
+ ]
+}

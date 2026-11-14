@@ -1,0 +1,22 @@
+{
+ "date": "2026-11-14",
+ "checks": 51,
+ "facts": 7,
+ "independent_issues": 6,
+ "evidence_ids_verified": true,
+ "source_blobs_pinned": true,
+ "recomputed_recovery_wanyuan": "24545.0000000000",
+ "report_recovery_wanyuan": "24545.00",
+ "delta_yuan": "0E-10",
+ "exceeds_tolerance": [],
+ "workbook_xml_valid": true,
+ "limits": [
+  "未取得独立当期经办访谈、原始贷款台账和支付/回款凭证。",
+  "现有查册分户报告和清单为整理成果。原始登记簿、逐证权利文书及 audit_all.json 未纳入可读仓库资料。",
+  "抵押物逐项未取整估值表、全部可比原始成交或租赁凭证及评估机构内部工作底稿未取得。",
+  "程序按披露模型核算。机构结论能否采信取决于事实、权利和参数的复核。",
+  "报告含嵌套表格、对象或图片的提示见证据索引。已定位主要计算表，附件和非正文图形未作完整实质核验。",
+  "工业物业收益法示例采用表内列示保险费；重置单价及计提范围待机构说明。超出抵押净值封顶区间的保证路径未外推。"
+ ],
+ "workbook_formula_results_match": true
+}
