@@ -1,0 +1,257 @@
+{
+  "model": "formula_graph",
+  "scope": "演示，非完整复核；优先受偿仅使用报告展示数，未核实资产逐项净值",
+  "inputs": {
+    "claim": {
+      "value": "51812.331352",
+      "unit": "万元",
+      "evidence": [
+        "银行清单：债权合计518123313.52元；报告P0043为展示数"
+      ]
+    },
+    "principal": {
+      "value": "44697.978394",
+      "unit": "万元",
+      "evidence": [
+        "银行清单：本金446979783.94元；报告P0043为展示数"
+      ]
+    },
+    "priority": {
+      "value": "440.47",
+      "unit": "万元",
+      "evidence": [
+        "报告P0253~P0258，展示数，未取得逐项未取整底稿"
+      ]
+    },
+    "other": {
+      "value": "259.5729",
+      "unit": "万元",
+      "evidence": [
+        "报告P0298"
+      ]
+    },
+    "debtor_basic": {
+      "value": "0.06",
+      "unit": "比例",
+      "evidence": [
+        "报告P0269/T08"
+      ]
+    },
+    "debtor_adjust": {
+      "value": "0.705",
+      "unit": "比例",
+      "evidence": [
+        "报告P0271/T09"
+      ]
+    },
+    "legal_rate_1": {
+      "value": "0.0204",
+      "unit": "比例",
+      "evidence": [
+        "报告T10-R02-C04"
+      ]
+    },
+    "legal_rate_2": {
+      "value": "0.0456",
+      "unit": "比例",
+      "evidence": [
+        "报告T10-R03-C04"
+      ]
+    },
+    "natural_rate_each": {
+      "value": "0.0005",
+      "unit": "比例",
+      "evidence": [
+        "报告P0287/T12"
+      ]
+    },
+    "natural_count": {
+      "value": "2",
+      "unit": "人",
+      "evidence": [
+        "报告P0284/T12"
+      ]
+    },
+    "fee": {
+      "value": "0.03",
+      "unit": "比例",
+      "evidence": [
+        "报告P0301~P0302"
+      ]
+    },
+    "noi": {
+      "value": "15416",
+      "unit": "元/年",
+      "evidence": [
+        "报告T07-R22-C04"
+      ]
+    },
+    "yield_rate": {
+      "value": "0.0495",
+      "unit": "比例",
+      "evidence": [
+        "报告T07-R24-C04"
+      ]
+    },
+    "growth": {
+      "value": "0.03",
+      "unit": "比例",
+      "evidence": [
+        "报告T07-R25-C04"
+      ]
+    },
+    "term": {
+      "value": "31.53",
+      "unit": "年",
+      "evidence": [
+        "报告T07-R23-C04"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "income_example",
+      "formula": "noi / (yield_rate - growth) * (1 - ((1 + growth) / (1 + yield_rate)) ** term)",
+      "unit": "元",
+      "evidence": [
+        "报告P0220~P0226及T07；复核按t=n整理公式"
+      ],
+      "reported": "352923",
+      "tolerance": ".5"
+    },
+    {
+      "id": "base",
+      "formula": "claim - priority - other",
+      "unit": "万元",
+      "evidence": [
+        "报告P0273~P0274"
+      ]
+    },
+    {
+      "id": "debtor_rate",
+      "formula": "debtor_basic * debtor_adjust",
+      "unit": "比例",
+      "evidence": [
+        "报告P0271"
+      ],
+      "reported": ".0423",
+      "tolerance": ".000001"
+    },
+    {
+      "id": "debtor",
+      "formula": "base * debtor_rate",
+      "unit": "万元",
+      "evidence": [
+        "报告P0275"
+      ],
+      "reported": "2162.05",
+      "tolerance": ".005"
+    },
+    {
+      "id": "legal_base",
+      "formula": "base - debtor",
+      "unit": "万元",
+      "evidence": [
+        "报告P0280~P0281"
+      ],
+      "reported": "48950.24",
+      "tolerance": ".005"
+    },
+    {
+      "id": "legal_1",
+      "formula": "legal_base * legal_rate_1",
+      "unit": "万元",
+      "evidence": [
+        "报告T10-R02-C05"
+      ],
+      "reported": "998.58",
+      "tolerance": ".005"
+    },
+    {
+      "id": "legal_2",
+      "formula": "legal_base * legal_rate_2",
+      "unit": "万元",
+      "evidence": [
+        "报告T10-R03-C05"
+      ],
+      "reported": "2232.13",
+      "tolerance": ".005"
+    },
+    {
+      "id": "legal_total",
+      "formula": "legal_1 + legal_2",
+      "unit": "万元",
+      "evidence": [
+        "报告P0282"
+      ],
+      "reported": "3230.72",
+      "tolerance": ".005"
+    },
+    {
+      "id": "natural_total",
+      "formula": "base * natural_rate_each * natural_count",
+      "unit": "万元",
+      "evidence": [
+        "报告P0288~P0290及T12"
+      ],
+      "reported": "51.11",
+      "tolerance": ".005"
+    },
+    {
+      "id": "guarantee",
+      "formula": "legal_total + natural_total",
+      "unit": "万元",
+      "evidence": [
+        "报告P0294"
+      ],
+      "reported": "3281.83",
+      "tolerance": ".005"
+    },
+    {
+      "id": "recovery",
+      "formula": "priority + (debtor + guarantee + other) * (1 - fee)",
+      "unit": "万元",
+      "evidence": [
+        "报告P0301~P0303"
+      ],
+      "reported": "5972.81",
+      "tolerance": ".005"
+    },
+    {
+      "id": "principal_recovery",
+      "formula": "recovery / principal",
+      "unit": "比例",
+      "evidence": [
+        "报告P0304~P0306"
+      ],
+      "reported": ".1336",
+      "tolerance": ".00005"
+    },
+    {
+      "id": "claim_recovery",
+      "formula": "recovery / claim",
+      "unit": "比例",
+      "evidence": [
+        "报告P0307~P0309"
+      ],
+      "reported": ".1153",
+      "tolerance": ".00005"
+    }
+  ],
+  "result": "recovery",
+  "scenarios": [
+    {
+      "name": "债务人基本受偿率下降1个百分点（压力示意）",
+      "reason": "展示本报告实际参数对结果的依赖，不代表替代估值",
+      "overrides": {
+        "debtor_basic": {
+          "value": "0.05",
+          "basis": "stress",
+          "evidence": [
+            "压力假设：基本受偿率由6%降至5%，无事实变更结论"
+          ]
+        }
+      }
+    }
+  ]
+}
